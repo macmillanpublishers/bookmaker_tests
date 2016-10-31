@@ -1020,9 +1020,92 @@
 <w:t xml:space="preserve"> could have waved away this conjured inclemency, but such feats were well beyond him.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
+<w:pStyle w:val="RecipeHeadrh"/></w:pPr>
+<w:r>
+<w:t>The Matzo Brei recipe from</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="RecipeHeadrh"/></w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spanitaliccharactersital"/></w:rPr>
+<w:t>The World-Famous Ratner’s Meatless Cookbook:</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="IngredientsHeadrih"/></w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spanboldfacecharactersbf"/></w:rPr>
+<w:t>Ingredients:</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="IngredientsListri"/></w:pPr>
+<w:r>
+<w:t>3 matzohs (Note from Author: No person or book ever spells matzo the same way; it is often spelled “matzoh,” “matzo,” or “matzah.” I don’t know why this is so; perhaps no one bothered to transcribe recipes while wandering in the desert for forty years; personally, I would have preferred a tablet with this recipe carved into it to one with the Ten Commandments, but to each his own.)</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="IngredientsListri"/></w:pPr>
+<w:r>
+<w:t>½ teaspoon salt</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="IngredientsListri"/></w:pPr>
+<w:r>
+<w:t>¼ teaspoon pepper</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="IngredientsListri"/></w:pPr>
+<w:r>
+<w:t>2 eggs, well beaten</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="IngredientsListri"/></w:pPr>
+<w:r>
+<w:t>2 tablespoons butter</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="IngredientsListri"/></w:pPr>
+<w:r>
+<w:t>Jam, applesauce or sour cream (optional)</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="RecipeLevel-5Subheadrh5"/></w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spanboldfacecharactersbf"/></w:rPr>
+<w:t>Directions:</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="RecipeProceduresrp"/></w:pPr>
+<w:r>
+<w:t>1. Soak the matzohs in lukewarm water until soft (Author’s Note: Unless you’re one of the aforementioned anti-water/matzoh combo lunatics). Drain thoroughly. The matzohs will be crumbly.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="RecipeProceduresrp"/></w:pPr>
+<w:r>
+<w:t>2. Season with salt and pepper. Stir in the eggs.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="RecipeProceduresrp"/></w:pPr>
+<w:r>
+<w:t>3. Heat the butter in an 8-inch skillet. Add the matzoh mixture and cook without stirring. Brown on one side, turn carefully with two pancake turners, and brown on the other side.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="RecipeProceduresrp"/></w:pPr>
+<w:r>
+<w:t>4. Serve hot with jam, applesauce, or sour cream.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="RecipeYieldry"/></w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spanitaliccharactersital"/></w:rPr>
+<w:t>Serves 2</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“</w:t></w:r>
+<w:t xml:space="preserve"> “</w:t></w:r>
 <w:r>
 <w:rPr>
 <w:rStyle w:val="spanitaliccharactersital"/></w:rPr>
