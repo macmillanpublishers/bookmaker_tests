@@ -127,6 +127,7 @@
 <w:pPr>
 <w:pStyle w:val="TitlepageBookTitletit"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Strange Tools</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -163,6 +164,7 @@
 <w:pPr>
 <w:pStyle w:val="CopyrightTextdoublespacecrtxd"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>This is a work of fiction. All of the characters, organizations, and events portrayed in this novella are either products of the author’s imagination or are used fictitiously.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -321,6 +323,7 @@
 <w:pPr>
 <w:pStyle w:val="Dedicationded"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t xml:space="preserve">For Lewis Carroll, who wrote the book </w:t></w:r>
 <w:r>
 <w:rPr>
@@ -342,6 +345,7 @@
 <w:pPr>
 <w:pStyle w:val="Epigraph-non-verseepi"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Here’s a standalone epigraph. A haiku:</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -373,6 +377,7 @@
 <w:pPr>
 <w:pStyle w:val="HalftitleBookTitlehtit"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Strange Tools</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -383,6 +388,7 @@
 <w:pPr>
 <w:pStyle w:val="FMHeadfmh"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Contents</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -912,6 +918,25 @@
 <w:rPr>
 <w:rStyle w:val="bookmakerforcepagebreakbr"/></w:rPr>
 <w:t>bookmaker force page break (br)</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Text-Standardtx"/></w:pPr>
+<w:r>
+<w:t>These next paragraphs test the “computer type” paragraph and character styles:</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Text-ComputerTypecom"/></w:pPr>
+<w:r>
+<w:t>Then you might want to stop texting and pay attention.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Text-Standardtx"/></w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spanrun-incomputertypecomp"/></w:rPr>
+<w:t>You are so bossy</w:t></w:r>
+<w:r>
+<w:t>, I type.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
