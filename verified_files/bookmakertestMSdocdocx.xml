@@ -164,7 +164,6 @@
 <w:pPr>
 <w:pStyle w:val="CopyrightTextdoublespacecrtxd"/></w:pPr>
 <w:r>
-<w:lastRenderedPageBreak/>
 <w:t>This is a work of fiction. All of the characters, organizations, and events portrayed in this novella are either products of the author’s imagination or are used fictitiously.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -219,7 +218,7 @@
 <w:pPr>
 <w:pStyle w:val="CopyrightTextdoublespacecrtxd"/></w:pPr>
 <w:r>
-<w:t xml:space="preserve">Our books may be purchased in bulk for promotional, educational, or business use. Please contact your local bookseller or the Macmillan Corporate and Premium Sales Department at 1-800-221-7945, extension 5442, or by e-mail at </w:t></w:r>
+<w:t xml:space="preserve">Our books may be purchased for promotional, educational, or business use. Please contact your local bookseller or the Macmillan Corporate and Premium Sales Department at (800) 221-7945 ext. 5442 or by email at </w:t></w:r>
 <w:r>
 <w:rPr>
 <w:rStyle w:val="spanhyperlinkurl"/></w:rPr>
@@ -323,7 +322,6 @@
 <w:pPr>
 <w:pStyle w:val="Dedicationded"/></w:pPr>
 <w:r>
-<w:lastRenderedPageBreak/>
 <w:t xml:space="preserve">For Lewis Carroll, who wrote the book </w:t></w:r>
 <w:r>
 <w:rPr>
@@ -345,7 +343,6 @@
 <w:pPr>
 <w:pStyle w:val="Epigraph-non-verseepi"/></w:pPr>
 <w:r>
-<w:lastRenderedPageBreak/>
 <w:t>Here’s a standalone epigraph. A haiku:</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -377,7 +374,6 @@
 <w:pPr>
 <w:pStyle w:val="HalftitleBookTitlehtit"/></w:pPr>
 <w:r>
-<w:lastRenderedPageBreak/>
 <w:t>Strange Tools</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -388,7 +384,6 @@
 <w:pPr>
 <w:pStyle w:val="FMHeadfmh"/></w:pPr>
 <w:r>
-<w:lastRenderedPageBreak/>
 <w:t>Contents</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
