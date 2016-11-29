@@ -463,7 +463,13 @@
 <w:pPr>
 <w:pStyle w:val="FMTextNo-Indentfmtx1"/></w:pPr>
 <w:r>
-<w:t>For useful comments, edits, and discussion, the author would like to thank most of all Tim Bartlett and Michael Rosenwald and Teresa Hartnett, but also Bryan Caplan, Yana Chernyak, Carrie Conko, Natasha Cowen, Michelle Dawson, Veronique de Rugy, Jason Fichtner, David Gordon, Kevin and Robin Grier, Robin Hanson, Garett Jones, Daniel Klein, Randall Kroszner, Edward Luce, Megan McArdle, Stephen Morrow, John Nye, Jim Olds, Hollis Robbins, Daniel Rothschild, Reihan Salam, and surely some number of others whom I have neglected or forgotten unjustly.</w:t></w:r></w:p>
+<w:t xml:space="preserve">For useful comments, edits, and discussion, the author would like to thank most of all Tim Bartlett </w:t></w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spandesignnotedni"/></w:rPr>
+<w:t>some special instructions for that phrase</w:t></w:r>
+<w:r>
+<w:t xml:space="preserve"> and Michael Rosenwald and Teresa Hartnett, but also Bryan Caplan, Yana Chernyak, Carrie Conko, Natasha Cowen, Michelle Dawson, Veronique de Rugy, Jason Fichtner, David Gordon, Kevin and Robin Grier, Robin Hanson, Garett Jones, Daniel Klein, Randall Kroszner, Edward Luce, Megan McArdle, Stephen Morrow, John Nye, Jim Olds, Hollis Robbins, Daniel Rothschild, Reihan Salam, and surely some number of others whom I have neglected or forgotten unjustly.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="PageBreakpb"/></w:pPr>
@@ -474,6 +480,11 @@
 <w:pStyle w:val="FMHeadfmh"/></w:pPr>
 <w:r>
 <w:t>FOREWORD BY CHARLES BARKLEY</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="FMAuthorNamefmau"/></w:pPr>
+<w:r>
+<w:t>Charles Barkley</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="FMTextNo-Indentfmtx1"/></w:pPr>
@@ -690,6 +701,14 @@
 <w:t>, I thought. But as strangers approached me on the streets for photos, as patients sought counsel in the hallways of MD Anderson Cancer Center in Houston, and as handwritten letters overwhelmed my mailbox daily, I agreed that if telling my story helps just a few folks looking for some meaning in this raw deal we call cancer, it would be worth it. Despite my determination to win the battle, I don’t know what is in store for me long-term, but I want people to know that even if they’re reading this after I’m gone, I never quit and nor should they.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
+<w:pStyle w:val="SpaceBreakwithOrnamentorn"/></w:pPr></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BookmakerProcessingInstructionbpi"/></w:pPr>
+<w:r>
+<w:t>IMAGE: wildcards1.jpg</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
 <w:t>What follows are the collected moments that have filled the journey of my life and my battle of the past two years, and, most important, reflections that were perhaps compelled by the situation in which I’ve found myself. I don’t have the answers, nor a recipe for how to beat cancer or, more simply, how to live your life. All I can do is share my story.</w:t></w:r></w:p>
@@ -718,6 +737,9 @@
 <w:t>The Iron Horse and I have something in common. What we might’ve imagined a terminal diagnosis would do to our spirit, it summoned quite the opposite. The greatest appreciation for life imaginable.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
+<w:pStyle w:val="SpaceBreakwithOrnamentorn"/></w:pPr></w:p>
+<w:p>
+<w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
 <w:t>Outside of the main entrance of MD Anderson Cancer Center sits a nondenominational chapel for families and patients, and resting in front of the chapel is a beautiful sculpture with an engraving of parts of a Victor Hugo poem:</w:t></w:r></w:p>
@@ -736,6 +758,9 @@
 <w:pStyle w:val="Extract-VerseorPoetryextv"/></w:pPr>
 <w:r>
 <w:t>On limb too slight</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="SpaceBreak-Internalint"/></w:pPr></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Extract-VerseorPoetryextv"/></w:pPr>
@@ -830,9 +855,14 @@
 <w:t>Chapter 1</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
-<w:pStyle w:val="ChapTitlect"/></w:pPr>
+<w:pStyle w:val="ChapTitleALTact"/></w:pPr>
 <w:r>
 <w:t>Sixth of Seven</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="ChapSubtitlecst"/></w:pPr>
+<w:r>
+<w:t>This is a Chapter Subtitle</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="ChapOpeningTextNo-Indentcotx1"/></w:pPr>
@@ -955,6 +985,14 @@
 <w:t>cold. The tropical evening waxed ever chillier, the breeze freshening from moment to moment, until it cut raw and harsh. Men saw their breath—many for the first time. Merchants and brothers who had them pulled out second and third robes and every blanket and scrap of cloth they owned, the caravan swaddling itself up. Some dismounted to trot alongside their burros, warming themselves with exertion. Demane slipped lightly into trance.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
+<w:pStyle w:val="SpaceBreakwithALTOrnamentorn2"/></w:pPr></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BookmakerProcessingInstructionbpi"/></w:pPr>
+<w:r>
+<w:t>IMAGE: wildcards.jpg global</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
 <w:t>“Ain’t you cold like that, Sorcerer?”</w:t></w:r></w:p>
@@ -1021,6 +1059,9 @@
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
 <w:t>In such bedraggled straits Xho Xho sat, embraced by his own thin arms. The brown-blotched white bandages swathing his gashed scalp and forehead were wet through with rainwater. “Cain’t you do something, Sorcerer?” The boy spoke through rattling teeth. “Pleeeeease?”</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="SpaceBreakwithALTOrnamentorn2"/></w:pPr></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1792,6 +1833,56 @@
 <w:t>pyroclastic surge</w:t></w:r>
 <w:r>
 <w:t>, the ground underfoot thrummed. “You near about beat,” Demane said, urgency giving his tone an edge. “Snatch that off your head, and you won’t be.”</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="LetterExtAddressladd"/></w:pPr>
+<w:r>
+<w:t>175 Fifth Ave.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="LetterExtAddressladd"/></w:pPr>
+<w:r>
+<w:t>New York, NY 10010</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="LetterExtDatelineldl"/></w:pPr>
+<w:r>
+<w:t>January 21, 2017</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="LetterExtHeadnotehn"/></w:pPr>
+<w:r>
+<w:t>This letter is confidential.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="LetterExtSalutationlsa"/></w:pPr>
+<w:r>
+<w:t>Dear Sir,</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="LetterExtBodyTextNo-Indentltx1"/></w:pPr>
+<w:r>
+<w:t>Please accept this submission for publication. It’s the best submission. Huge.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="LetterExtBodyTextltx"/></w:pPr>
+<w:r>
+<w:t>Additionally, I worked really hard on it. WRONG!</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="LetterExtClosinglcl"/></w:pPr>
+<w:r>
+<w:t>Best Regards,</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="LetterExtSignaturelsig"/></w:pPr>
+<w:r>
+<w:t>Donald Trump</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="LetterExtPostscriptlps"/></w:pPr>
+<w:r>
+<w:t>P.S. Welcome to the big league.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -2657,7 +2748,7 @@
 <w:t>Xho Xho stepped into the forest. The rest cried out in alarm. The smeared apparition of the boy wobbled as if seen through rheum or tears, and became clear once off the Road, by the tree where Demane sat. “Faedou all of a sudden just up and fell out. You better come see, Sorcerer. He dying, I think.” Xho Xho took hold of a filthy hand and tried to pull Demane to standing: budging him not. “And where’s the captain?”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
-<w:pStyle w:val="Text-Standardtx"/></w:pPr>
+<w:pStyle w:val="Extract-Emailextem"/></w:pPr>
 <w:r>
 <w:t>“I told you, little man,” Demane said. “I cain’t get onto the Road.” On both cheeks he bore a delta of rinsed skin.</w:t></w:r></w:p>
 <w:p>
@@ -3028,6 +3119,21 @@
 <w:pStyle w:val="Text-StdNo-Indenttx1"/></w:pPr>
 <w:r>
 <w:t>One upshot of this current Zeitgeist of community-enforced social stasis is that our physical infrastructure won’t get much better anytime soon. Every time a community turns down a new apartment complex or retail development, it limits America’s economic dynamism by thwarting opportunities for those lower on the socioeconomic ladder. The relative absence of physical construction also makes it harder to put people back to work when bad times roll around, and at a deep psychological level, it gets people used to the idea of a world that more or less always looks the same, albeit with an ongoing proliferation of trendy restaurants, boutiques, and people walking around with earbuds, texting and staring at their smartphones. I don’t mean that as snark; those are nice neighborhoods, enjoyed by many Americans including myself. Still, what has been lost is the ability to imagine an entirely different world and physical setting altogether, and the broader opportunities for social and economic advancement that would entail.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="PageBreakpb"/></w:pPr>
+<w:r>
+<w:br w:type="page"/></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BMHeadALTabmh"/></w:pPr>
+<w:r>
+<w:t>Appendix</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BMTextNo-Indentbmtx1"/></w:pPr>
+<w:r>
+<w:t>There is also much more pairing of like with like, whether it has to do with marriage, the associations we belong to, or the income levels of the neighborhoods in which we live. In our biggest and most influential cities, segregation by income has become so glaringly obvious that few people think it can be reversed. And many of America’s trendiest cities, including cities with quality campuses, are among the most extreme for segregation by socioeconomic class. I’ll be giving specific numbers throughout the book, but those are some key external metrics by which we can see and measure the growing complacency in American life.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="PageBreakpb"/></w:pPr>
