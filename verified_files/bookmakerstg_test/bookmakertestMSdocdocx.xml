@@ -127,6 +127,7 @@
 <w:pPr>
 <w:pStyle w:val="TitlepageBookTitletit"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Strange Tools</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -1216,6 +1217,16 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:t>Testing a centered paragraph on it’s own.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BookmakerProcessingInstructionbpi"/></w:pPr>
+<w:r>
+<w:t>STYLES: center</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Text-Standardtx"/></w:pPr>
+<w:r>
 <w:t>“All right, all right.” Demane shook free of the boy, fending off his histrionics. “Turn down some, little brother. I’ll make a couple big fires.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -1232,6 +1243,20 @@
 <w:rPr>
 <w:rStyle w:val="EndnoteReference"/></w:rPr>
 <w:endnoteReference w:/></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Extractext"/>
+<w:rPr>
+<w:rStyle w:val="spansmallcapscharacterssc"/></w:rPr></w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spansmallcapscharacterssc"/></w:rPr>
+<w:t>A Centered Extract</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BookmakerProcessingInstructionbpi"/></w:pPr>
+<w:r>
+<w:t>STYLES: center</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
