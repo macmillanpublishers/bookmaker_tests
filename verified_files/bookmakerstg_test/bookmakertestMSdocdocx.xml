@@ -127,7 +127,6 @@
 <w:pPr>
 <w:pStyle w:val="TitlepageBookTitletit"/></w:pPr>
 <w:r>
-<w:lastRenderedPageBreak/>
 <w:t>Strange Tools</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -830,11 +829,7 @@
 <w:pPr>
 <w:pStyle w:val="Extract-VerseorPoetryextv"/></w:pPr>
 <w:r>
-<w:rPr>
-<w:rStyle w:val="spanitaliccharactersital"/></w:rPr>
-<w:t>for weal and woe</w:t></w:r>
-<w:r>
-<w:t>, than all the rest!</w:t></w:r></w:p>
+<w:t>for weal and woe, than all the rest!</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="ChapEpigraphSourceceps"/></w:pPr>
@@ -1449,6 +1444,41 @@
 <w:t>For his part, Demane had no quarrel with the body’s requirements, sleep least of all. Master Suresh had held the caravan to a cruel pace, with little rest: that, and stoking his metabolic blaze so high, had taken a toll on Demane. The sleepers lay tight-packed around the sorcerous fires. Ceding his spot to someone needing it, Demane spread his groundscloth outside those spheres of brightness and warmth. He sat crosslegged, spear easy to hand, and closed his eyes. Sleet fell on him, steamed away, and more fell. His trance deepened.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
+<w:pStyle w:val="BoxTextNo-Indentbtx1"/></w:pPr>
+<w:r>
+<w:t>A box introductory paragraph just for testing purposes.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BoxHeadbh"/></w:pPr>
+<w:r>
+<w:t>Special Information</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BoxSubheadbsh"/></w:pPr>
+<w:r>
+<w:t>This Is a Box</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BoxTextNo-Indentbtx1"/></w:pPr>
+<w:r>
+<w:t>This is a paragraph within a box. We’re just testing things out to see how they look.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BoxHead-Level-1bh1"/></w:pPr>
+<w:r>
+<w:t>Heading One</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BoxTextNo-Indentbtx1"/></w:pPr>
+<w:r>
+<w:t>Testing some subheadings within boxes to see how they get selected and ordered.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BoxTextbtx"/></w:pPr>
+<w:r>
+<w:t>Here’s another paragraph.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
 <w:t xml:space="preserve">Now and again he surfaced. Sleepless and unflagging, the captain could always be seen either pacing, or else startling to wakefulness some night’s watchman just beginning to nod. Captain had ridden hardly at all today, although keeping pace on foot at the caravan’s forefront had meant flat-out running. Demane thought, as often before: </w:t></w:r>
@@ -1814,7 +1844,9 @@
 <w:t>upon the unknown errand when nights were dark, nor did anyone see them again before the morning . . .</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
-<w:pStyle w:val="ChapEpigraphSourceceps"/></w:pPr>
+<w:pStyle w:val="ChapEpigraphSourceceps"/>
+<w:rPr>
+<w:rStyle w:val="spanitaliccharactersital"/></w:rPr></w:pPr>
 <w:r>
 <w:t xml:space="preserve">from </w:t></w:r>
 <w:r>
@@ -1975,6 +2007,53 @@
 <w:t>Even in deepest shadow of the understorey Demane was aware when infinities of scent suddenly vanished away, and myriad new odors bloomed over the space of a single step. Families of flora would regress to emergent infancy or advance to atrophied old age. Brethrens of beasts disappeared, and came back anew in strange variants. Nothing remained the same over distances, except the wizard’s vagrant trail. As the worlds changed, so did the times—by leaps of innumerate years: millennia of millennia, if such numbers existed.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
+<w:pStyle w:val="SidebarHeadsbh"/></w:pPr>
+<w:r>
+<w:t>Mapping out the unknown</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="SidebarTextNo-Indentsbtx1"/></w:pPr>
+<w:r>
+<w:t>Effective preparedness planning can be simple, but it has to be rooted in an honest and systematic review of the risks you are likely to face. Plenty of preppers begin by shopping for ballistic vests and night vision goggles; they would be better served by grabbing a fire extinguisher, some bottled water, and then putting the rest of their money in a rainy-day fund.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="SidebarTextsbtx"/></w:pPr>
+<w:r>
+<w:t>To make the task of identifying risks a bit easier, I found that it's best to focus on broad outcomes, rather than trying to track down every single way for things to go south. For example, it should not matter if you are laid off because of a downsizing, because your new boss hates you, or because they finally catch you stealing paperclips. The outcome is the same: you are out of a job and urgently need a way to pay your bills.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="SidebarTextsbtx"/></w:pPr>
+<w:r>
+<w:t>All right! With these caveats in mind, let's go over several scenarios that are worth looking at.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="SidebarHead-Level-1sbh1"/></w:pPr>
+<w:bookmarkStart w: w:name="2.1"/>
+<w:bookmarkEnd w:/>
+<w:r>
+<w:t>Problem space #1: Small-scale events</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="SidebarTextNo-Indentsbtx1"/></w:pPr>
+<w:r>
+<w:t>It's always fun to speculate about solar flares and supervolcanoes; it's far more mind-numbing to seriously evaluate the consequences of backed up sewage or burst water mains. But in reality, such unglamorous, small-scale incidents are far more likely to disrupt and reshape our lives.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="SidebarTextsbtx"/></w:pPr>
+<w:r>
+<w:t>Broadly speaking, disastrous outcomes of such humdrum contingencies can be divided into several groups:</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="SidebarListBulletsbbl"/></w:pPr>
+<w:r>
+<w:t>Insolvency. If a person over the age of 40 tells you that they have never lost a job, they are pretty lucky (or lying). Yet, the risk is seldom taken seriously; many middle-class, single-income families would be in deep trouble if it ever took them more than 2-3 months to find a new, equally well-paying gig.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="SidebarListBulletsbbl"/></w:pPr>
+<w:r>
+<w:t>Disrupted access to water, food, energy, or transportation. Substantial and prolonged outages happen everywhere; many of us will experience at least one at some point in our lives. A week without electricity may be just inconvenient and scary, especially in a high-rise or in a seedy neighborhood; but even a single hot day without potable water is universally bad news.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
 <w:t xml:space="preserve">. . . careful! </w:t></w:r>
@@ -1995,6 +2074,21 @@
 <w:t>TSIMtsoa</w:t></w:r>
 <w:r>
 <w:t>. All this while, and from world to world, Captain had dogged Demane’s heels with the same lightly treading mimicry of a shadow. Now, he shook his hand loose; for just ahead the black-on-black brocade of the jungle shredded, with the tatters admitting sunlight. The captain went to this expanse of dappled foliage and, like some man parched with thirst ducking his face into a pool of water, thrust his head through the leaves to take some sun. According to the spoor, the jukiere had also stopped here not so long ago. Demane stepped up to the prospect beside Captain.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="PoemTitlevt"/></w:pPr>
+<w:r>
+<w:t>A Poem</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="VerseTextvtx"/></w:pPr>
+<w:r>
+<w:t>Tiger tiger burning bright</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="VerseTextvtx"/></w:pPr>
+<w:r>
+<w:t>In the forests of the night</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -3983,6 +4077,7 @@
 <w:t>Stories for Chip,</w:t></w:r>
 <w:r>
 <w:t xml:space="preserve"> which celebrates the legacy of science fiction grandmaster Samuel R. Delany. Kai Ashante Wilson lives in New York City.</w:t></w:r></w:p>
+<w:p/>
 <w:sectPr>
 <w:footerReference w:type="even" r:/>
 <w:footerReference w:type="default" r:/>
