@@ -2836,6 +2836,11 @@
 <w:t>Demane knew them by turban, shaggy hair, narrow shoulders. Kazza, Wilfredo, Faried. He called. “I’ma do my best to meet up with you down south. Go on! Catch up with the caravan. I see you when the caravan cross that other stream southside of the Wildeeps, all right?”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
+<w:pStyle w:val="Captioncap"/></w:pPr>
+<w:r>
+<w:t>This is a caption above an image.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
 <w:pStyle w:val="Illustrationholderill"/></w:pPr>
 <w:r>
 <w:t>dragons-fantasy_fullpage.jpg</w:t></w:r></w:p>
@@ -2883,6 +2888,56 @@
 <w:t>, Faedou will be stone dead fore the night come.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
+<w:pStyle w:val="ListBulletbl"/></w:pPr>
+<w:r>
+<w:t>Bullet list item one</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="ListBulletbl"/></w:pPr>
+<w:r>
+<w:t>Second bullet list item</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="ListNumSubentrynsl"/></w:pPr>
+<w:r>
+<w:t>A nested numbered list</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="ListNumSubentrynsl"/></w:pPr>
+<w:r>
+<w:t>A second nested numbered list item</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="ListBulletbl"/></w:pPr>
+<w:r>
+<w:t>Third level-1 bullet list item</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="ListNumSubentrynsl"/></w:pPr>
+<w:r>
+<w:t>Here’s a second nested numbered list, with just one item</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="ListBulletbl"/></w:pPr>
+<w:r>
+<w:t>The fourth top-level list item</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="ListBulletSubentrybsl"/></w:pPr>
+<w:r>
+<w:t>A nested bulleted list</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="ListBulletSubentrybsl"/></w:pPr>
+<w:r>
+<w:t>Second nested bullet item</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="ListBulletbl"/></w:pPr>
+<w:r>
+<w:t>The fifth and final top level item</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
 <w:t>Demane looked out onto the Road. Someone lay there stretched out on blankets just where the brothers had knelt. It was like peering down into deep running water, trying to see across the veil between the Road and Wildeeps. From here, he couldn’t make out who lay there, or whether that brother stirred, or his chest still rose and fell.</w:t></w:r></w:p>
@@ -2891,6 +2946,16 @@
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
 <w:t>Demane stood and wiped either eye with a wrist. “Let me see what I could do. Y’all carry him to me. The Wildeeps won’t hurt none of you. This whole place is my house now.” Afraid, the brothers dithered. Demane spoke again, in tones to get them jumping. “All right! Don’t just stand there stupid! Bring him here.” As they moved to obey Demane gave Xho Xho a little push back towards the others. “Help em carry, little man. You and Walead can lift one corner of the blankets together.”</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="ListAlphaal"/></w:pPr>
+<w:r>
+<w:t>Here’s a single-level alpha list</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="ListAlphaal"/></w:pPr>
+<w:r>
+<w:t>A second alpha list item</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
