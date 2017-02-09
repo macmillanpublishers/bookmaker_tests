@@ -79,7 +79,10 @@
 <w:rStyle w:val="spanitaliccharactersital"/></w:rPr>
 <w:t>Zahrah the Windseeker</w:t></w:r>
 <w:r>
-<w:t xml:space="preserve"> (as Nnedi Okorafor-Mbachu)</w:t></w:r></w:p>
+<w:t xml:space="preserve"> </w:t></w:r>
+<w:r>
+<w:br/>
+<w:t>(as Nnedi Okorafor-Mbachu)</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="AdCardListofTitlesacl"/></w:pPr>
@@ -127,6 +130,7 @@
 <w:pPr>
 <w:pStyle w:val="TitlepageBookTitletit"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Strange Tools</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -195,6 +199,11 @@
 <w:t>All rights reserved.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
+<w:pStyle w:val="CopyrightTextdoublespacecrtxd"/></w:pPr>
+<w:r>
+<w:t>Printed in the United States of America.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
 <w:pStyle w:val="CopyrightTextsinglespacecrtx"/></w:pPr>
 <w:r>
 <w:t>A Tor.com Book</w:t></w:r></w:p>
@@ -213,6 +222,11 @@
 <w:pStyle w:val="CopyrightTextdoublespacecrtxd"/></w:pPr>
 <w:r>
 <w:t>New York, NY10010</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="CopyrightTextdoublespacecrtxd"/></w:pPr>
+<w:r>
+<w:t>Printed in China.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="CopyrightTextdoublespacecrtxd"/></w:pPr>
@@ -4115,6 +4129,16 @@
 <w:pStyle w:val="BMHeadbmh"/></w:pPr>
 <w:r>
 <w:t>About the Author</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Illustrationholderill"/></w:pPr>
+<w:r>
+<w:t>NnediOkorafor.jpg</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="IllustrationSourceis"/></w:pPr>
+<w:r>
+<w:t>Image courtesy of a photographer</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="BMTextNo-Indentbmtx1"/></w:pPr>
