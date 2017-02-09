@@ -11,7 +11,7 @@
   "stage": "test",
   "resourcedir": "generic",
   "printcss": "S:/resources/bookmaker_scripts/bookmaker_assets/pdfmaker/css/generic/pdf.css",
-  "printjs": "C:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx/pdf.js",
+  "printjs": "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx/pdf.js",
   "ebookcss": "S:/resources/bookmaker_scripts/bookmaker_assets/epubmaker/css/generic/epub.css",
   "pod_toc": "true",
   "frontcover": "9780809089178_FC.jpg",
