@@ -167,6 +167,7 @@
 <w:pPr>
 <w:pStyle w:val="CopyrightTextdoublespacecrtxd"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>This is a work of fiction. All of the characters, organizations, and events portrayed in this novella are either products of the author’s imagination or are used fictitiously.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -335,6 +336,7 @@
 <w:pPr>
 <w:pStyle w:val="Dedicationded"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t xml:space="preserve">For Lewis Carroll, who wrote the book </w:t></w:r>
 <w:r>
 <w:rPr>
@@ -356,6 +358,7 @@
 <w:pPr>
 <w:pStyle w:val="Epigraph-non-verseepi"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Here’s a standalone epigraph. A haiku:</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
