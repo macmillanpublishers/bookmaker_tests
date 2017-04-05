@@ -12,8 +12,8 @@
 <w:p>
 <w:pPr>
 <w:pStyle w:val="HalftitleBookTitlehtit"/></w:pPr>
-<w:bookmarkStart w: w:name="_GoBack"/>
-<w:bookmarkEnd w:/>
+<w:bookmarkStart w:id="0" w:name="_GoBack"/>
+<w:bookmarkEnd w:id="0"/>
 <w:r>
 <w:t>Strange Tools</w:t></w:r></w:p>
 <w:p>
@@ -130,6 +130,7 @@
 <w:pPr>
 <w:pStyle w:val="TitlepageBookTitletit"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Strange Tools</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -166,6 +167,7 @@
 <w:pPr>
 <w:pStyle w:val="CopyrightTextdoublespacecrtxd"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>This is a work of fiction. All of the characters, organizations, and events portrayed in this novella are either products of the author’s imagination or are used fictitiously.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -334,6 +336,7 @@
 <w:pPr>
 <w:pStyle w:val="Dedicationded"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t xml:space="preserve">For Lewis Carroll, who wrote the book </w:t></w:r>
 <w:r>
 <w:rPr>
@@ -1069,7 +1072,7 @@
 <w:r>
 <w:rPr>
 <w:rStyle w:val="EndnoteReference"/></w:rPr>
-<w:endnoteReference w:/></w:r></w:p>
+<w:endnoteReference w:id="1"/></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Extractext"/>
@@ -1261,7 +1264,7 @@
 <w:r>
 <w:rPr>
 <w:rStyle w:val="spansuperscriptcharacterssup"/></w:rPr>
-<w:footnoteReference w:/></w:r>
+<w:footnoteReference w:id="1"/></w:r>
 <w:r>
 <w:t xml:space="preserve"> it gained strength as I proceeded and soon became so ardent and eager that the stars often disappeared in the light of morning whilst I was yet engaged in my laboratory.</w:t></w:r></w:p>
 <w:p>
@@ -1393,7 +1396,7 @@
 <w:r>
 <w:rPr>
 <w:rStyle w:val="EndnoteReference"/></w:rPr>
-<w:endnoteReference w:/></w:r></w:p>
+<w:endnoteReference w:id="2"/></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1442,8 +1445,8 @@
 <w:p>
 <w:pPr>
 <w:pStyle w:val="SidebarHead-Level-1sbh1"/></w:pPr>
-<w:bookmarkStart w: w:name="2.1"/>
-<w:bookmarkEnd w:/>
+<w:bookmarkStart w:id="1" w:name="2.1"/>
+<w:bookmarkEnd w:id="1"/>
 <w:r>
 <w:t>Problem space #1: Falling Down a Hole</w:t></w:r></w:p>
 <w:p>
@@ -1588,7 +1591,7 @@
 <w:r>
 <w:rPr>
 <w:rStyle w:val="spansuperscriptcharacterssup"/></w:rPr>
-<w:footnoteReference w:/></w:r>
+<w:footnoteReference w:id="2"/></w:r>
 <w:r>
 <w:t xml:space="preserve"> endeavouring by bodily exercise to ease the load that weighed upon my mind. I traversed the streets without any clear conception of where I was or what I was doing. My heart palpitated in the sickness of fear, and I hurried on with irregular steps, not daring to look about me.</w:t></w:r></w:p>
 <w:p>
@@ -1982,7 +1985,7 @@
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
-<w:bookmarkStart w: w:name="_Ref461543543"/>
+<w:bookmarkStart w:id="2" w:name="_Ref461543543"/>
 <w:r>
 <w:t>"To go instantly to Geneva: come with me, Henry, to order the horses."</w:t></w:r></w:p>
 <w:p>
@@ -2000,7 +2003,7 @@
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
 <w:t>My journey was very melancholy. At first I wished to hurry on, for I longed to console and sympathise with my loved and sorrowing friends; but when I drew near my native town, I slackened my progress. I could hardly sustain the multitude of feelings that crowded into my mind. I passed through scenes familiar to my youth, but which I had not seen for nearly six years. How altered every thing might be during that time! One sudden and desolating change had taken place; but a thousand little circumstances might have by degrees worked other alterations, which, although they were done more tranquilly, might not be the less decisive. Fear overcame me; I dared no advance, dreading a thousand nameless evils that made me tremble, although I was unable to define them. I remained two days at Lausanne, in this painful state of mind. I contemplated the lake: the waters were placid; all around was calm; and the snowy mountains, 'the palaces of nature,' were not changed. By degrees the calm and heavenly scene restored me, and I continued my journey towards Geneva.&lt;NoteCallout&gt;1&lt;/NoteCallout&gt;</w:t></w:r>
-<w:bookmarkEnd w:/></w:p>
+<w:bookmarkEnd w:id="2"/></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Head-Level-1h1"/></w:pPr>
@@ -2901,8 +2904,8 @@
 <w:t>was at first touched by the expressions of his misery; yet, when I called to mind what Frankenstein had said of his powers of eloquence and persuasion, and when I again cast my eyes on the lifeless form of my friend, indignation was rekindled within me. "Wretch!" I said. "It is well that you come here to whine over the desolation that you have made. You throw a torch into a pile of buildings, and when they are consumed, you sit among the ruins and lament the fall. Hypocritical fiend! If he whom you mourn still lived, still would he be the object, again would he become the prey, of your accursed vengeance. It is not pity that you feel; you lament only because the victim of your malignity is withdrawn from your power."</w:t></w:r></w:p>
 <w:p/>
 <w:sectPr>
-<w:footerReference w:type="even" r:/>
-<w:footerReference w:type="default" r:/>
+<w:footerReference w:type="even" r:id="rId8"/>
+<w:footerReference w:type="default" r:id="rId9"/>
 <w:endnotePr>
 <w:numRestart w:val="eachSect"/></w:endnotePr>
 <w:pgSz w:w="12240" w:h="15840"/>
@@ -2919,13 +2922,13 @@
 <w:spacing w:line="240" w:lineRule="auto"/></w:pPr>
 <w:r>
 <w:separator/></w:r></w:p></w:endnote>
-<w:endnote w:type="continuationSeparator" w:>
+<w:endnote w:type="continuationSeparator" w:id="0">
 <w:p>
 <w:pPr>
 <w:spacing w:line="240" w:lineRule="auto"/></w:pPr>
 <w:r>
 <w:continuationSeparator/></w:r></w:p></w:endnote>
-<w:endnote w:>
+<w:endnote w:id="1">
 <w:p>
 <w:pPr>
 <w:pStyle w:val="EndnoteText"/></w:pPr>
@@ -2941,7 +2944,7 @@
 <w:t>Attica</w:t></w:r>
 <w:r>
 <w:t xml:space="preserve"> (1972).</w:t></w:r></w:p></w:endnote>
-<w:endnote w:>
+<w:endnote w:id="2">
 <w:p>
 <w:pPr>
 <w:pStyle w:val="EndnoteText"/></w:pPr>
@@ -2961,13 +2964,13 @@
 <w:spacing w:line="240" w:lineRule="auto"/></w:pPr>
 <w:r>
 <w:separator/></w:r></w:p></w:footnote>
-<w:footnote w:type="continuationSeparator" w:>
+<w:footnote w:type="continuationSeparator" w:id="0">
 <w:p>
 <w:pPr>
 <w:spacing w:line="240" w:lineRule="auto"/></w:pPr>
 <w:r>
 <w:continuationSeparator/></w:r></w:p></w:footnote>
-<w:footnote w:>
+<w:footnote w:id="1">
 <w:p>
 <w:pPr>
 <w:pStyle w:val="FootnoteText"/></w:pPr>
@@ -3002,7 +3005,7 @@
 <w:pStyle w:val="FootnoteText"/></w:pPr>
 <w:r>
 <w:t>Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next. First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs. She took down a jar from one of the shelves as she passed; it was labelled ‘ORANGE MARMALADE’, but to her great disappointment it was empty: she did not like to drop the jar for fear of killing somebody, so managed to put it into one of the cupboards as she fell past it.</w:t></w:r></w:p></w:footnote>
-<w:footnote w:>
+<w:footnote w:id="2">
 <w:p>
 <w:pPr>
 <w:pStyle w:val="FootnoteText"/></w:pPr>
