@@ -130,7 +130,6 @@
 <w:pPr>
 <w:pStyle w:val="TitlepageBookTitletit"/></w:pPr>
 <w:r>
-<w:lastRenderedPageBreak/>
 <w:t>Strange Tools</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -585,6 +584,11 @@
 <w:t>Beaufort had saved but a very small sum of money from the wreck of his fortunes</w:t></w:r>
 <w:r>
 <w:t>, but it was sufficient to provide him with sustenance for some months, and in the meantime he hoped to procure some respectable employment in a merchant's house. The interval was, consequently, spent in inaction; his grief only became more deep and rankling when he had leisure for reflection, and at length it took so fast hold of his mind that at the end of three months he lay on a bed of sickness, incapable of any exertion.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Text-Standardtx"/></w:pPr>
+<w:r>
+<w:t>Outside, the house was rustic and kind of pretty. Inside, it was astounding. I’ve spent plenty of time in squats in the U.S., and I thought I knew what to expect. Most squats, they range from people-who-honest-to-god-piss-in-the-fucking-corner to kinda-normal-but-pretty-messy to artists-obviously-live-here-jesus-christ-why-is-there-a-life-sized-hippo-made-from-styrofoam-in-the-living-room. But that house was something else. It was clean, for one thing, and every wall was painted gray, black, or copper. Every fixture was gold or copper, even if half of them were spray painted that way. Mirrors were everywhere, letting daylight reach into the corners of the house.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
