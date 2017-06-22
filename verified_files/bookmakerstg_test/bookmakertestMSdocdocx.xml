@@ -130,6 +130,7 @@
 <w:pPr>
 <w:pStyle w:val="TitlepageBookTitletit"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Strange Tools</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -2025,7 +2026,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Yet, as I drew nearer home, grief and fear again overcame me. Night also closed around; and when I could hardly see the dark mountains, I felt still more gloomily. The picture appeared a vast and dim scene of evil, and I foresaw obscurely that I was destined to become the most wretched of human beings. Alas! I prophesied truly, and failed only in one single circumstance, that in all the misery I imagined and dreaded, I did not conceive the hundredth part of the anguish I was destined to endure. It was completely dark when I arrived in the environs of Geneva; the gates of the town were already shut; and I was obliged to pass the night at Secheron, a village at the distance of half a league from the city. The sky was serene; and, as I was unable to rest, I resolved to visit the spot where my poor William had been murdered. As I could not pass through the town, I was obliged to cross the lake in a boat to arrive at Plainpalais. During this short voyage I saw the lightning playing on the summit of Mont Blanc in the most beautiful figures. The storm appeared to approach rapidly, and, on landing, I ascended a low hill, that I might observe its progress. It advanced; the heavens were clouded, and I soon felt the rain coming slowly in large drops, but its violence quickly increased.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Yet, as I drew nearer home, grief and fear again overcame me. Night also closed around; and when I could hardly see the dark mountains, I felt still more gloomily. The picture appeared a vast and dim scene of evil, and I foresaw obscurely that I was destined to become the most wretched of human beings. Alas! I prophesied truly, and failed only in one single circumstance, that in all the misery I imagined and dreaded, I did not conceive the hundredth part of the anguish I was destined to endure. It was completely dark when I arrived in the environs of Geneva; the gates of the town were already shut; and I was obliged to pass the night at Secheron, a village at the distance of half a league from the city. The sky was serene; and, as I was unable to rest, I resolved to visit the spot where my poor William had been murdered. As I could not pass through the town, I was obliged to cross the lake in a boat to arrive at Plainpalais. During this short voyage I saw the lightning playing on the summit of Mont Blanc in the most beautiful figures. The storm appeared to approach rapidly, and, on landing, I ascended a low hill, that I might observe its progress. It advanced; the heavens were clouded, and I soon felt the rain coming slowly in large drops, but its violence quickly increased (sixty-five-mile-per-hour winds were later reported). </w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -2112,6 +2113,9 @@
 <w:t>Journal of Population Economics</w:t></w:r>
 <w:r>
 <w:t xml:space="preserve"> 23 (2010): 1255, 1282.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BibliographyTextbibtx"/></w:pPr></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="BibliographyTextbibtx"/></w:pPr>
@@ -2496,6 +2500,23 @@
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
 <w:t>16. See Cowen (2013, p.53).</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Text-Standardtx"/></w:pPr>
+<w:r>
+<w:t xml:space="preserve">17. Kevin Burkman, “John Wesley Powell and the Arid Empire of the American West,” </w:t></w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spanitaliccharactersital"/></w:rPr>
+<w:t>Bloustein Review</w:t></w:r>
+<w:r>
+<w:t xml:space="preserve"> (</w:t></w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spanhyperlinkurl"/></w:rPr>
+<w:t>http://blousteinreview.rutgers.edu/john-wesley-powell-arid-empire-of-the-american-west/</w:t></w:r>
+<w:r>
+<w:t>).</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="BMSubheadbmsh"/></w:pPr>
