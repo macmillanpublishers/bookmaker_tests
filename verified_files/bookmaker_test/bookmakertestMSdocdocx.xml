@@ -885,7 +885,28 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>She busied herself with following the aerial creations of the poets; and in the majestic and wondrous scenes which surrounded our Swiss home —the sublime shapes of the mountains, the changes of the seasons, tempest and calm, the silence of winter, and the life and turbulence of our Alpine summers—she found ample scope for admiration and delight. While my companion contemplated with a serious and satisfied spirit the magnificent appearances of things, I delighted in investigating their causes. The world was to me a secret which I desired to divine. Curiosity, earnest research to learn the hidden laws of nature, gladness akin to rapture, as they were unfolded to me, are among the earliest sensations I can remember.</w:t></w:r></w:p>
+<w:t>She busied herself with following the aerial creations of the poets; and in the majestic and wondrous scenes which surrounded our Swiss home —the sublime shapes of the mountains, the changes of the seasons, tempest and calm, the silence of winter, and the life and turbulence of our Alpine summers—she found ample scope for admiration and delight. While my companion contemplated with a serious and satisfied spirit the magnificent appearances of things, I delighted in investigating their causes. The-world-was-to-me-a-secret-which-I-desired-to-divine. Curiosity, earnest research to learn the hidden laws of nature, gladness akin to rapture, as they were unfolded to me, are among the earliest sensations I can remember.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Text-Standardtx"/></w:pPr>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/></w:rPr>
+<w:t>I-ascended-a-low</w:t></w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spanboldfacecharactersbf"/>
+<w:rFonts w:hint="eastAsia"/></w:rPr>
+<w:t>-hill</w:t></w:r>
+<w:r>
+<w:t>-</w:t></w:r>
+<w:r>
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/></w:rPr>
+<w:t>that-I-might observe its progress.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Text-Standardtx"/></w:pPr></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="SpaceBreakwithALTOrnamentorn2"/></w:pPr></w:p>
