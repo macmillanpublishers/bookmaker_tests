@@ -1312,7 +1312,7 @@
 <w:rStyle w:val="spanitaliccharactersital"/></w:rPr>
 <w:t>(for, you see, Alice had learnt several things of this sort in her lessons in the schoolroom, and though this was not a very good opportunity for showing off her knowledge, as there was no one to listen to her, still it was good practice to say it over)</w:t></w:r>
 <w:r>
-<w:t xml:space="preserve"> ‘—yes, that’s about the right distance—but then I wonder what Latitude or Longitude I’ve got to?’ (Alice had no idea what Latitude was, or Longitude either, but thought they were nice grand words to say.)</w:t></w:r></w:p>
+<w:t xml:space="preserve"> ‘—yes, that’s about the right distance—but then I wonder what Latitude or Longitude I’ve got to?’ (Alice had no idea what Latitude was, or Longitude either, but thought they were nice grand words to say.) </w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="ChapEpigraphSourceceps"/>
@@ -3052,7 +3052,19 @@
 <w:pPr>
 <w:pStyle w:val="FootnoteText"/></w:pPr>
 <w:r>
-<w:t>Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next. First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs. She took down a jar from one of the shelves as she passed; it was labelled ‘ORANGE MARMALADE’, but to her great disappointment it was empty: she did not like to drop the jar for fear of killing somebody, so managed to put it into one of the cupboards as she fell past it.</w:t></w:r></w:p></w:footnote>
+<w:t xml:space="preserve">Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next. First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs. She took down a jar from one of the shelves as she passed; it was labelled ‘ORANGE MARMALADE’, but to her great disappointment it was empty: she did not like to drop the jar for fear of killing somebody, so managed to put it into one of the cupboards as she fell past it. Testing a footnote with a hyperlink with embedded long-hyphen string, like so: Marguerite Reardon, “Ask Maggie,” </w:t></w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spanitaliccharactersital"/></w:rPr>
+<w:t>CNET</w:t></w:r>
+<w:r>
+<w:t xml:space="preserve">, August 15, 2013, </w:t></w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spanhyperlinkurl"/></w:rPr>
+<w:t>https://www.cnet.com/news/confused-about-locked-vs-unlocked-phones-ask-maggie-explains/</w:t></w:r>
+<w:r>
+<w:t xml:space="preserve">. </w:t></w:r></w:p></w:footnote>
 <w:footnote w:id="2">
 <w:p>
 <w:pPr>
