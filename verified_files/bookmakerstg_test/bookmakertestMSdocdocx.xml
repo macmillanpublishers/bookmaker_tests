@@ -130,7 +130,6 @@
 <w:pPr>
 <w:pStyle w:val="TitlepageBookTitletit"/></w:pPr>
 <w:r>
-<w:lastRenderedPageBreak/>
 <w:t>Strange Tools</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -2103,6 +2102,34 @@
 <w:pStyle w:val="BMTextNo-Indentbmtx1"/></w:pPr>
 <w:r>
 <w:t>No one can conceive the anguish I suffered during the remainder of the night, which I spent, cold and wet, in the open air. But I did not feel the inconvenience of the weather; my imagination was busy in scenes of evil and despair. I considered the being whom I had cast among mankind, and endowed with the will and power to effect purposes of horror, such as the deed which he had now done, nearly in the light of my own vampire, my own spirit let loose from the grave, and forced to destroy all that was dear to me.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="PageBreakpb"/></w:pPr>
+<w:r>
+<w:br w:type="page"/></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BMHeadbmh"/></w:pPr>
+<w:r>
+<w:t>Glossary</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Definitiondef"/></w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spanboldfacecharactersbf"/></w:rPr>
+<w:t xml:space="preserve">recto – </w:t></w:r>
+<w:r>
+<w:t>the right-hand page in a two-page spread, and the top page of a leaf.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Definitiondef"/></w:pPr>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spanboldfacecharactersbf"/></w:rPr>
+<w:t xml:space="preserve">verso – </w:t></w:r>
+<w:r>
+<w:t xml:space="preserve">the left-hand page in a two-page spread, and the “reverse” side of a leaf. </w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="PageBreakpb"/></w:pPr>
