@@ -1,6 +1,6 @@
 {
   "tmparchive.rb": {
-    "begun": "2017-10-13 11:29:40 -0400",
+    "begun": "2017-12-08 19:30:51 -0500",
     "check_submitted_images": true,
     "submitted_images": [
 
@@ -12,16 +12,16 @@
     "copy_input_file": true,
     "moved_input_config_file": "n-a",
     "write_alert_file": true,
-    "completed": "2017-10-13 11:29:40 -0400"
+    "completed": "2017-12-08 19:30:51 -0500"
   },
   "htmlmaker_preprocessing.rb": {
-    "begun": "2017-10-13 11:29:40 -0400",
+    "begun": "2017-12-08 19:30:51 -0500",
     "convert_doc_to_docx": true,
     "write_config_jsonfile": true,
-    "completed": "2017-10-13 11:29:48 -0400"
+    "completed": "2017-12-08 19:31:07 -0500"
   },
   "htmlmaker.rb": {
-    "begun": "2017-10-13 11:29:48 -0400",
+    "begun": "2017-12-08 19:31:07 -0500",
     "convert_docx_to_xml": true,
     "convert_xml_to_html": true,
     "read_output_html_a": true,
@@ -43,18 +43,18 @@
     "title_js": true,
     "evaluate_pis": true,
     "html_status": "pass: html file was created successfully",
-    "completed": "2017-10-13 11:29:56 -0400"
+    "completed": "2017-12-08 19:31:15 -0500"
   },
   "htmlmaker_postprocessing.rb": {
-    "begun": "2017-10-13 11:29:56 -0400",
+    "begun": "2017-12-08 19:31:15 -0500",
     "post-processing_js": true,
     "read_output_html": true,
     "fix_note_callouts": true,
     "overwrite_html": true,
-    "completed": "2017-10-13 11:29:57 -0400"
+    "completed": "2017-12-08 19:31:16 -0500"
   },
   "bookmaker_titlepage.rb": {
-    "begun": "2017-10-13 11:29:58 -0400",
+    "begun": "2017-12-08 19:31:16 -0500",
     "testing_value_test": true,
     "running_on_testing_server": "false",
     "get_isbns": true,
@@ -79,10 +79,10 @@
     "write_titlepage_logfile": true,
     "rm_cover_pdf": true,
     "titlepage_test": "pass: I found a titlepage image",
-    "completed": "2017-10-13 11:30:15 -0400"
+    "completed": "2017-12-08 19:31:34 -0500"
   },
   "metadata_preprocessing.rb": {
-    "begun": "2017-10-13 11:30:16 -0400",
+    "begun": "2017-12-08 19:31:35 -0500",
     "find_book_ISBNs": true,
     "find_titlepage_images": true,
     "epubtitlepage": "C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/images/epubtitlepage.jpg",
@@ -113,10 +113,10 @@
     "set_TOC_value_From_xml": true,
     "write_config_jsonfile": true,
     "run_node_title_js": true,
-    "completed": "2017-10-13 11:30:19 -0400"
+    "completed": "2017-12-08 19:31:38 -0500"
   },
   "filearchive.rb": {
-    "begun": "2017-10-13 11:30:19 -0400",
+    "begun": "2017-12-08 19:31:39 -0500",
     "make_final_dir": "n-a",
     "make_final_images_dir": "n-a",
     "make_final_cover_dir": "n-a",
@@ -125,16 +125,16 @@
     "copy_html_to_final_layout_dir": true,
     "copy_tmp_config_final_layout_dir": true,
     "print_ISBN": "9780809089178",
-    "completed": "2017-10-13 11:30:19 -0400"
+    "completed": "2017-12-08 19:31:39 -0500"
   },
   "filearchive_postprocessing.rb": {
-    "begun": "2017-10-13 11:30:20 -0400",
+    "begun": "2017-12-08 19:31:39 -0500",
     "archive_podtitlepage": "no file present",
     "archive_epubtitlepage": "titlepage img is already in archival dir",
-    "completed": "2017-10-13 11:30:20 -0400"
+    "completed": "2017-12-08 19:31:39 -0500"
   },
   "imagechecker.rb": {
-    "begun": "2017-10-13 11:30:20 -0400",
+    "begun": "2017-12-08 19:31:39 -0500",
     "check_submitted_images": true,
     "check_final_images": true,
     "delete_image_errfile": "n-a",
@@ -171,10 +171,10 @@
       "Noimagefile.jpg",
       "NnediOkorafor.jpg"
     ],
-    "completed": "2017-10-13 11:30:20 -0400"
+    "completed": "2017-12-08 19:31:42 -0500"
   },
   "imagechecker_postprocessing.rb": {
-    "begun": "2017-10-13 11:30:21 -0400",
+    "begun": "2017-12-08 19:31:43 -0500",
     "read_outputtmp-html": true,
     "get_files_in_tmpImgDir": true,
     "get_files_in_finalImgDir": true,
@@ -193,10 +193,10 @@
     "write_img_err_file": "n-a",
     "replace_img-refs_with_jpg-format_refs": true,
     "overwrite_output_html": true,
-    "completed": "2017-10-13 11:30:21 -0400"
+    "completed": "2017-12-08 19:31:45 -0500"
   },
   "bookmaker_covermaker.rb": {
-    "begun": "2017-10-13 11:30:22 -0400",
+    "begun": "2017-12-08 19:31:46 -0500",
     "read_config_json": true,
     "testing_value_test": true,
     "running_on_testing_server": "false",
@@ -219,22 +219,22 @@
     "covermaker_tests": true,
     "test_title_status": "pass: title is composed of one or more letters or numbers",
     "test_jpg_status": "pass: The cover jpg was successfully created",
-    "completed": "2017-10-13 11:30:34 -0400"
+    "completed": "2017-12-08 19:31:58 -0500"
   },
   "coverchecker.rb": {
-    "begun": "2017-10-13 11:30:34 -0400",
+    "begun": "2017-12-08 19:31:58 -0500",
     "rm_cover_error_file": "n-a",
     "cover_file_check": true,
     "cover_check_results": "Found a new cover submitted",
-    "completed": "2017-10-13 11:30:39 -0400"
+    "completed": "2017-12-08 19:32:03 -0500"
   },
   "stylesheets_preprocessing.rb": {
-    "begun": "2017-10-13 11:30:40 -0400",
+    "begun": "2017-12-08 19:32:03 -0500",
     "read_config_json": true,
-    "completed": "2017-10-13 11:30:40 -0400"
+    "completed": "2017-12-08 19:32:03 -0500"
   },
   "stylesheets.rb": {
-    "begun": "2017-10-13 11:30:40 -0400",
+    "begun": "2017-12-08 19:32:04 -0500",
     "get_chapterheads": true,
     "chapterhead_count": 6,
     "delete_existing_tmp_pdf_css": true,
@@ -252,10 +252,10 @@
     "evalImports_epub_css-submitted": "n-a",
     "copy_epub_css-metadata": true,
     "one_off_css_for_epub": "----- No one off css found.",
-    "completed": "2017-10-13 11:30:40 -0400"
+    "completed": "2017-12-08 19:32:04 -0500"
   },
   "stylesheets_postprocessing.rb": {
-    "begun": "2017-10-13 11:30:41 -0400",
+    "begun": "2017-12-08 19:32:04 -0500",
     "read_config_json": true,
     "get_chapters_from_html": true,
     "get_trim_pis": true,
@@ -264,10 +264,10 @@
     "eval_one-off-css_for_pdf": "n-a",
     "append_pdf_css": true,
     "eval_one-off-css_for_epub": "n-a",
-    "completed": "2017-10-13 11:30:41 -0400"
+    "completed": "2017-12-08 19:32:04 -0500"
   },
   "pdfmaker_preprocessing.rb": {
-    "begun": "2017-10-13 11:30:41 -0400",
+    "begun": "2017-12-08 19:32:05 -0500",
     "read_config_json": true,
     "mkdir_pdftmp_dir": true,
     "cp_html_to_pdftmp": true,
@@ -300,10 +300,10 @@
       "wildcards.jpg",
       "wildcards1.jpg"
     ],
-    "completed": "2017-10-13 11:30:51 -0400"
+    "completed": "2017-12-08 19:32:15 -0500"
   },
   "pdfmaker.rb": {
-    "begun": "2017-10-13 11:30:52 -0400",
+    "begun": "2017-12-08 19:32:16 -0500",
     "testing_value_test": true,
     "running_on_testing_server": "false",
     "pdf_tmp_folder_created": "n-a",
@@ -317,20 +317,20 @@
     "move_pdf_to_done_dir": true,
     "read_css_file_sans_specialchar_escapes": true,
     "overwrite_css_rm-ing_escapechars": true,
-    "completed": "2017-10-13 11:31:14 -0400"
+    "completed": "2017-12-08 19:32:42 -0500"
   },
   "torDOTcom_pitstop_input.rb": {
-    "begun": "2017-10-13 11:31:14 -0400",
+    "begun": "2017-12-08 19:32:42 -0500",
     "read_config_json": true,
     "check_if_on_staging": true,
     "staging_value": "",
     "set_pitstop_dir": true,
     "pitstop_filename": "P:/SMP_POD/input/bookmaker_test-9780809089178.pdf",
     "move_file_to_pitstop_dir": true,
-    "completed": "2017-10-13 11:31:14 -0400"
+    "completed": "2017-12-08 19:32:42 -0500"
   },
   "epubmaker_preprocessing.rb": {
-    "begun": "2017-10-13 11:31:15 -0400",
+    "begun": "2017-12-08 19:32:43 -0500",
     "read_config_json": true,
     "make_epub_img_dir": true,
     "get_copyright_page": true,
@@ -365,10 +365,10 @@
     "set_newsletter_auth_links_single": true,
     "update_eisbn_&_imprint_placeholders": true,
     "add_html_line_breaks": true,
-    "completed": "2017-10-13 11:31:26 -0400"
+    "completed": "2017-12-08 19:32:57 -0500"
   },
   "epubmaker.rb": {
-    "begun": "2017-10-13 11:31:26 -0400",
+    "begun": "2017-12-08 19:32:57 -0500",
     "read_config_json": true,
     "delete_old_OEBPS": "n-a",
     "delete_old_METAINF": "n-a",
@@ -406,10 +406,10 @@
     "rm_tmp_epub_file": true,
     "ebook_ISBN": "9781429945257",
     "test_epub_status": "pass: the EPUB was created successfully",
-    "completed": "2017-10-13 11:31:33 -0400"
+    "completed": "2017-12-08 19:33:05 -0500"
   },
   "epubmaker_postprocessing.rb": {
-    "begun": "2017-10-13 11:31:33 -0400",
+    "begun": "2017-12-08 19:33:06 -0500",
     "read_config_json": true,
     "delete_epubcheck_errfile": "n-a",
     "add_links_to_TOC_to_chap_heads": true,
@@ -430,13 +430,13 @@
     "zip_epub_pyscript": true,
     "copy_epub_to_Done_dir": true,
     "rename_final_epub_for_firstpass": true,
-    "epubcheck_output": "Validating using EPUB version 3.0.1 rules.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,1417): XHTML Content Document file name 'OEBPS/cover.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2026): XHTML Content Document file name 'OEBPS/titlepage01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2116): XHTML Content Document file name 'OEBPS/dedication01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2200): XHTML Content Document file name 'OEBPS/preface01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2284): XHTML Content Document file name 'OEBPS/preface02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2363): XHTML Content Document file name 'OEBPS/ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2442): XHTML Content Document file name 'OEBPS/part01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2522): XHTML Content Document file name 'OEBPS/ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2602): XHTML Content Document file name 'OEBPS/ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2682): XHTML Content Document file name 'OEBPS/ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2762): XHTML Content Document file name 'OEBPS/ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2842): XHTML Content Document file name 'OEBPS/part02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2923): XHTML Content Document file name 'OEBPS/ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3006): XHTML Content Document file name 'OEBPS/app01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3089): XHTML Content Document file name 'OEBPS/app02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3172): XHTML Content Document file name 'OEBPS/app03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3255): XHTML Content Document file name 'OEBPS/app04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3338): XHTML Content Document file name 'OEBPS/app05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3424): XHTML Content Document file name 'OEBPS/preface03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3519): XHTML Content Document file name 'OEBPS/toc01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3619): XHTML Content Document file name 'OEBPS/copyright-page01.html' should have the extension '.xhtml'.\nINFO(CSS-007): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/epub.css(30,3): Font-face reference OEBPS/NotoSansSymbols-Regular.ttf refers to non-standard font type font/truetype.\n\nCheck finished with warnings\n\nepubcheck completed\n",
+    "epubcheck_output": "Validating using EPUB version 3.0.1 rules.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,1417): XHTML Content Document file name 'OEBPS/cover.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2026): XHTML Content Document file name 'OEBPS/titlepage01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2116): XHTML Content Document file name 'OEBPS/dedication01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2200): XHTML Content Document file name 'OEBPS/preface01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2284): XHTML Content Document file name 'OEBPS/preface02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2363): XHTML Content Document file name 'OEBPS/ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2442): XHTML Content Document file name 'OEBPS/part01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2522): XHTML Content Document file name 'OEBPS/ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2602): XHTML Content Document file name 'OEBPS/ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2682): XHTML Content Document file name 'OEBPS/ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2762): XHTML Content Document file name 'OEBPS/ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2842): XHTML Content Document file name 'OEBPS/part02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2923): XHTML Content Document file name 'OEBPS/ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3006): XHTML Content Document file name 'OEBPS/app01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3089): XHTML Content Document file name 'OEBPS/app02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3172): XHTML Content Document file name 'OEBPS/app03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3255): XHTML Content Document file name 'OEBPS/app04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3338): XHTML Content Document file name 'OEBPS/app05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3421): XHTML Content Document file name 'OEBPS/app06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3507): XHTML Content Document file name 'OEBPS/preface03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3602): XHTML Content Document file name 'OEBPS/toc01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3702): XHTML Content Document file name 'OEBPS/copyright-page01.html' should have the extension '.xhtml'.\nINFO(CSS-007): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/epub.css(30,3): Font-face reference OEBPS/NotoSansSymbols-Regular.ttf refers to non-standard font type font/truetype.\n\nCheck finished with warnings\n\nepubcheck completed\n",
     "write_errfile_as_needed": "n-a",
     "send_alert_mail": "n-a",
-    "completed": "2017-10-13 11:31:47 -0400"
+    "completed": "2017-12-08 19:33:20 -0500"
   },
   "torDOTcom_pitstop_output.rb": {
-    "begun": "2017-10-13 11:31:47 -0400",
+    "begun": "2017-12-08 19:33:20 -0500",
     "read_config_json": true,
     "check_if_on_staging": true,
     "staging_value": "",
@@ -445,6 +445,6 @@
     "copy_processed_file_back_to_done_dir": "copied processed file (<= 30 seconds wait )",
     "rm_file_from_pitstop_folder": true,
     "test_for_pitstop_err_file": "----- pitstop finished successfully",
-    "completed": "2017-10-13 11:32:18 -0400"
+    "completed": "2017-12-08 19:33:50 -0500"
   }
 }
