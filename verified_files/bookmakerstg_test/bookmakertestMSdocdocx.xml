@@ -130,6 +130,7 @@
 <w:pPr>
 <w:pStyle w:val="TitlepageBookTitletit"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Strange Tools</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -376,6 +377,25 @@
 <w:pStyle w:val="EpigraphSourceeps"/></w:pPr>
 <w:r>
 <w:t>Nellie McKesson</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Epigraph-non-verseepi"/></w:pPr>
+<w:r>
+<w:t>So the next time you encounter fear, consider yourself lucky. This is where the courage comes in. Usually we think that brave people have no fear. The truth is that they are intimate with fear.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Epigraph-non-verseepi"/></w:pPr>
+<w:r>
+<w:t>When I first married, my husband said I was one of the bravest people he knew. When I asked him why, he said because I was a complete coward but went ahead and did things anyway.</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="EpigraphSourceeps"/></w:pPr>
+<w:r>
+<w:t xml:space="preserve">--Pema Chödrön, </w:t></w:r>
+<w:r>
+<w:rPr>
+<w:rStyle w:val="spanitaliccharactersital"/></w:rPr>
+<w:t>When Things Fall Apart</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="PageBreakpb"/>
@@ -2130,6 +2150,21 @@
 <w:t xml:space="preserve">verso – </w:t></w:r>
 <w:r>
 <w:t xml:space="preserve">the left-hand page in a two-page spread, and the “reverse” side of a leaf. </w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="PageBreakpb"/></w:pPr>
+<w:r>
+<w:br w:type="page"/></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="BMHeadNonprintingbmhnp"/></w:pPr>
+<w:r>
+<w:t>Advertisement</w:t></w:r></w:p>
+<w:p>
+<w:pPr>
+<w:pStyle w:val="Illustrationholderill"/></w:pPr>
+<w:r>
+<w:t>backad_fullpage.jpg</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="PageBreakpb"/></w:pPr>
