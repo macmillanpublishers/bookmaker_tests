@@ -1,6 +1,6 @@
 {
   "tmparchive.rb": {
-    "begun": "2019-02-08 15:07:31 -0500",
+    "begun": "2020-05-13 15:02:09 -0400",
     "check_submitted_images": true,
     "submitted_images": [
       "backad_fullpage.jpg",
@@ -11,16 +11,19 @@
       "wildcards1.jpg"
     ],
     "tmp_folder_created": "n-a",
-    "old_project_tmp_folder_deleted": "n-a",
     "project_tmp_folder_created": true,
+    "old_project_tmp_folders_delete": true,
     "project_tmp_img_folder_created": true,
-    "copy_input_file": true,
+    "project_tmp_submitted_folder created": true,
     "moved_input_config_file": "n-a",
+    "copy_input_file": true,
+    "moving_submitted_items_to_tmp": true,
     "write_alert_file": true,
-    "completed": "2019-02-08 15:07:31 -0500"
+    "completed": "2020-05-13 15:02:09 -0400"
   },
   "htmlmaker_preprocessing.rb": {
-    "begun": "2019-02-08 15:07:32 -0500",
+    "begun": "2020-05-13 15:02:10 -0400",
+    "read_config_json": true,
     "convert_doc_to_docx": true,
     "check_docx_doctemplate_version": true,
     "doctemplate_version": "",
@@ -28,11 +31,12 @@
     "sectionstart_version_compare": "false: doctemplate_version is empty; input .docx/html has no version, or this is a non-Macmillan bookmaker instance",
     "doctemplatetype": "pre-sectionstart",
     "replace_w:sym_copyright_symbol": "No 'F0D3'(s) found, no replacements made",
+    "from_rsuite": false,
     "write_config_jsonfile": true,
-    "completed": "2019-02-08 15:07:42 -0500"
+    "completed": "2020-05-13 15:02:20 -0400"
   },
   "htmlmaker.rb": {
-    "begun": "2019-02-08 15:07:42 -0500",
+    "begun": "2020-05-13 15:02:20 -0400",
     "read_config_json": true,
     "convert_docx_to_xml": true,
     "convert_xml_to_html": true,
@@ -50,19 +54,20 @@
     "title_js": true,
     "evaluate_pis": true,
     "html_status": "pass: html file was created successfully",
-    "completed": "2019-02-08 15:07:47 -0500"
+    "completed": "2020-05-13 15:02:26 -0400"
   },
   "htmlmaker_postprocessing.rb": {
-    "begun": "2019-02-08 15:07:47 -0500",
+    "begun": "2020-05-13 15:02:27 -0400",
     "read_config_json": true,
+    "read_api_metadata_json": true,
     "post-processing_js": true,
     "read_output_html": true,
     "fix_note_callouts": true,
     "overwrite_html": true,
-    "completed": "2019-02-08 15:07:48 -0500"
+    "completed": "2020-05-13 15:02:28 -0400"
   },
   "bookmaker_titlepage.rb": {
-    "begun": "2019-02-08 15:07:49 -0500",
+    "begun": "2020-05-13 15:02:29 -0400",
     "read_config_json": true,
     "testing_value_test": true,
     "running_on_testing_server": "false",
@@ -71,7 +76,15 @@
     "find_imprint": "Found imprint in DW: Hill and Wang",
     "get_resource_dir": true,
     "resource_dir": "generic",
-    "create_final_dir": true,
+    "final_dir": "C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178",
+    "metadata.rb-set_final_dir": "no pre-existing final_dir, or existing one not locked",
+    "metadata.rb-remove_any_previous_alt_final_dir": "n-a",
+    "metadata.rb-create_final_dir": true,
+    "metadata.rb-create_final_dir_layout": true,
+    "metadata.rb-write_tmpdir_lockfile": true,
+    "metadata.rb-write_donedir_lockfile": true,
+    "metadata.rb-make_lockfiles": true,
+    "metadata.rb-setup_final_dir": true,
     "create_final_dir_images": true,
     "create_logdir": true,
     "check_for_old_titlepages": true,
@@ -91,12 +104,13 @@
     "write_titlepage_logfile": true,
     "rm_cover_pdf": true,
     "titlepage_test": "pass: I found a titlepage image",
-    "completed": "2019-02-08 15:07:59 -0500"
+    "completed": "2020-05-13 15:02:40 -0400"
   },
   "metadata_preprocessing.rb": {
-    "begun": "2019-02-08 15:08:00 -0500",
+    "begun": "2020-05-13 15:02:41 -0400",
     "read_config_json": true,
     "find_book_ISBNs": true,
+    "metadata.rb-setup_final_dir": true,
     "find_titlepage_images": true,
     "epubtitlepage": "C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/images/epubtitlepage.jpg",
     "podtitlepage": null,
@@ -118,39 +132,41 @@
     "set_design_template": "default",
     "get_resource_dir": true,
     "resource_dir": "generic",
+    "RS-recheck_template_and_resourcedir_values": "n-a",
     "set_pdf_CSS_file": true,
     "pdf_css_file": "S:/resources/bookmaker_scripts/bookmaker_assets/pdfmaker/css/generic/pdf.css",
     "set_epub_CSS_file": true,
     "epub_css_file": "S:/resources/bookmaker_scripts/bookmaker_assets/epubmaker/css/generic/epub.css",
+    "move_override_jsfile": "n=a",
     "setup_pdf_JS_file": true,
     "set_TOC_value_From_xml": true,
     "write_config_jsonfile": true,
     "run_node_title_js": true,
-    "completed": "2019-02-08 15:08:05 -0500"
+    "completed": "2020-05-13 15:02:48 -0400"
   },
   "filearchive.rb": {
-    "begun": "2019-02-08 15:08:05 -0500",
+    "begun": "2020-05-13 15:02:48 -0400",
     "make_final_dir": "n-a",
     "make_final_images_dir": "n-a",
     "make_final_cover_dir": true,
-    "make_final_layout_dir": true,
+    "make_final_layout_dir": "n-a",
     "copy_input_file_to_final_dir": true,
     "copy_html_to_final_layout_dir": true,
     "copy_tmp_config_final_layout_dir": true,
     "print_ISBN": "9780809089178",
-    "completed": "2019-02-08 15:08:05 -0500"
+    "completed": "2020-05-13 15:02:48 -0400"
   },
   "filearchive_postprocessing.rb": {
-    "begun": "2019-02-08 15:08:05 -0500",
+    "begun": "2020-05-13 15:02:48 -0400",
     "read_config_json": true,
     "archive_podtitlepage": "no file present",
     "archive_epubtitlepage": "titlepage img is already in archival dir",
     "delete_version_errfile": "n-a",
     "write_errfile_as_needed": "n-a",
-    "completed": "2019-02-08 15:08:05 -0500"
+    "completed": "2020-05-13 15:02:48 -0400"
   },
   "imagechecker.rb": {
-    "begun": "2019-02-08 15:08:06 -0500",
+    "begun": "2020-05-13 15:02:49 -0400",
     "check_submitted_images": true,
     "check_final_images": true,
     "delete_image_errfile": "n-a",
@@ -188,10 +204,10 @@
     "missing_images": [
       "Noimagefile.jpg"
     ],
-    "completed": "2019-02-08 15:08:08 -0500"
+    "completed": "2020-05-13 15:02:50 -0400"
   },
   "imagechecker_postprocessing.rb": {
-    "begun": "2019-02-08 15:08:09 -0500",
+    "begun": "2020-05-13 15:02:50 -0400",
     "read_outputtmp-html": true,
     "get_files_in_tmpImgDir": true,
     "get_files_in_finalImgDir": true,
@@ -210,10 +226,10 @@
     "write_img_err_file": "n-a",
     "replace_img-refs_with_jpg-format_refs": true,
     "overwrite_output_html": true,
-    "completed": "2019-02-08 15:08:10 -0500"
+    "completed": "2020-05-13 15:02:51 -0400"
   },
   "bookmaker_covermaker.rb": {
-    "begun": "2019-02-08 15:08:12 -0500",
+    "begun": "2020-05-13 15:02:51 -0400",
     "read_config_json": true,
     "testing_value_test": true,
     "running_on_testing_server": "false",
@@ -239,22 +255,22 @@
     "covermaker_tests": true,
     "test_title_status": "pass: title is composed of one or more letters or numbers",
     "test_jpg_status": "pass: The cover jpg was successfully created",
-    "completed": "2019-02-08 15:08:18 -0500"
+    "completed": "2020-05-13 15:02:58 -0400"
   },
   "coverchecker.rb": {
-    "begun": "2019-02-08 15:08:19 -0500",
+    "begun": "2020-05-13 15:02:59 -0400",
     "rm_cover_error_file": "n-a",
     "cover_file_check": true,
     "cover_check_results": "Found a new cover submitted",
-    "completed": "2019-02-08 15:08:24 -0500"
+    "completed": "2020-05-13 15:03:04 -0400"
   },
   "stylesheets_preprocessing.rb": {
-    "begun": "2019-02-08 15:08:24 -0500",
+    "begun": "2020-05-13 15:03:04 -0400",
     "read_config_json": true,
-    "completed": "2019-02-08 15:08:24 -0500"
+    "completed": "2020-05-13 15:03:04 -0400"
   },
   "stylesheets.rb": {
-    "begun": "2019-02-08 15:08:25 -0500",
+    "begun": "2020-05-13 15:03:05 -0400",
     "get_chapterheads": true,
     "chapterhead_count": 6,
     "delete_existing_tmp_pdf_css": true,
@@ -272,10 +288,10 @@
     "evalImports_epub_css-submitted": "n-a",
     "copy_epub_css-metadata": true,
     "one_off_css_for_epub": "----- No one off css found.",
-    "completed": "2019-02-08 15:08:25 -0500"
+    "completed": "2020-05-13 15:03:05 -0400"
   },
   "stylesheets_postprocessing.rb": {
-    "begun": "2019-02-08 15:08:25 -0500",
+    "begun": "2020-05-13 15:03:05 -0400",
     "read_config_json": true,
     "get_chapters_from_html": true,
     "get_trim_pis": true,
@@ -284,11 +300,12 @@
     "eval_one-off-css_for_pdf": "n-a",
     "append_pdf_css": true,
     "eval_one-off-css_for_epub": "n-a",
-    "completed": "2019-02-08 15:08:25 -0500"
+    "copy_override_js_file_to_Done": "n-a",
+    "completed": "2020-05-13 15:03:05 -0400"
   },
   "pdfmaker_preprocessing.rb": {
-    "begun": "2019-02-08 15:08:26 -0500",
-    "pdftmp_dir": "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx/images/pdftmp",
+    "begun": "2020-05-13 15:03:05 -0400",
+    "pdftmp_dir": "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx_1/images/pdftmp",
     "read_config_json": true,
     "mkdir_pdftmp_dir": true,
     "cp_html_to_pdftmp": true,
@@ -305,18 +322,18 @@
     "overwrite_pdfhtml_3": true,
     "image_count": 7,
     "processed_images": [
-      "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx/images/pdftmp/backad_fullpage.jpg",
-      "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx/images/pdftmp/dragons-fantasy_fullpage.jpg",
-      "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx/images/pdftmp/missing.jpg",
-      "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx/images/pdftmp/NnediOkorafor.jpg",
-      "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx/images/pdftmp/TestAI.jpg",
-      "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx/images/pdftmp/wildcards.jpg",
-      "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx/images/pdftmp/wildcards1.jpg"
+      "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx_1/images/pdftmp/backad_fullpage.jpg",
+      "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx_1/images/pdftmp/dragons-fantasy_fullpage.jpg",
+      "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx_1/images/pdftmp/missing.jpg",
+      "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx_1/images/pdftmp/NnediOkorafor.jpg",
+      "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx_1/images/pdftmp/TestAI.jpg",
+      "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx_1/images/pdftmp/wildcards.jpg",
+      "S:/bookmaker_tmp/bookmaker_test/bookmakertestMSdocdocx_1/images/pdftmp/wildcards1.jpg"
     ],
-    "completed": "2019-02-08 15:08:33 -0500"
+    "completed": "2020-05-13 15:03:10 -0400"
   },
   "pdfmaker.rb": {
-    "begun": "2019-02-08 15:08:33 -0500",
+    "begun": "2020-05-13 15:03:10 -0400",
     "testing_value_test": true,
     "running_on_testing_server": "false",
     "pdf_tmp_folder_created": "n-a",
@@ -330,20 +347,20 @@
     "move_pdf_to_done_dir": true,
     "read_css_file_sans_specialchar_escapes": true,
     "overwrite_css_rm-ing_escapechars": true,
-    "completed": "2019-02-08 15:08:39 -0500"
+    "completed": "2020-05-13 15:03:17 -0400"
   },
   "torDOTcom_pitstop_input.rb": {
-    "begun": "2019-02-08 15:08:40 -0500",
+    "begun": "2020-05-13 15:03:17 -0400",
     "read_config_json": true,
     "check_if_on_staging": true,
     "staging_value": "",
     "set_pitstop_dir": true,
     "pitstop_filename": "P:/SMP_POD/input/bookmaker_test-9780809089178.pdf",
     "move_file_to_pitstop_dir": true,
-    "completed": "2019-02-08 15:08:40 -0500"
+    "completed": "2020-05-13 15:03:27 -0400"
   },
   "epubmaker_preprocessing.rb": {
-    "begun": "2019-02-08 15:08:41 -0500",
+    "begun": "2020-05-13 15:03:29 -0400",
     "read_config_json": true,
     "make_epub_img_dir": true,
     "get_copyright_page": true,
@@ -378,10 +395,10 @@
     "set_newsletter_auth_links_single": true,
     "update_eisbn_&_imprint_placeholders": true,
     "add_html_line_breaks": true,
-    "completed": "2019-02-08 15:08:57 -0500"
+    "completed": "2020-05-13 15:03:48 -0400"
   },
   "epubmaker.rb": {
-    "begun": "2019-02-08 15:08:57 -0500",
+    "begun": "2020-05-13 15:03:49 -0400",
     "read_config_json": true,
     "delete_old_OEBPS": "n-a",
     "delete_old_METAINF": "n-a",
@@ -422,10 +439,10 @@
     "rm_tmp_epub_file": true,
     "ebook_ISBN": "9781429945257",
     "test_epub_status": "pass: the EPUB was created successfully",
-    "completed": "2019-02-08 15:09:10 -0500"
+    "completed": "2020-05-13 15:03:59 -0400"
   },
   "epubmaker_postprocessing.rb": {
-    "begun": "2019-02-08 15:09:12 -0500",
+    "begun": "2020-05-13 15:03:59 -0400",
     "delete_epubcheck_errfile": "n-a",
     "read_config_json": true,
     "read_styleconfig_json": true,
@@ -464,14 +481,13 @@
     "copy_fallback_font_to_pkg": true,
     "zip_epub_pyscript": true,
     "copy_epub_to_Done_dir": true,
-    "rename_final_epub_for_firstpass": true,
     "epubcheck_output": "Validating using EPUB version 3.0.1 rules.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,1417): XHTML Content Document file name 'OEBPS/cover.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2251): XHTML Content Document file name 'OEBPS/titlepage01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2335): XHTML Content Document file name 'OEBPS/preface01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2419): XHTML Content Document file name 'OEBPS/preface02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2509): XHTML Content Document file name 'OEBPS/dedication01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2594): XHTML Content Document file name 'OEBPS/preface03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2679): XHTML Content Document file name 'OEBPS/preface04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2759): XHTML Content Document file name 'OEBPS/ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2838): XHTML Content Document file name 'OEBPS/part01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2918): XHTML Content Document file name 'OEBPS/ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,2998): XHTML Content Document file name 'OEBPS/ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3078): XHTML Content Document file name 'OEBPS/ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3158): XHTML Content Document file name 'OEBPS/ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3238): XHTML Content Document file name 'OEBPS/part02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3319): XHTML Content Document file name 'OEBPS/ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3402): XHTML Content Document file name 'OEBPS/app01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3485): XHTML Content Document file name 'OEBPS/app02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3568): XHTML Content Document file name 'OEBPS/app03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3651): XHTML Content Document file name 'OEBPS/app04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3734): XHTML Content Document file name 'OEBPS/app05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3817): XHTML Content Document file name 'OEBPS/app06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3900): XHTML Content Document file name 'OEBPS/app07.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,3986): XHTML Content Document file name 'OEBPS/preface05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,4081): XHTML Content Document file name 'OEBPS/toc01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,4169): XHTML Content Document file name 'OEBPS/colophon01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/content.opf(1,4269): XHTML Content Document file name 'OEBPS/copyright-page01.html' should have the extension '.xhtml'.\nINFO(CSS-007): C:/Users/padwoadmin/Dropbox (Macmillan Publishers)/dev_testing/bookmaker_test/done/9780809089178/9781429945257_EPUB.epub/OEBPS/epub.css(30,3): Font-face reference OEBPS/NotoSansSymbols-Regular.ttf refers to non-standard font type font/truetype.\n\nCheck finished with warnings\n\nepubcheck completed\n",
     "write_errfile_as_needed": "n-a",
     "send_alert_mail": "n-a",
-    "completed": "2019-02-08 15:09:32 -0500"
+    "completed": "2020-05-13 15:04:24 -0400"
   },
   "torDOTcom_pitstop_output.rb": {
-    "begun": "2019-02-08 15:09:33 -0500",
+    "begun": "2020-05-13 15:04:24 -0400",
     "read_config_json": true,
     "check_if_on_staging": true,
     "staging_value": "",
@@ -480,6 +496,6 @@
     "copy_processed_file_back_to_done_dir": "copied processed file (<= 30 seconds wait )",
     "rm_file_from_pitstop_folder": true,
     "test_for_pitstop_err_file": "----- pitstop finished successfully",
-    "completed": "2019-02-08 15:10:03 -0500"
+    "completed": "2020-05-13 15:04:54 -0400"
   }
 }
