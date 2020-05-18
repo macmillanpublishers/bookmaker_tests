@@ -1,5 +1,5 @@
 # Overview
-The purpose of this repo is to provide end-to-end testing of bookmaker content transforms for any test manuscript(s) provided. It bypasses the flask_api now used to invoke bookmaker, but still uses a bookmaker_deploy toolchain ([bookmaker_test_direct.bat](https://github.com/macmillanpublishers/bookmaker_deploy/blob/master/bookmaker_test_direct.bat)) to manually invoke what is essentially a 'bookmaker_firstpass' run: plus one extra script ([bookmaker_tests.rb](https://github.com/macmillanpublishers/bookmaker_addons/blob/master/bookmaker_tests.rb)) to diff working html, xml, css & logfiles.
+The purpose of this repo is to provide end-to-end testing of bookmaker content transforms for any test manuscript provided. It bypasses the flask_api now used to invoke bookmaker, but still uses a bookmaker_deploy toolchain ([bookmaker_test_direct.bat](https://github.com/macmillanpublishers/bookmaker_deploy/blob/master/bookmaker_test_direct.bat)) to manually invoke what is essentially a 'bookmaker_firstpass' run: plus one extra script ([bookmaker_tests.rb](https://github.com/macmillanpublishers/bookmaker_addons/blob/master/bookmaker_tests.rb)) to diff working html, xml, css & logfiles.
 
 ***
 
