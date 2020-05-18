@@ -5,7 +5,7 @@ The purpose of this repo is to provide end-to-end testing of bookmaker content t
 
 # Usage
 ## Run tests
-To invoke the test in a Windows environment, just double-click the _run_bookmaker-test-direct.bat_ file. That launches the tests via bookmaker_test_direct.bat for any manuscript (.docx) files in the 'test_manuscripts' folder. Tests for each manuscript run in parallel. It should all be done in 5-10 min.  
+To invoke the test in a Windows environment, just double-click the _run_bookmaker-test-direct.bat_ file. That launches the tests via bookmaker_test_direct.bat for any manuscript (.docx) files in the 'test_manuscripts' folder. Tests run in parallel for each manuscript. It should all be done in 5-10 min.  
 
 ## Review test results
 #### Review diffs
