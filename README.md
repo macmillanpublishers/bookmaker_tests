@@ -11,7 +11,7 @@ To invoke the test in a Windows environment, just double-click the _run_bookmake
 #### Review diffs
 Goto output folder to review test output for each/any testfile:
 "S:\bookmaker_tmp\bookmaker_tests\test_tmpdir"
-Each test manuscript will have its own folder. Inside each folder will be the output from diffs run, in a file: testput.txt. Review and make sure diffs reflect expected changes.
+Each test manuscript will have its own folder. Inside each folder will be output from diffs, in a file: testoutput.txt. Review and make sure diffs reflect expected changes.
 #### Look over actual output
 Some layout changes will not be apparent in file diffs (particularly css/js changes). It's recommended that you visually inspect the new epub and the new pdf for any significant problems as well as expected changes. You can also run Acrobat's 'Compare Documents' to compare the new pdf to the verified one in greater detail.
 
