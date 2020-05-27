@@ -1,17 +1,17 @@
 # Overview
-The purpose of this repo is to provide end-to-end testing of bookmaker content transforms for any test manuscript(s) provided. It bypasses the flask_api now used to invoke bookmaker, but still uses a bookmaker_deploy toolchain ([bookmaker_test_direct.bat](https://github.com/macmillanpublishers/bookmaker_deploy/blob/master/bookmaker_test_direct.bat)) to manually invoke what is essentially a 'bookmaker_firstpass' run: plus one extra script ([bookmaker_tests.rb](https://github.com/macmillanpublishers/bookmaker_addons/blob/master/bookmaker_tests.rb)) to diff working html, xml, css & logfiles.
+The purpose of this repo is to provide end-to-end testing of bookmaker content transforms for any test manuscript provided. It bypasses the flask_api now used to invoke bookmaker, but still uses a bookmaker_deploy toolchain ([bookmaker_test_direct.bat](https://github.com/macmillanpublishers/bookmaker_deploy/blob/master/bookmaker_test_direct.bat)) to manually invoke what is essentially a 'bookmaker_firstpass' run: plus one extra script ([bookmaker_tests.rb](https://github.com/macmillanpublishers/bookmaker_addons/blob/master/bookmaker_tests.rb)) to diff working html, xml, css & logfiles.
 
 ***
 
 # Usage
 ## Run tests
-To invoke the test in a Windows environment, just double-click the _run_bookmaker-test-direct.bat_ file. That launches the tests via bookmaker_test_direct.bat for any manuscript (.docx) files in the 'test_manuscripts' folder. Tests for each manuscript run in parallel. It should all be done in 5-10 min.  
+To invoke the test in a Windows environment, just double-click the _run_bookmaker-test-direct.bat_ file. That launches the tests via bookmaker_test_direct.bat for any manuscript (.docx) files in the 'test_manuscripts' folder. Tests run in parallel for each manuscript. It should all be done in 5-10 min.  
 
 ## Review test results
 #### Review diffs
 Goto output folder to review test output for each/any testfile:
 "S:\bookmaker_tmp\bookmaker_tests\test_tmpdir"
-Each test manuscript will have its own folder. Inside each folder will be the output from diffs run, in a file: testput.txt. Review and make sure diffs reflect expected changes.
+Each test manuscript will have its own folder. Inside each folder will be output from diffs, in a file: testoutput.txt. Review and make sure diffs reflect expected changes.
 #### Look over actual output
 Some layout changes will not be apparent in file diffs (particularly css/js changes). It's recommended that you visually inspect the new epub and the new pdf for any significant problems as well as expected changes. You can also run Acrobat's 'Compare Documents' to compare the new pdf to the verified one in greater detail.
 
