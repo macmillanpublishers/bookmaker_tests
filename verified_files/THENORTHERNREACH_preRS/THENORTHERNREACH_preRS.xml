@@ -55,6 +55,7 @@
 <w:pPr>
 <w:pStyle w:val="CopyrightTextdoublespacecrtxd"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>This is a work of fiction. All of the characters, organizations, and events portrayed in this novel are either products of the author’s imagination or are used fictitiously.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -216,6 +217,7 @@
 <w:r>
 <w:rPr>
 <w:rStyle w:val="spanboldfacecharactersbf"/></w:rPr>
+<w:lastRenderedPageBreak/>
 <w:t xml:space="preserve">[Dedication </w:t></w:r>
 <w:r>
 <w:rPr>
@@ -234,11 +236,13 @@
 <w:pStyle w:val="PageBreakpb"/>
 <w:jc w:val="center"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:br w:type="page"/></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="FMHeadfmh"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Contents</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -306,11 +310,13 @@
 <w:pStyle w:val="PageBreakpb"/>
 <w:jc w:val="center"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:br w:type="page"/></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="FMEpigraph-versefmepiv"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Well you may throw your rock, hide your hand</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -371,11 +377,13 @@
 <w:pStyle w:val="PageBreakpb"/>
 <w:jc w:val="center"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:br w:type="page"/></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="HalftitleBookTitlehtit"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>The Northern Reach</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -388,6 +396,7 @@
 <w:pStyle w:val="PageBreakpb"/>
 <w:jc w:val="center"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:br w:type="page"/></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -395,6 +404,7 @@
 <w:r>
 <w:rPr>
 <w:noProof/></w:rPr>
+<w:lastRenderedPageBreak/>
 <w:t>ART 1</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -406,6 +416,7 @@
 <w:pPr>
 <w:pStyle w:val="Illustrationholderill"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>ART 2</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -417,6 +428,7 @@
 <w:pPr>
 <w:pStyle w:val="ChapTitlect"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>MOTHER SHIP, 1977</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -432,6 +444,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>At the summit, they surveyed her whole world, from the reach she’s looking at now, south to the bay, past the islands and out to sea where the ocean met the sky in soft white surrender. They were so high up Edith imagined she could step off the mountain and onto the clouds. As they slid across the sky, the Porcupine Islands below seemed to be swimming in the bay, bristled whales breaking the surface but leaving no wake. This, she thought, must be what it felt like to be God, but such blasphemous thoughts she’d learned to keep to herself. It took days and days to get the soap taste out of her mouth.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -453,7 +466,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Along her jaw, Edith traces calcified bone bumps like rock beneath her skin. She follows the line from chin to earlobe, wonders when her skin got so loose and thin, thinks maybe if she pinches it hard enough it might tear away from her skull in shreds like those clouds. Tentatively at first, she tugs at a jowly flap on her jawbone. It’s loose all right, and it hurts when she pinches it. The pain cuts through the maddening static in her mind, so she squeezes harder, then rotates her nails into the flesh. If she breaks the skin, will she bleed? Or is she like those hairy moths, the ones with eye markings on their wings that flit around the yellow porch light and explode in clouds of dust when they pass too close? In that last second, she thinks, the light must seem as bright and hot as the sun.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Along her jaw, Edith traces calcified bone bumps like rock beneath her skin. She follows the line from chin to earlobe, wonders when her skin got so loose and thin, thinks maybe if she </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>pinches it hard enough it might tear away from her skull in shreds like those clouds. Tentatively at first, she tugs at a jowly flap on her jawbone. It’s loose all right, and it hurts when she pinches it. The pain cuts through the maddening static in her mind, so she squeezes harder, then rotates her nails into the flesh. If she breaks the skin, will she bleed? Or is she like those hairy moths, the ones with eye markings on their wings that flit around the yellow porch light and explode in clouds of dust when they pass too close? In that last second, she thinks, the light must seem as bright and hot as the sun.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -483,7 +499,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Margery leans in to apply a band-aid and exhales stale breath past yellow teeth coated in cigarette smoke and saccharine black coffee. Edith turns back to the window.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Margery leans in to apply a band-aid and exhales stale breath past yellow teeth coated in </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>cigarette smoke and saccharine black coffee. Edith turns back to the window.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -526,7 +545,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“Heard from Lillian?” Margery asks from the doorway. One of the few things they agree on is Liliane Bertrand Baines, whom both call Lillian, deliberately over-anglicizing the way they pronounce her name in a shared act of righteous denigration.</w:t></w:r></w:p>
+<w:t xml:space="preserve">“Heard from Lillian?” Margery asks from the doorway. One of the few things they agree on is Liliane Bertrand Baines, whom both call Lillian, deliberately over-anglicizing the way they </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>pronounce her name in a shared act of righteous denigration.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -556,7 +578,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Two days later, Henry’s body drifted ashore down Stonington way, his face so bloated and purple his casket had to be closed. Mason never re-surfaced. They buried her son’s coffin empty, just left his corpse for lobster food at the bottom of the bay. Edith tries not to think about the creatures nibbling away at his eyes and fingers, but the image is never far from her thoughts.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Two days later, Henry’s body drifted ashore down Stonington way, his face so bloated and purple his casket had to be closed. Mason never re-surfaced. They buried her son’s coffin </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>empty, just left his corpse for lobster food at the bottom of the bay. Edith tries not to think about the creatures nibbling away at his eyes and fingers, but the image is never far from her thoughts.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -590,6 +615,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Tonight Margery is late picking him up, and the Fletchers have already gone. They turned down the heat before they left, so Eldridge waits in the cold office, staring at the empty driveway and warming his gloved hands on the metal shade of the desk lamp.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -610,7 +636,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>One Sunday afternoon, he got so desperate he tried to get healed by that TV preacher, Earnest Angely, the one who says to press the afflicted part of your body against the television screen. He stood there with his aching pelvis pushed up to the Motorola for a good five minutes. Nothing happened. Mother saw him, but never mentioned it.</w:t></w:r></w:p>
+<w:t xml:space="preserve">One Sunday afternoon, he got so desperate he tried to get healed by that TV preacher, Earnest Angely, the one who says to press the afflicted part of your body against the television screen. He stood there with his aching pelvis pushed up to the Motorola for a good five minutes. </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>Nothing happened. Mother saw him, but never mentioned it.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -633,7 +662,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Eldridge greets his mother and pauses behind her chair, wondering how come she is always staring out the window. He doesn’t ask, thinks of touching her shoulder, keeps his hand in his pocket; instead, he goes to the living room and turns on the nightly news, plops down in a chair and pushes the heap of burnt matches to the side of the ashtray with one of Margery’s Kents. Why that woman can’t settle on one brand he’ll never know.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Eldridge greets his mother and pauses behind her chair, wondering how come she is always staring out the window. He doesn’t ask, thinks of touching her shoulder, keeps his hand </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>in his pocket; instead, he goes to the living room and turns on the nightly news, plops down in a chair and pushes the heap of burnt matches to the side of the ashtray with one of Margery’s Kents. Why that woman can’t settle on one brand he’ll never know.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -663,7 +695,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>When Eldridge’s hand moves toward his fork, Margery smacks her own on top of it in a violence of clasping. “Alright, Mother. Eldridge and I will just have a moment of silent remembrance,” she says. Edith spears a single greasy noodle and lifts her fork again. Eldridge stares into his lap while Margery moves her lips and tightens her hands in a white-knuckle prayer. When she finishes, she says “Amen” and both begin eating.</w:t></w:r></w:p>
+<w:t xml:space="preserve">When Eldridge’s hand moves toward his fork, Margery smacks her own on top of it in a violence of clasping. “Alright, Mother. Eldridge and I will just have a moment of silent remembrance,” she says. Edith spears a single greasy noodle and lifts her fork again. Eldridge stares into his lap while Margery moves her lips and tightens her hands in a white-knuckle </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>prayer. When she finishes, she says “Amen” and both begin eating.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -693,7 +728,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“No thank you, Mother. You know Eldridge and I’ve quit,” Margery answers for him. She seems on the verge of quoting scripture, so Edith makes a hrumphing sound while Eldridge shovels in another mouthful.</w:t></w:r></w:p>
+<w:t xml:space="preserve">“No thank you, Mother. You know Eldridge and I’ve quit,” Margery answers for him. She seems on the verge of quoting scripture, so Edith makes a hrumphing sound while Eldridge </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>shovels in another mouthful.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -732,7 +770,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>She recalls a story Mason told her about seeing a funeral pyre years ago in some foreign country, India maybe. There, he told her, the dead were burned, not buried, and it was customary for the widow to throw herself into the fire with her husband’s body. Most had to be dragged, he said. Must have been a rule some man came up with. Who else would decide women should follow their husbands into death, but not their children?</w:t></w:r></w:p>
+<w:t xml:space="preserve">She recalls a story Mason told her about seeing a funeral pyre years ago in some foreign country, India maybe. There, he told her, the dead were burned, not buried, and it was customary for the widow to throw herself into the fire with her husband’s body. Most had to be dragged, he </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>said. Must have been a rule some man came up with. Who else would decide women should follow their husbands into death, but not their children?</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -760,7 +801,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-StdNo-Indenttx1"/></w:pPr>
 <w:r>
-<w:t>Eldridge’s boyhood room can barely accommodate their double bed and is stuffy even on cold nights like this. Margery turns over to face her husband who groans at being jostled, but goes right back to sleep. When he snores, she smells whiskey on his breath and asks God to forgive him for breaking his vow. Quite often she wishes for a drink herself, and this night is no exception. What a horrid thing that was for Edith to say. Margery is trying to think kindly about her mother-in-law, but as always, it’s a struggle.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Eldridge’s boyhood room can barely accommodate their double bed and is stuffy even on cold </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>nights like this. Margery turns over to face her husband who groans at being jostled, but goes right back to sleep. When he snores, she smells whiskey on his breath and asks God to forgive him for breaking his vow. Quite often she wishes for a drink herself, and this night is no exception. What a horrid thing that was for Edith to say. Margery is trying to think kindly about her mother-in-law, but as always, it’s a struggle.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -775,7 +819,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>The one person in the Baines family Margery doesn’t hate is Eldridge. Truth be told, she prefers this new phase of their marriage in which he relies on her, but makes no demands. Freed from the obligation of sex, she can cuddle up to him anytime she likes without fear of starting something. He pays more attention to their children than he used to, and even talks to her about them sometimes. When Edith dies, they can sell their share of the pound and this horrible house and buy a place in town. It would be a sin to wish her mother-in-law ill, but she doesn’t seem to have much interest in living and there’s no commandment says you can’t plan ahead.</w:t></w:r></w:p>
+<w:t xml:space="preserve">The one person in the Baines family Margery doesn’t hate is Eldridge. Truth be told, she prefers this new phase of their marriage in which he relies on her, but makes no demands. Freed from the obligation of sex, she can cuddle up to him anytime she likes without fear of starting something. He pays more attention to their children than he used to, and even talks to her about them sometimes. When Edith dies, they can sell their share of the pound and this horrible house </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>and buy a place in town. It would be a sin to wish her mother-in-law ill, but she doesn’t seem to have much interest in living and there’s no commandment says you can’t plan ahead.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="SpaceBreak"/></w:pPr></w:p>
@@ -828,6 +875,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Before Edith can answer, her son has gone. Now it’s her turn to wail. She stumbles out of bed and over to the window, willing him to come back. The sail’s eyes bore into her. The rising sun peeks through a break in the fog and spills its weak light across the water. The schooner is drifting, and its bow has slewed toward shore. Now Edith sees the white skin and red hair of the figurehead on the prow. Suspended over the reach, Fanny Battle leers silently at Mason swimming for the ring buoy just beyond his grasp. Again and again the tide pulls him under. Fanny shifts her gaze to Edith and smiles.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -866,6 +914,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Edith kicks and flails at the arms that restrain her, begs them to let her go. She can’t see Mason anymore.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -915,7 +964,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“El, they said if the drugs were going to work, they would’ve by now. She’s a danger to herself, and she could be to us. That’s what the doctor said. You heard him. I can’t watch her every minute of every day. Keep her out of the bay and away from the matches. She almost burned the house down that last time. And that business about seeing Mason is just, well it’s crazy, El. At least they can keep her fed and washed.”</w:t></w:r></w:p>
+<w:t xml:space="preserve">“El, they said if the drugs were going to work, they would’ve by now. She’s a danger to </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>herself, and she could be to us. That’s what the doctor said. You heard him. I can’t watch her every minute of every day. Keep her out of the bay and away from the matches. She almost burned the house down that last time. And that business about seeing Mason is just, well it’s crazy, El. At least they can keep her fed and washed.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -943,6 +995,7 @@
 <w:r>
 <w:rPr>
 <w:noProof/></w:rPr>
+<w:lastRenderedPageBreak/>
 <w:t>ART 3</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -954,6 +1007,7 @@
 <w:pPr>
 <w:pStyle w:val="ChapTitlect"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>RUNAWAY</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -979,7 +1033,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Stella was afraid to breathe. Even if she could go back to that house she wouldn’t. There was no laughter or music, nothing to read but the Bible and dusty old history books with no pictures or romance. She was carrying a baby that wasn’t her husband’s. They’d throw her out and keep Frank, who was just four years old, far too young to be away from his mother. She’d rather die than never hold him, or hear his scratchy voice, or smell his neck again.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Stella was afraid to breathe. Even if she could go back to that house she wouldn’t. There was no laughter or music, nothing to read but the Bible and dusty old history books with no pictures or romance. She was carrying a baby that wasn’t her husband’s. They’d throw her out and keep Frank, who was just four years old, far too young to be away from his mother. She’d </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>rather die than never hold him, or hear his scratchy voice, or smell his neck again.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1014,7 +1071,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Ray couldn’t back out now. She’d thrown away her good name for a new start with him, risked everything: her future, Frank’s, the baby’s.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Ray couldn’t back out now. She’d thrown away her good name for a new start with him, </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>risked everything: her future, Frank’s, the baby’s.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1069,7 +1129,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Near the end of the bridge, Frank looked up at the brick and granite buildings that crowded the riverfront and ran up the hill, gradually giving way to tightly spaced frame houses about halfway to the top. The heavy clouds of late September hovered above the city, almost low enough to snag on the church spires. His eyes traveled back down, from the sky to the river. The banks were choked with nests of weeds and rubbish; an oily film slithered along the surface, making ugly rainbows in the low light. He reached down for a pebble and threw it as far as he could then waited to hear it hit the water.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Near the end of the bridge, Frank looked up at the brick and granite buildings that crowded the riverfront and ran up the hill, gradually giving way to tightly spaced frame houses about halfway to the top. The heavy clouds of late September hovered above the city, almost low enough to snag on the church spires. His eyes traveled back down, from the sky to the river. The </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>banks were choked with nests of weeds and rubbish; an oily film slithered along the surface, making ugly rainbows in the low light. He reached down for a pebble and threw it as far as he could then waited to hear it hit the water.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1094,6 +1157,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t xml:space="preserve">“Boy, if you’re smart you’ll spend that in a rooming house and not a bawdy house,” the driver said and wished him luck. Frank wondered how old the man thought he was. He’d be fifteen in two months, and was just starting to see some ankle between his cuffs and boot tops. Even though he was smallish, Frank was strong and wiry, his face and forearms wind burnt from working outdoors, which he figured made him look older. He wasn’t sure what a </w:t></w:r>
 <w:r>
 <w:rPr>
@@ -1120,6 +1184,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>He tried to follow Mrs. Dowd’s vague instructions to “go over the hill towards the river, then downstreet past the bank with the clock,” and was on the verge of asking for directions when he found what he was looking for, just before midday.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -1140,7 +1205,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Frank shadowed him from the other side of the street, staying well behind and out of sight. In a few blocks the business district gave way to a grid of tidy residential streets, and as they walked, the houses became bigger, the lawns more expansive. Lawson stopped in front of a spare white frame house with neither porch nor shutters, nor any ornamentation on either it or the carriage barn that loomed behind. Between the peaked roof and granite foundation, the house’s plain face stared unblinking at the street, its run of flaky white clapboards broken only by three smallish windows, one on either side of the black front door and another above it. The grass in the dooryard was half dead, seared to hay. Frank had imagined his father lived in an elaborate gingerbread house covered in curlicues and cupolas, topped with a widow’s walk and surrounded by gardens and fancy iron fencing. But this was nice.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Frank shadowed him from the other side of the street, staying well behind and out of sight. In a few blocks the business district gave way to a grid of tidy residential streets, and as </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>they walked, the houses became bigger, the lawns more expansive. Lawson stopped in front of a spare white frame house with neither porch nor shutters, nor any ornamentation on either it or the carriage barn that loomed behind. Between the peaked roof and granite foundation, the house’s plain face stared unblinking at the street, its run of flaky white clapboards broken only by three smallish windows, one on either side of the black front door and another above it. The grass in the dooryard was half dead, seared to hay. Frank had imagined his father lived in an elaborate gingerbread house covered in curlicues and cupolas, topped with a widow’s walk and surrounded by gardens and fancy iron fencing. But this was nice.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1180,6 +1248,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>“I’m William, Wesley’s brother. Come inside. I’m sure we’ve given the neighbors enough to talk about already.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -1200,7 +1269,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>It hadn’t taken long for Stella Martin’s tawdry story to get around, and soon fights in the schoolyard were a regular part of Frank’s day. At first, he tried to avoid them, but eventually he came to accept the inevitability of violence, and almost enjoy brawling. Even when he was cut or bruised, he felt clean after a good fight, calm and peaceful. He didn’t always win, but he never backed down or failed to land at least one good punch. By the time he was twelve, he stopped going to school, at the teacher’s request.</w:t></w:r></w:p>
+<w:t xml:space="preserve">It hadn’t taken long for Stella Martin’s tawdry story to get around, and soon fights in the schoolyard were a regular part of Frank’s day. At first, he tried to avoid them, but eventually he came to accept the inevitability of violence, and almost enjoy brawling. Even when he was cut or bruised, he felt clean after a good fight, calm and peaceful. He didn’t always win, but he never backed down or failed to land at least one good punch. By the time he was twelve, he stopped </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>going to school, at the teacher’s request.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1220,7 +1292,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“It’s your fault!” Ray screamed at him. “Good for nothing. Should never’ve let her bring you. Just keep the girls away from her was all you had to do.” When Ray swung at him, Frank finally hit back, knocking his whiskey-soaked stepfather to the floor, leaving him sobbing into his chest and crying for his wife.</w:t></w:r></w:p>
+<w:t xml:space="preserve">“It’s your fault!” Ray screamed at him. “Good for nothing. Should never’ve let her bring you. Just keep the girls away from her was all you had to do.” When Ray swung at him, Frank </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>finally hit back, knocking his whiskey-soaked stepfather to the floor, leaving him sobbing into his chest and crying for his wife.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1322,7 +1397,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>She tilted her head. “You favor your mother. Small, but not quite so swarthy as her people. You should remove your cap in the house.”</w:t></w:r></w:p>
+<w:t xml:space="preserve">She tilted her head. “You favor your mother. Small, but not quite so swarthy as her </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>people. You should remove your cap in the house.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1372,7 +1450,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Frank nodded. He had dreamed of this meeting for years, but now found himself tongue-tied. He took a deep breath.</w:t></w:r></w:p>
+<w:t>Frank nodded. He had dreamed of this meeting for years, but now found himself tongue-</w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>tied. He took a deep breath.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>

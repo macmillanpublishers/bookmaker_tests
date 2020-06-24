@@ -16,9 +16,10 @@
   "printjs": "S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/pdf.js",
   "ebookcss": "S:/resources/bookmaker_scripts/bookmaker_assets/rsuite_assets/epubmaker/css/generic/epub.css",
   "pod_toc": "false",
-  "frontcover": "",
+  "frontcover": "EducationInRuin_9781250195951_RS_FC.jpg",
   "epubtitlepage": "S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/images/epubtitlepage.jpg",
+  "podtitlepage": "",
   "doctemplate_version": "6.0",
   "doctemplatetype": "rsuite",
-  "from_rsuite": true
+  "from_rsuite": false
 }

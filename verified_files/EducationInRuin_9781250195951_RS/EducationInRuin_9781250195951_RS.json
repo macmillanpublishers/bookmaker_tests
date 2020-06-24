@@ -1,6 +1,6 @@
 {
   "tmparchive_direct.rb": {
-    "begun": "2020-06-02 14:22:18 -0400",
+    "begun": "2020-06-24 11:29:16 -0400",
     "read_api_metadata_json": true,
     "infile": "S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/EducationInRuin_9781250195951_RS.docx",
     "tmpdir": "S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS",
@@ -11,11 +11,12 @@
     "submitted_files": [
 
     ],
+    "moved_input_config_file": "n-a",
     "write_RSserver_info_to_json": true,
-    "completed": "2020-06-02 14:22:18 -0400"
+    "completed": "2020-06-24 11:29:16 -0400"
   },
   "htmlmaker_preprocessing.rb": {
-    "begun": "2020-06-02 14:22:18 -0400",
+    "begun": "2020-06-24 11:29:17 -0400",
     "read_config_json": true,
     "convert_doc_to_docx": true,
     "check_docx_doctemplate_version": true,
@@ -23,12 +24,13 @@
     "rsuite_version_compare": "true: doctemplate_version meets requirements for jsconvert",
     "doctemplatetype": "rsuite",
     "replace_w:sym_copyright_symbol": "No 'F0D3'(s) found, no replacements made",
-    "from_rsuite": true,
+    "read_api-metadata_json": true,
+    "from_rsuite": false,
     "write_config_jsonfile": true,
-    "completed": "2020-06-02 14:22:32 -0400"
+    "completed": "2020-06-24 11:29:37 -0400"
   },
   "htmlmaker.rb": {
-    "begun": "2020-06-02 14:22:33 -0400",
+    "begun": "2020-06-24 11:29:38 -0400",
     "read_config_json": true,
     "convertdocx_to_html": true,
     "copy_and_rename_html_to_outputtmphtml": true,
@@ -48,26 +50,28 @@
     "add_doctemplate-version_meta_tag": true,
     "evaluate_pis": true,
     "html_status": "pass: html file was created successfully",
-    "completed": "2020-06-02 14:22:51 -0400"
+    "completed": "2020-06-24 11:29:57 -0400"
   },
   "htmlmaker_postprocessing.rb": {
-    "begun": "2020-06-02 14:22:53 -0400",
+    "begun": "2020-06-24 11:29:58 -0400",
     "read_config_json": true,
     "read_api_metadata_json": true,
     "post-processing_js": true,
     "read_output_html": true,
     "fix_note_callouts": true,
     "overwrite_html": true,
-    "completed": "2020-06-02 14:22:55 -0400"
+    "completed": "2020-06-24 11:30:00 -0400"
   },
   "bookmaker_titlepage.rb": {
-    "begun": "2020-06-02 14:22:56 -0400",
+    "begun": "2020-06-24 11:30:03 -0400",
     "read_config_json": true,
     "testing_value_test": true,
     "running_on_testing_server": "true",
     "get_isbns": true,
+    "pisbn": "EducationInRuin_9781250195951_RS",
     "custom_imprint_metaelement": "none",
     "find_imprint": "No imprint found in DW; using default imprint: Macmillan",
+    "imprint": "Macmillan",
     "get_resource_dir": true,
     "resource_dir": "generic",
     "final_dir": "S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done",
@@ -94,10 +98,10 @@
     "write_titlepage_logfile": true,
     "rm_cover_pdf": true,
     "titlepage_test": "pass: I found a titlepage image",
-    "completed": "2020-06-02 14:23:03 -0400"
+    "completed": "2020-06-24 11:30:11 -0400"
   },
   "metadata_preprocessing.rb": {
-    "begun": "2020-06-02 14:23:04 -0400",
+    "begun": "2020-06-24 11:30:12 -0400",
     "read_config_json": true,
     "find_book_ISBNs": true,
     "final_dir": "S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done",
@@ -107,22 +111,21 @@
     "metadata.rb-setup_final_dir": true,
     "find_titlepage_images": true,
     "epubtitlepage": "S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/images/epubtitlepage.jpg",
-    "podtitlepage": null,
+    "podtitlepage": "",
     "find_frontcover": true,
     "frontcover": "",
     "get_Biblio_metadata": true,
-    "query_status": "No DB record found; falling back to manuscript fields",
-    "get_outputtmp_html_contents": true,
     "set_author_info": true,
-    "author_name": "Alexis Bass",
     "set_book_title": true,
-    "book_title": "An Education in Ruin",
     "set_book_subtitle": true,
-    "book_subtitle": "",
     "get_imprint_from_json": true,
     "set_imprint": true,
-    "imprint": "Macmillan",
     "set_publisher": true,
+    "query_status": "No DB record found; falling back to manuscript fields",
+    "author_name": "Alexis Bass",
+    "book_title": "An Education in Ruin",
+    "book_subtitle": "",
+    "imprint": "Macmillan",
     "publisher": "Macmillan",
     "set_design_template": "default",
     "get_resource_dir": true,
@@ -138,10 +141,10 @@
     "set_TOC_value_From_html": true,
     "write_config_jsonfile": true,
     "run_node_title_js": true,
-    "completed": "2020-06-02 14:23:06 -0400"
+    "completed": "2020-06-24 11:30:15 -0400"
   },
   "filearchive.rb": {
-    "begun": "2020-06-02 14:23:07 -0400",
+    "begun": "2020-06-24 11:30:16 -0400",
     "make_final_dir": "n-a",
     "make_final_images_dir": "n-a",
     "make_final_cover_dir": true,
@@ -150,19 +153,19 @@
     "copy_html_to_final_layout_dir": true,
     "copy_tmp_config_final_layout_dir": true,
     "print_ISBN": "EducationInRuin_9781250195951_RS",
-    "completed": "2020-06-02 14:23:07 -0400"
+    "completed": "2020-06-24 11:30:16 -0400"
   },
   "filearchive_postprocessing.rb": {
-    "begun": "2020-06-02 14:23:07 -0400",
+    "begun": "2020-06-24 11:30:17 -0400",
     "read_config_json": true,
     "archive_podtitlepage": "no file present",
     "archive_epubtitlepage": "titlepage img is already in archival dir",
     "delete_version_errfile": "n-a",
     "write_errfile_as_needed": "n-a",
-    "completed": "2020-06-02 14:23:07 -0400"
+    "completed": "2020-06-24 11:30:17 -0400"
   },
   "imagechecker.rb": {
-    "begun": "2020-06-02 14:23:08 -0400",
+    "begun": "2020-06-24 11:30:18 -0400",
     "check_submitted_images": true,
     "check_final_images": true,
     "delete_image_errfile": "n-a",
@@ -189,10 +192,10 @@
     "missing_images": [
 
     ],
-    "completed": "2020-06-02 14:23:08 -0400"
+    "completed": "2020-06-24 11:30:18 -0400"
   },
   "imagechecker_postprocessing.rb": {
-    "begun": "2020-06-02 14:23:08 -0400",
+    "begun": "2020-06-24 11:30:19 -0400",
     "read_outputtmp-html": true,
     "get_files_in_tmpImgDir": true,
     "get_files_in_finalImgDir": true,
@@ -211,10 +214,10 @@
     "write_img_err_file": "n-a",
     "replace_img-refs_with_jpg-format_refs": true,
     "overwrite_output_html": true,
-    "completed": "2020-06-02 14:23:08 -0400"
+    "completed": "2020-06-24 11:30:19 -0400"
   },
   "bookmaker_covermaker.rb": {
-    "begun": "2020-06-02 14:23:09 -0400",
+    "begun": "2020-06-24 11:30:21 -0400",
     "read_config_json": true,
     "testing_value_test": true,
     "running_on_testing_server": "true",
@@ -242,23 +245,23 @@
     "covermaker_tests": true,
     "test_title_status": "pass: title is composed of one or more letters or numbers",
     "test_jpg_status": "pass: The cover jpg was successfully created",
-    "completed": "2020-06-02 14:23:16 -0400"
+    "completed": "2020-06-24 11:30:28 -0400"
   },
   "coverchecker.rb": {
-    "begun": "2020-06-02 14:23:23 -0400",
+    "begun": "2020-06-24 11:30:29 -0400",
     "rm_cover_error_file": "n-a",
     "read_jsonlog": true,
     "cover_file_check": true,
     "cover_check_results": "Found a new cover submitted",
-    "completed": "2020-06-02 14:23:28 -0400"
+    "completed": "2020-06-24 11:30:35 -0400"
   },
   "stylesheets_preprocessing.rb": {
-    "begun": "2020-06-02 14:23:29 -0400",
+    "begun": "2020-06-24 11:30:39 -0400",
     "read_config_json": true,
-    "completed": "2020-06-02 14:23:29 -0400"
+    "completed": "2020-06-24 11:30:39 -0400"
   },
   "stylesheets.rb": {
-    "begun": "2020-06-02 14:23:29 -0400",
+    "begun": "2020-06-24 11:30:45 -0400",
     "get_chapterheads": true,
     "chapterhead_count": 59,
     "delete_existing_tmp_pdf_css": true,
@@ -276,10 +279,10 @@
     "evalImports_epub_css-submitted": "n-a",
     "copy_epub_css-metadata": true,
     "one_off_css_for_epub": "----- No one off css found.",
-    "completed": "2020-06-02 14:23:29 -0400"
+    "completed": "2020-06-24 11:30:45 -0400"
   },
   "stylesheets_postprocessing.rb": {
-    "begun": "2020-06-02 14:23:30 -0400",
+    "begun": "2020-06-24 11:30:48 -0400",
     "read_config_json": true,
     "get_chapters_from_html": true,
     "get_trim_pis": true,
@@ -289,10 +292,10 @@
     "append_pdf_css": true,
     "eval_one-off-css_for_epub": "n-a",
     "copy_override_js_file_to_Done": "n-a",
-    "completed": "2020-06-02 14:23:30 -0400"
+    "completed": "2020-06-24 11:30:48 -0400"
   },
   "pdfmaker_preprocessing.rb": {
-    "begun": "2020-06-02 14:23:31 -0400",
+    "begun": "2020-06-24 11:30:49 -0400",
     "pdftmp_dir": "S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/images/pdftmp",
     "read_config_json": true,
     "mkdir_pdftmp_dir": true,
@@ -309,10 +312,10 @@
     "fix_emdashes_in_html": true,
     "overwrite_pdfhtml_3": true,
     "image_count": 0,
-    "completed": "2020-06-02 14:23:32 -0400"
+    "completed": "2020-06-24 11:30:50 -0400"
   },
   "pdfmaker.rb": {
-    "begun": "2020-06-02 14:23:32 -0400",
+    "begun": "2020-06-24 11:30:51 -0400",
     "testing_value_test": true,
     "running_on_testing_server": "true",
     "pdf_tmp_folder_created": "n-a",
@@ -325,10 +328,10 @@
     "move_pdf_to_done_dir": true,
     "read_css_file_sans_specialchar_escapes": true,
     "overwrite_css_rm-ing_escapechars": true,
-    "completed": "2020-06-02 14:23:52 -0400"
+    "completed": "2020-06-24 11:31:11 -0400"
   },
   "torDOTcom_pitstop_input.rb": {
-    "begun": "2020-06-02 14:23:52 -0400",
+    "begun": "2020-06-24 11:31:11 -0400",
     "read_config_json": true,
     "check_if_on_staging": true,
     "staging_value": "_staging",
@@ -336,10 +339,10 @@
     "input_filename": "S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_POD.pdf",
     "pitstop_filename": "P:/SMP_POD_staging/input/bookmaker_tests-EducationInRuin_9781250195951_RS.pdf",
     "move_file_to_pitstop_dir": true,
-    "completed": "2020-06-02 14:23:57 -0400"
+    "completed": "2020-06-24 11:31:13 -0400"
   },
   "epubmaker_preprocessing.rb": {
-    "begun": "2020-06-02 14:23:59 -0400",
+    "begun": "2020-06-24 11:31:15 -0400",
     "read_config_json": true,
     "make_epub_img_dir": true,
     "get_copyright_page": true,
@@ -374,18 +377,25 @@
     "set_newsletter_auth_links_single": true,
     "update_eisbn_&_imprint_placeholders": true,
     "add_html_line_breaks": true,
-    "completed": "2020-06-02 14:24:16 -0400"
+    "completed": "2020-06-24 11:31:35 -0400"
   },
   "epubmaker.rb": {
-    "begun": "2020-06-02 14:24:17 -0400",
+    "begun": "2020-06-24 11:31:36 -0400",
     "read_config_json": true,
     "delete_old_OEBPS": "n-a",
     "delete_old_METAINF": "n-a",
     "first_html_edit--epub_tmp_html": true,
     "overwrite_epubtmp_html": true,
+    "cover_placeholder_js": true,
     "strip_tocnodes_js": true,
     "process_xsl": true,
-    "final_cover_present": false,
+    "final_cover_present": true,
+    "first_cover_edit": true,
+    "overwrite_cover_html": true,
+    "first_ncx_edit": true,
+    "overwrite_toc_ncx": true,
+    "copy_final_cover_file": true,
+    "process_cover_file": true,
     "first_OPF_Edit": true,
     "overwrite_content_opf": true,
     "copy_epub_css_to_OEBPSdir": true,
@@ -403,10 +413,10 @@
     "rm_tmp_epub_file": true,
     "ebook_ISBN": "EducationInRuin_9781250195951_RS",
     "test_epub_status": "pass: the EPUB was created successfully",
-    "completed": "2020-06-02 14:24:41 -0400"
+    "completed": "2020-06-24 11:31:55 -0400"
   },
   "epubmaker_postprocessing.rb": {
-    "begun": "2020-06-02 14:24:42 -0400",
+    "begun": "2020-06-24 11:31:56 -0400",
     "delete_epubcheck_errfile": "n-a",
     "read_config_json": true,
     "read_styleconfig_json": true,
@@ -445,13 +455,13 @@
     "copy_fallback_font_to_pkg": true,
     "zip_epub_pyscript": true,
     "copy_epub_to_Done_dir": true,
-    "epubcheck_output": "Validating using EPUB version 3.0.1 rules.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,1495): XHTML Content Document file name 'OEBPS/titlepage01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,1585): XHTML Content Document file name 'OEBPS/dedication01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,1663): XHTML Content Document file name 'OEBPS/part01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,1748): XHTML Content Document file name 'OEBPS/part01ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,1834): XHTML Content Document file name 'OEBPS/part01ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,1920): XHTML Content Document file name 'OEBPS/part01ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2006): XHTML Content Document file name 'OEBPS/part01ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2092): XHTML Content Document file name 'OEBPS/part01ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2178): XHTML Content Document file name 'OEBPS/part01ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2257): XHTML Content Document file name 'OEBPS/part02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2344): XHTML Content Document file name 'OEBPS/part02ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2431): XHTML Content Document file name 'OEBPS/part02ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2518): XHTML Content Document file name 'OEBPS/part02ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2605): XHTML Content Document file name 'OEBPS/part02ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2692): XHTML Content Document file name 'OEBPS/part02ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2779): XHTML Content Document file name 'OEBPS/part02ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2859): XHTML Content Document file name 'OEBPS/part03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2946): XHTML Content Document file name 'OEBPS/part03ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3033): XHTML Content Document file name 'OEBPS/part03ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3120): XHTML Content Document file name 'OEBPS/part03ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3207): XHTML Content Document file name 'OEBPS/part03ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3294): XHTML Content Document file name 'OEBPS/part03ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3381): XHTML Content Document file name 'OEBPS/part03ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3468): XHTML Content Document file name 'OEBPS/part03ch07.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3548): XHTML Content Document file name 'OEBPS/part04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3635): XHTML Content Document file name 'OEBPS/part04ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3722): XHTML Content Document file name 'OEBPS/part04ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3809): XHTML Content Document file name 'OEBPS/part04ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3896): XHTML Content Document file name 'OEBPS/part04ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3983): XHTML Content Document file name 'OEBPS/part04ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4070): XHTML Content Document file name 'OEBPS/part04ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4157): XHTML Content Document file name 'OEBPS/part04ch07.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4237): XHTML Content Document file name 'OEBPS/part05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4324): XHTML Content Document file name 'OEBPS/part05ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4411): XHTML Content Document file name 'OEBPS/part05ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4498): XHTML Content Document file name 'OEBPS/part05ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4585): XHTML Content Document file name 'OEBPS/part05ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4672): XHTML Content Document file name 'OEBPS/part05ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4759): XHTML Content Document file name 'OEBPS/part05ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4846): XHTML Content Document file name 'OEBPS/part05ch07.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4933): XHTML Content Document file name 'OEBPS/part05ch08.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5020): XHTML Content Document file name 'OEBPS/part05ch09.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5107): XHTML Content Document file name 'OEBPS/part05ch10.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5194): XHTML Content Document file name 'OEBPS/part05ch11.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5281): XHTML Content Document file name 'OEBPS/part05ch12.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5368): XHTML Content Document file name 'OEBPS/part05ch13.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5455): XHTML Content Document file name 'OEBPS/part05ch14.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5535): XHTML Content Document file name 'OEBPS/part06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5622): XHTML Content Document file name 'OEBPS/part06ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5709): XHTML Content Document file name 'OEBPS/part06ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5796): XHTML Content Document file name 'OEBPS/part06ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5883): XHTML Content Document file name 'OEBPS/part06ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5970): XHTML Content Document file name 'OEBPS/part06ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6050): XHTML Content Document file name 'OEBPS/part07.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6137): XHTML Content Document file name 'OEBPS/part07ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6224): XHTML Content Document file name 'OEBPS/part07ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6311): XHTML Content Document file name 'OEBPS/part07ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6398): XHTML Content Document file name 'OEBPS/part07ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6478): XHTML Content Document file name 'OEBPS/part08.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6565): XHTML Content Document file name 'OEBPS/part08ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6652): XHTML Content Document file name 'OEBPS/part08ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6739): XHTML Content Document file name 'OEBPS/part08ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6826): XHTML Content Document file name 'OEBPS/part08ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6914): XHTML Content Document file name 'OEBPS/part08ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7002): XHTML Content Document file name 'OEBPS/part08ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7090): XHTML Content Document file name 'OEBPS/part08ch07.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7178): XHTML Content Document file name 'OEBPS/part08ch08.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7266): XHTML Content Document file name 'OEBPS/part08ch09.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7354): XHTML Content Document file name 'OEBPS/part08ch10.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7457): XHTML Content Document file name 'OEBPS/acknowledgments01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7544): XHTML Content Document file name 'OEBPS/preface01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7640): XHTML Content Document file name 'OEBPS/toc01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7741): XHTML Content Document file name 'OEBPS/copyright-page01.html' should have the extension '.xhtml'.\nINFO(CSS-007): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/epub.css(30,3): Font-face reference OEBPS/NotoSansSymbols-Regular.ttf refers to non-standard font type font/truetype.\n\nCheck finished with warnings\n\nepubcheck completed\n",
+    "epubcheck_output": "Validating using EPUB version 3.0.1 rules.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,1448): XHTML Content Document file name 'OEBPS/cover.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,1698): XHTML Content Document file name 'OEBPS/titlepage01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,1788): XHTML Content Document file name 'OEBPS/dedication01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,1866): XHTML Content Document file name 'OEBPS/part01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,1951): XHTML Content Document file name 'OEBPS/part01ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2037): XHTML Content Document file name 'OEBPS/part01ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2123): XHTML Content Document file name 'OEBPS/part01ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2209): XHTML Content Document file name 'OEBPS/part01ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2295): XHTML Content Document file name 'OEBPS/part01ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2381): XHTML Content Document file name 'OEBPS/part01ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2460): XHTML Content Document file name 'OEBPS/part02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2547): XHTML Content Document file name 'OEBPS/part02ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2634): XHTML Content Document file name 'OEBPS/part02ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2721): XHTML Content Document file name 'OEBPS/part02ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2808): XHTML Content Document file name 'OEBPS/part02ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2895): XHTML Content Document file name 'OEBPS/part02ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,2982): XHTML Content Document file name 'OEBPS/part02ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3062): XHTML Content Document file name 'OEBPS/part03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3149): XHTML Content Document file name 'OEBPS/part03ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3236): XHTML Content Document file name 'OEBPS/part03ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3323): XHTML Content Document file name 'OEBPS/part03ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3410): XHTML Content Document file name 'OEBPS/part03ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3497): XHTML Content Document file name 'OEBPS/part03ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3584): XHTML Content Document file name 'OEBPS/part03ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3671): XHTML Content Document file name 'OEBPS/part03ch07.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3751): XHTML Content Document file name 'OEBPS/part04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3838): XHTML Content Document file name 'OEBPS/part04ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,3925): XHTML Content Document file name 'OEBPS/part04ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4012): XHTML Content Document file name 'OEBPS/part04ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4099): XHTML Content Document file name 'OEBPS/part04ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4186): XHTML Content Document file name 'OEBPS/part04ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4273): XHTML Content Document file name 'OEBPS/part04ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4360): XHTML Content Document file name 'OEBPS/part04ch07.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4440): XHTML Content Document file name 'OEBPS/part05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4527): XHTML Content Document file name 'OEBPS/part05ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4614): XHTML Content Document file name 'OEBPS/part05ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4701): XHTML Content Document file name 'OEBPS/part05ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4788): XHTML Content Document file name 'OEBPS/part05ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4875): XHTML Content Document file name 'OEBPS/part05ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,4962): XHTML Content Document file name 'OEBPS/part05ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5049): XHTML Content Document file name 'OEBPS/part05ch07.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5136): XHTML Content Document file name 'OEBPS/part05ch08.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5223): XHTML Content Document file name 'OEBPS/part05ch09.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5310): XHTML Content Document file name 'OEBPS/part05ch10.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5397): XHTML Content Document file name 'OEBPS/part05ch11.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5484): XHTML Content Document file name 'OEBPS/part05ch12.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5571): XHTML Content Document file name 'OEBPS/part05ch13.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5658): XHTML Content Document file name 'OEBPS/part05ch14.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5738): XHTML Content Document file name 'OEBPS/part06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5825): XHTML Content Document file name 'OEBPS/part06ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5912): XHTML Content Document file name 'OEBPS/part06ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,5999): XHTML Content Document file name 'OEBPS/part06ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6086): XHTML Content Document file name 'OEBPS/part06ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6173): XHTML Content Document file name 'OEBPS/part06ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6253): XHTML Content Document file name 'OEBPS/part07.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6340): XHTML Content Document file name 'OEBPS/part07ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6427): XHTML Content Document file name 'OEBPS/part07ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6514): XHTML Content Document file name 'OEBPS/part07ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6601): XHTML Content Document file name 'OEBPS/part07ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6681): XHTML Content Document file name 'OEBPS/part08.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6768): XHTML Content Document file name 'OEBPS/part08ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6855): XHTML Content Document file name 'OEBPS/part08ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,6942): XHTML Content Document file name 'OEBPS/part08ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7029): XHTML Content Document file name 'OEBPS/part08ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7117): XHTML Content Document file name 'OEBPS/part08ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7205): XHTML Content Document file name 'OEBPS/part08ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7293): XHTML Content Document file name 'OEBPS/part08ch07.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7381): XHTML Content Document file name 'OEBPS/part08ch08.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7469): XHTML Content Document file name 'OEBPS/part08ch09.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7557): XHTML Content Document file name 'OEBPS/part08ch10.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7660): XHTML Content Document file name 'OEBPS/acknowledgments01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7747): XHTML Content Document file name 'OEBPS/preface01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7843): XHTML Content Document file name 'OEBPS/toc01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/content.opf(1,7944): XHTML Content Document file name 'OEBPS/copyright-page01.html' should have the extension '.xhtml'.\nINFO(CSS-007): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/epub.css(30,3): Font-face reference OEBPS/NotoSansSymbols-Regular.ttf refers to non-standard font type font/truetype.\n\nCheck finished with warnings\n\nepubcheck completed\n",
     "write_errfile_as_needed": "n-a",
     "send_alert_mail": "n-a",
-    "completed": "2020-06-02 14:26:02 -0400"
+    "completed": "2020-06-24 11:33:43 -0400"
   },
   "torDOTcom_pitstop_output.rb": {
-    "begun": "2020-06-02 14:26:03 -0400",
+    "begun": "2020-06-24 11:33:43 -0400",
     "read_config_json": true,
     "check_if_on_staging": true,
     "staging_value": "_staging",
@@ -460,12 +470,12 @@
     "copy_processed_file_back_to_done_dir": "copied processed file (<= 30 seconds wait )",
     "rm_file_from_pitstop_folder": true,
     "test_for_pitstop_err_file": "----- pitstop finished successfully",
-    "completed": "2020-06-02 14:26:33 -0400"
+    "completed": "2020-06-24 11:34:14 -0400"
   },
   "cleanup_preprocessing.rb": {
-    "begun": "2020-06-02 14:26:33 -0400",
+    "begun": "2020-06-24 11:34:14 -0400",
     "read_config_json": true,
-    "mv_rsuite_docx_to_done": true,
-    "completed": "2020-06-02 14:26:33 -0400"
+    "mv_rsuite_docx_to_done": "n-a",
+    "completed": "2020-06-24 11:34:14 -0400"
   }
 }
