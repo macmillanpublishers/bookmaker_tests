@@ -1,6 +1,6 @@
 {
   "tmparchive_direct.rb": {
-    "begun": "2020-06-02 14:22:18 -0400",
+    "begun": "2020-06-24 11:29:16 -0400",
     "read_api_metadata_json": true,
     "infile": "S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/bookmakertestMS_pre-RSuite.docx",
     "tmpdir": "S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite",
@@ -16,11 +16,12 @@
       "wildcards.jpg",
       "wildcards1.jpg"
     ],
+    "moved_input_config_file": "n-a",
     "write_RSserver_info_to_json": true,
-    "completed": "2020-06-02 14:22:18 -0400"
+    "completed": "2020-06-24 11:29:16 -0400"
   },
   "htmlmaker_preprocessing.rb": {
-    "begun": "2020-06-02 14:22:18 -0400",
+    "begun": "2020-06-24 11:29:17 -0400",
     "read_config_json": true,
     "convert_doc_to_docx": true,
     "check_docx_doctemplate_version": true,
@@ -29,12 +30,13 @@
     "sectionstart_version_compare": "false: doctemplate_version is empty; input .docx/html has no version, or this is a non-Macmillan bookmaker instance",
     "doctemplatetype": "pre-sectionstart",
     "replace_w:sym_copyright_symbol": "No 'F0D3'(s) found, no replacements made",
-    "from_rsuite": true,
+    "read_api-metadata_json": true,
+    "from_rsuite": false,
     "write_config_jsonfile": true,
-    "completed": "2020-06-02 14:22:31 -0400"
+    "completed": "2020-06-24 11:29:31 -0400"
   },
   "htmlmaker.rb": {
-    "begun": "2020-06-02 14:22:31 -0400",
+    "begun": "2020-06-24 11:29:32 -0400",
     "read_config_json": true,
     "convert_docx_to_xml": true,
     "convert_xml_to_html": true,
@@ -52,26 +54,28 @@
     "title_js": true,
     "evaluate_pis": true,
     "html_status": "pass: html file was created successfully",
-    "completed": "2020-06-02 14:22:48 -0400"
+    "completed": "2020-06-24 11:29:43 -0400"
   },
   "htmlmaker_postprocessing.rb": {
-    "begun": "2020-06-02 14:22:49 -0400",
+    "begun": "2020-06-24 11:29:45 -0400",
     "read_config_json": true,
     "read_api_metadata_json": true,
     "post-processing_js": true,
     "read_output_html": true,
     "fix_note_callouts": true,
     "overwrite_html": true,
-    "completed": "2020-06-02 14:22:51 -0400"
+    "completed": "2020-06-24 11:29:46 -0400"
   },
   "bookmaker_titlepage.rb": {
-    "begun": "2020-06-02 14:22:54 -0400",
+    "begun": "2020-06-24 11:29:47 -0400",
     "read_config_json": true,
     "testing_value_test": true,
     "running_on_testing_server": "true",
     "get_isbns": true,
+    "pisbn": "9780809089178",
     "custom_imprint_metaelement": "none",
     "find_imprint": "Found imprint in DW: Hill and Wang",
+    "imprint": "Hill and Wang",
     "get_resource_dir": true,
     "resource_dir": "generic",
     "final_dir": "S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done",
@@ -98,10 +102,10 @@
     "write_titlepage_logfile": true,
     "rm_cover_pdf": true,
     "titlepage_test": "pass: I found a titlepage image",
-    "completed": "2020-06-02 14:23:07 -0400"
+    "completed": "2020-06-24 11:30:03 -0400"
   },
   "metadata_preprocessing.rb": {
-    "begun": "2020-06-02 14:23:08 -0400",
+    "begun": "2020-06-24 11:30:04 -0400",
     "read_config_json": true,
     "find_book_ISBNs": true,
     "final_dir": "S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done",
@@ -111,21 +115,20 @@
     "metadata.rb-setup_final_dir": true,
     "find_titlepage_images": true,
     "epubtitlepage": "S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/images/epubtitlepage.jpg",
-    "podtitlepage": null,
+    "podtitlepage": "",
     "find_frontcover": true,
     "frontcover": "",
     "get_Biblio_metadata": true,
-    "query_status": "DB Connection SUCCESS: Found a book record",
-    "get_outputtmp_html_contents": true,
     "set_author_info": true,
-    "author_name": "Alva Noë",
     "set_book_title": true,
-    "book_title": "Strange Tools",
     "set_book_subtitle": true,
-    "book_subtitle": "Art and Human Nature",
     "set_imprint": true,
-    "imprint": "Hill and Wang",
     "set_publisher": true,
+    "query_status": "DB Connection SUCCESS: Found a book record",
+    "author_name": "Alva Noë",
+    "book_title": "Strange Tools",
+    "book_subtitle": "Art and Human Nature",
+    "imprint": "Hill and Wang",
     "publisher": "Hill and Wang",
     "set_design_template": "default",
     "get_resource_dir": true,
@@ -140,10 +143,10 @@
     "set_TOC_value_From_xml": true,
     "write_config_jsonfile": true,
     "run_node_title_js": true,
-    "completed": "2020-06-02 14:23:14 -0400"
+    "completed": "2020-06-24 11:30:13 -0400"
   },
   "filearchive.rb": {
-    "begun": "2020-06-02 14:23:15 -0400",
+    "begun": "2020-06-24 11:30:14 -0400",
     "make_final_dir": "n-a",
     "make_final_images_dir": "n-a",
     "make_final_cover_dir": true,
@@ -152,19 +155,19 @@
     "copy_html_to_final_layout_dir": true,
     "copy_tmp_config_final_layout_dir": true,
     "print_ISBN": "9780809089178",
-    "completed": "2020-06-02 14:23:15 -0400"
+    "completed": "2020-06-24 11:30:14 -0400"
   },
   "filearchive_postprocessing.rb": {
-    "begun": "2020-06-02 14:23:16 -0400",
+    "begun": "2020-06-24 11:30:15 -0400",
     "read_config_json": true,
     "archive_podtitlepage": "no file present",
     "archive_epubtitlepage": "titlepage img is already in archival dir",
     "delete_version_errfile": "n-a",
     "write_errfile_as_needed": "n-a",
-    "completed": "2020-06-02 14:23:16 -0400"
+    "completed": "2020-06-24 11:30:15 -0400"
   },
   "imagechecker.rb": {
-    "begun": "2020-06-02 14:23:19 -0400",
+    "begun": "2020-06-24 11:30:16 -0400",
     "check_submitted_images": true,
     "check_final_images": true,
     "delete_image_errfile": "n-a",
@@ -203,10 +206,10 @@
     "missing_images": [
       "Noimagefile.jpg"
     ],
-    "completed": "2020-06-02 14:23:24 -0400"
+    "completed": "2020-06-24 11:30:18 -0400"
   },
   "imagechecker_postprocessing.rb": {
-    "begun": "2020-06-02 14:23:24 -0400",
+    "begun": "2020-06-24 11:30:22 -0400",
     "read_outputtmp-html": true,
     "get_files_in_tmpImgDir": true,
     "get_files_in_finalImgDir": true,
@@ -225,10 +228,10 @@
     "write_img_err_file": "n-a",
     "replace_img-refs_with_jpg-format_refs": true,
     "overwrite_output_html": true,
-    "completed": "2020-06-02 14:23:25 -0400"
+    "completed": "2020-06-24 11:30:22 -0400"
   },
   "bookmaker_covermaker.rb": {
-    "begun": "2020-06-02 14:23:26 -0400",
+    "begun": "2020-06-24 11:30:23 -0400",
     "read_config_json": true,
     "testing_value_test": true,
     "running_on_testing_server": "true",
@@ -256,23 +259,23 @@
     "covermaker_tests": true,
     "test_title_status": "pass: title is composed of one or more letters or numbers",
     "test_jpg_status": "pass: The cover jpg was successfully created",
-    "completed": "2020-06-02 14:23:33 -0400"
+    "completed": "2020-06-24 11:30:30 -0400"
   },
   "coverchecker.rb": {
-    "begun": "2020-06-02 14:23:34 -0400",
+    "begun": "2020-06-24 11:30:30 -0400",
     "rm_cover_error_file": "n-a",
     "read_jsonlog": true,
     "cover_file_check": true,
     "cover_check_results": "Found a new cover submitted",
-    "completed": "2020-06-02 14:23:39 -0400"
+    "completed": "2020-06-24 11:30:36 -0400"
   },
   "stylesheets_preprocessing.rb": {
-    "begun": "2020-06-02 14:23:39 -0400",
+    "begun": "2020-06-24 11:30:41 -0400",
     "read_config_json": true,
-    "completed": "2020-06-02 14:23:39 -0400"
+    "completed": "2020-06-24 11:30:41 -0400"
   },
   "stylesheets.rb": {
-    "begun": "2020-06-02 14:23:39 -0400",
+    "begun": "2020-06-24 11:30:46 -0400",
     "get_chapterheads": true,
     "chapterhead_count": 6,
     "delete_existing_tmp_pdf_css": true,
@@ -290,10 +293,10 @@
     "evalImports_epub_css-submitted": "n-a",
     "copy_epub_css-metadata": true,
     "one_off_css_for_epub": "----- No one off css found.",
-    "completed": "2020-06-02 14:23:39 -0400"
+    "completed": "2020-06-24 11:30:47 -0400"
   },
   "stylesheets_postprocessing.rb": {
-    "begun": "2020-06-02 14:23:40 -0400",
+    "begun": "2020-06-24 11:30:49 -0400",
     "read_config_json": true,
     "get_chapters_from_html": true,
     "get_trim_pis": true,
@@ -303,10 +306,10 @@
     "append_pdf_css": true,
     "eval_one-off-css_for_epub": "n-a",
     "copy_override_js_file_to_Done": "n-a",
-    "completed": "2020-06-02 14:23:40 -0400"
+    "completed": "2020-06-24 11:30:49 -0400"
   },
   "pdfmaker_preprocessing.rb": {
-    "begun": "2020-06-02 14:23:40 -0400",
+    "begun": "2020-06-24 11:30:49 -0400",
     "pdftmp_dir": "S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/images/pdftmp",
     "read_config_json": true,
     "mkdir_pdftmp_dir": true,
@@ -332,10 +335,10 @@
       "S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/images/pdftmp/wildcards.jpg",
       "S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/images/pdftmp/wildcards1.jpg"
     ],
-    "completed": "2020-06-02 14:23:49 -0400"
+    "completed": "2020-06-24 11:30:58 -0400"
   },
   "pdfmaker.rb": {
-    "begun": "2020-06-02 14:23:51 -0400",
+    "begun": "2020-06-24 11:30:59 -0400",
     "testing_value_test": true,
     "running_on_testing_server": "true",
     "pdf_tmp_folder_created": "n-a",
@@ -348,10 +351,10 @@
     "move_pdf_to_done_dir": true,
     "read_css_file_sans_specialchar_escapes": true,
     "overwrite_css_rm-ing_escapechars": true,
-    "completed": "2020-06-02 14:23:56 -0400"
+    "completed": "2020-06-24 11:31:04 -0400"
   },
   "torDOTcom_pitstop_input.rb": {
-    "begun": "2020-06-02 14:23:57 -0400",
+    "begun": "2020-06-24 11:31:04 -0400",
     "read_config_json": true,
     "check_if_on_staging": true,
     "staging_value": "_staging",
@@ -359,10 +362,10 @@
     "input_filename": "S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9780809089178_POD.pdf",
     "pitstop_filename": "P:/SMP_POD_staging/input/bookmaker_tests-9780809089178.pdf",
     "move_file_to_pitstop_dir": true,
-    "completed": "2020-06-02 14:23:57 -0400"
+    "completed": "2020-06-24 11:31:14 -0400"
   },
   "epubmaker_preprocessing.rb": {
-    "begun": "2020-06-02 14:23:57 -0400",
+    "begun": "2020-06-24 11:31:15 -0400",
     "read_config_json": true,
     "make_epub_img_dir": true,
     "get_copyright_page": true,
@@ -397,18 +400,25 @@
     "set_newsletter_auth_links_single": true,
     "update_eisbn_&_imprint_placeholders": true,
     "add_html_line_breaks": true,
-    "completed": "2020-06-02 14:24:14 -0400"
+    "completed": "2020-06-24 11:31:31 -0400"
   },
   "epubmaker.rb": {
-    "begun": "2020-06-02 14:24:14 -0400",
+    "begun": "2020-06-24 11:31:32 -0400",
     "read_config_json": true,
     "delete_old_OEBPS": "n-a",
     "delete_old_METAINF": "n-a",
     "first_html_edit--epub_tmp_html": true,
     "overwrite_epubtmp_html": true,
+    "cover_placeholder_js": true,
     "strip_tocnodes_js": true,
     "process_xsl": true,
-    "final_cover_present": false,
+    "final_cover_present": true,
+    "first_cover_edit": true,
+    "overwrite_cover_html": true,
+    "first_ncx_edit": true,
+    "overwrite_toc_ncx": true,
+    "copy_final_cover_file": true,
+    "process_cover_file": true,
     "first_OPF_Edit": true,
     "overwrite_content_opf": true,
     "copy_epub_css_to_OEBPSdir": true,
@@ -433,10 +443,10 @@
     "rm_tmp_epub_file": true,
     "ebook_ISBN": "9781429945257",
     "test_epub_status": "pass: the EPUB was created successfully",
-    "completed": "2020-06-02 14:24:47 -0400"
+    "completed": "2020-06-24 11:32:07 -0400"
   },
   "epubmaker_postprocessing.rb": {
-    "begun": "2020-06-02 14:24:48 -0400",
+    "begun": "2020-06-24 11:32:08 -0400",
     "delete_epubcheck_errfile": "n-a",
     "read_config_json": true,
     "read_styleconfig_json": true,
@@ -475,13 +485,13 @@
     "copy_fallback_font_to_pkg": true,
     "zip_epub_pyscript": true,
     "copy_epub_to_Done_dir": true,
-    "epubcheck_output": "Validating using EPUB version 3.0.1 rules.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,1972): XHTML Content Document file name 'OEBPS/titlepage01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2062): XHTML Content Document file name 'OEBPS/dedication01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2146): XHTML Content Document file name 'OEBPS/preface01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2230): XHTML Content Document file name 'OEBPS/preface02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2309): XHTML Content Document file name 'OEBPS/ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2388): XHTML Content Document file name 'OEBPS/part01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2468): XHTML Content Document file name 'OEBPS/ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2548): XHTML Content Document file name 'OEBPS/ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2628): XHTML Content Document file name 'OEBPS/ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2708): XHTML Content Document file name 'OEBPS/ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2788): XHTML Content Document file name 'OEBPS/part02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2869): XHTML Content Document file name 'OEBPS/ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2952): XHTML Content Document file name 'OEBPS/app01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3035): XHTML Content Document file name 'OEBPS/app02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3118): XHTML Content Document file name 'OEBPS/app03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3201): XHTML Content Document file name 'OEBPS/app04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3284): XHTML Content Document file name 'OEBPS/app05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3367): XHTML Content Document file name 'OEBPS/app06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3450): XHTML Content Document file name 'OEBPS/app07.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3536): XHTML Content Document file name 'OEBPS/preface03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3631): XHTML Content Document file name 'OEBPS/toc01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3731): XHTML Content Document file name 'OEBPS/copyright-page01.html' should have the extension '.xhtml'.\nINFO(CSS-007): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/epub.css(30,3): Font-face reference OEBPS/NotoSansSymbols-Regular.ttf refers to non-standard font type font/truetype.\n\nCheck finished with warnings\n\nepubcheck completed\n",
+    "epubcheck_output": "Validating using EPUB version 3.0.1 rules.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,1417): XHTML Content Document file name 'OEBPS/cover.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2176): XHTML Content Document file name 'OEBPS/titlepage01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2266): XHTML Content Document file name 'OEBPS/dedication01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2350): XHTML Content Document file name 'OEBPS/preface01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2434): XHTML Content Document file name 'OEBPS/preface02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2513): XHTML Content Document file name 'OEBPS/ch01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2592): XHTML Content Document file name 'OEBPS/part01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2672): XHTML Content Document file name 'OEBPS/ch02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2752): XHTML Content Document file name 'OEBPS/ch03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2832): XHTML Content Document file name 'OEBPS/ch04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2912): XHTML Content Document file name 'OEBPS/ch05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,2992): XHTML Content Document file name 'OEBPS/part02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3073): XHTML Content Document file name 'OEBPS/ch06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3156): XHTML Content Document file name 'OEBPS/app01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3239): XHTML Content Document file name 'OEBPS/app02.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3322): XHTML Content Document file name 'OEBPS/app03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3405): XHTML Content Document file name 'OEBPS/app04.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3488): XHTML Content Document file name 'OEBPS/app05.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3571): XHTML Content Document file name 'OEBPS/app06.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3654): XHTML Content Document file name 'OEBPS/app07.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3740): XHTML Content Document file name 'OEBPS/preface03.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3835): XHTML Content Document file name 'OEBPS/toc01.html' should have the extension '.xhtml'.\nWARNING(HTM-014a): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/content.opf(1,3935): XHTML Content Document file name 'OEBPS/copyright-page01.html' should have the extension '.xhtml'.\nINFO(CSS-007): S:/bookmaker_tmp/bookmaker_tests/bookmakertestMS_pre-RSuite/done/9781429945257_EPUB.epub/OEBPS/epub.css(30,3): Font-face reference OEBPS/NotoSansSymbols-Regular.ttf refers to non-standard font type font/truetype.\n\nCheck finished with warnings\n\nepubcheck completed\n",
     "write_errfile_as_needed": "n-a",
     "send_alert_mail": "n-a",
-    "completed": "2020-06-02 14:25:30 -0400"
+    "completed": "2020-06-24 11:32:56 -0400"
   },
   "torDOTcom_pitstop_output.rb": {
-    "begun": "2020-06-02 14:25:30 -0400",
+    "begun": "2020-06-24 11:32:58 -0400",
     "read_config_json": true,
     "check_if_on_staging": true,
     "staging_value": "_staging",
@@ -490,12 +500,12 @@
     "copy_processed_file_back_to_done_dir": "copied processed file (<= 30 seconds wait )",
     "rm_file_from_pitstop_folder": true,
     "test_for_pitstop_err_file": "----- pitstop finished successfully",
-    "completed": "2020-06-02 14:26:04 -0400"
+    "completed": "2020-06-24 11:33:38 -0400"
   },
   "cleanup_preprocessing.rb": {
-    "begun": "2020-06-02 14:26:04 -0400",
+    "begun": "2020-06-24 11:33:38 -0400",
     "read_config_json": true,
-    "mv_rsuite_docx_to_done": true,
-    "completed": "2020-06-02 14:26:04 -0400"
+    "mv_rsuite_docx_to_done": "n-a",
+    "completed": "2020-06-24 11:33:38 -0400"
   }
 }

@@ -18,7 +18,8 @@
   "pod_toc": "true",
   "frontcover": "9781250762849_FC.jpg",
   "epubtitlepage": "S:/bookmaker_tmp/bookmaker_tests/ToSleepInASeaOfStars_9781250762849_RS/done/images/epubtitlepage.jpg",
+  "podtitlepage": "",
   "doctemplate_version": "6.1",
   "doctemplatetype": "rsuite",
-  "from_rsuite": true
+  "from_rsuite": false
 }

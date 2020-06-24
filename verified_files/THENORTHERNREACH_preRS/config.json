@@ -16,9 +16,10 @@
   "printjs": "S:/bookmaker_tmp/bookmaker_tests/THENORTHERNREACH_preRS/pdf.js",
   "ebookcss": "S:/resources/bookmaker_scripts/bookmaker_assets/epubmaker/css/generic/epub.css",
   "pod_toc": "true",
-  "frontcover": "",
+  "frontcover": "9781250776488_FC.jpg",
   "epubtitlepage": "S:/bookmaker_tmp/bookmaker_tests/THENORTHERNREACH_preRS/done/images/epubtitlepage.jpg",
+  "podtitlepage": "",
   "doctemplate_version": "0",
   "doctemplatetype": "pre-sectionstart",
-  "from_rsuite": true
+  "from_rsuite": false
 }
