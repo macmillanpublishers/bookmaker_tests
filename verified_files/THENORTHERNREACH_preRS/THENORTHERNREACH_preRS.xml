@@ -1528,6 +1528,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>It was an odd meal: pickled cucumbers and cold ham, no bread or pie. They ate mostly in silence, with Wesley posing questions and Frank providing short answers. Frank watched his father eat. He cut each piece of meat in a perfect square, each cucumber slice into triangles, and chewed slowly.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -1579,7 +1580,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Frank stood. Even with his slight stature he towered over his father who was hunched in his chair. When he spoke his voice was too loud, but he didn’t care. “That’s not why I come—for a handout, for charity. I wanted to see you, to find out why you never visited. The farm, to see me. Why?” He wouldn’t cry again, not here. He crossed his arms in front of his chest and pinched the skin of his elbow crease to keep the tears at bay. His mother taught him that trick.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Frank stood. Even with his slight stature he towered over his father who was hunched in his chair. When he spoke his voice was too loud, but he didn’t care. “That’s not why I come—for </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>a handout, for charity. I wanted to see you, to find out why you never visited. The farm, to see me. Why?” He wouldn’t cry again, not here. He crossed his arms in front of his chest and pinched the skin of his elbow crease to keep the tears at bay. His mother taught him that trick.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1609,6 +1613,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Feeling like he was back in the schoolyard, boiling with rage, Frank leaned down, grabbed Wesley by the lapels and pulled him halfway out of his chair. When he spoke he was shouting. “You’re the selfish one, not her. You could’ve gotten me back if you wanted. You could’ve seen me, but you didn’t. Not once. You’re the one needs forgiving.” Frank dropped his father back into the chair, wrenched open the door, and slammed it behind him. Nearly blind in the dark hall, he felt his way toward the light.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -1638,7 +1643,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>The sun was down when Frank turned back toward Bangor. Safe in the empty dark, he wandered the streets until his mind was quiet. At Lawson &amp; Sons, now buttoned up against the night, Frank took his usual position across the street, his fingers followed the grooves in the elm-tree bark while he fingered the crumpled bills in his pocket with the other hand. He bent to pick up a rock. It was heavy, round and cool in his palm. He tossed it in the air to get a feel for the weight, then stepped back on his right foot, cocked his elbow and let it fly, just like his father had taught him all those years ago. The plate glass window in the front door shattered, obliterating the Lawson name. Frank savored the destruction only for a second or two before he walked back up the hill.</w:t></w:r></w:p>
+<w:t>The sun was down when Frank turned back toward Bangor. Safe in the empty dark, he wandered the streets until his mind was quiet. At Lawson &amp; Sons, now buttoned up against the night, Frank took his usual position across the street, his fingers followed the grooves in the elm-</w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>tree bark while he fingered the crumpled bills in his pocket with the other hand. He bent to pick up a rock. It was heavy, round and cool in his palm. He tossed it in the air to get a feel for the weight, then stepped back on his right foot, cocked his elbow and let it fly, just like his father had taught him all those years ago. The plate glass window in the front door shattered, obliterating the Lawson name. Frank savored the destruction only for a second or two before he walked back up the hill.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="PageBreakpb"/>
@@ -1651,6 +1659,7 @@
 <w:r>
 <w:rPr>
 <w:noProof/></w:rPr>
+<w:lastRenderedPageBreak/>
 <w:t>ART 4</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -1662,6 +1671,7 @@
 <w:pPr>
 <w:pStyle w:val="ChapTitlect"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>YIELD</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -1687,7 +1697,10 @@
 <w:pPr>
 <w:pStyle w:val="Extractext"/></w:pPr>
 <w:r>
-<w:t>From beneath the shade of an elm tree, Mrs. Oliver Tunk of Wellbridge, asked, “When have Catholics ever done any harm? Deviltry, that’s what I call it, just a bunch of hooligans.”</w:t></w:r></w:p>
+<w:t xml:space="preserve">From beneath the shade of an elm tree, Mrs. Oliver Tunk of Wellbridge, </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>asked, “When have Catholics ever done any harm? Deviltry, that’s what I call it, just a bunch of hooligans.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Extractext"/></w:pPr>
@@ -1712,7 +1725,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-StdNo-Indenttx1"/></w:pPr>
 <w:r>
-<w:t>Did she even exist? Since they’d been assigned to the same table in study hall back in September, Royal Edgecomb hadn’t seemed to take any notice of Edith Tainter, not when she cleared her throat, not when she rattled the pages of her Latin book. Nor had he spoken to her when she passed him downstreet, standing on the sidewalk outside the Criterion Theatre surrounded by other seniors, mostly girls, and all from the smart set, smoking and laughing before the picture show.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Did she even exist? Since they’d been assigned to the same table in study hall back in September, Royal Edgecomb hadn’t seemed to take any notice of Edith Tainter, not when she cleared her throat, not when she rattled the pages of her Latin book. Nor had he spoken to her when she passed him downstreet, standing on the sidewalk outside the Criterion Theatre </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>surrounded by other seniors, mostly girls, and all from the smart set, smoking and laughing before the picture show.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1742,7 +1758,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“Your father was over to our place yesterday, for a meeting, the Klan, you know? And to look at our boat. My pop’s thinking of selling it, but only for the right price,” he said, puffing up. “It’s a sloop, from down Camden way. Built for some summer people.”</w:t></w:r></w:p>
+<w:t xml:space="preserve">“Your father was over to our place yesterday, for a meeting, the Klan, you know? And to look at our boat. My pop’s thinking of selling it, but only for the right price,” he said, puffing up. </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>“It’s a sloop, from down Camden way. Built for some summer people.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1793,7 +1812,10 @@
 <w:rStyle w:val="spanitaliccharactersital"/></w:rPr>
 <w:t>Deacon</w:t></w:r>
 <w:r>
-<w:t xml:space="preserve"> Jubel Tainter dickering with a rumrunner! For a boat that’s soaked up more bathtub gin than salt water, no less.”</w:t></w:r></w:p>
+<w:t xml:space="preserve"> Jubel Tainter dickering with a rumrunner! For a boat that’s soaked up more bathtub gin than salt water, no </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>less.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1833,7 +1855,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Edith couldn’t argue with her grandmother’s assessment of her parents’ awakening, as they called it, but she had no intention of staying away from Royal. She couldn’t have cared less about Prohibition, what the Edgecombs drank, or whether they worshipped Jesus Christ, golden idols, or the Devil himself. It was a small rebellion, her first ever, a secret flame of sin that flared in Edith’s chest and warmed her head to toe.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Edith couldn’t argue with her grandmother’s assessment of her parents’ awakening, as they called it, but she had no intention of staying away from Royal. She couldn’t have cared less </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>about Prohibition, what the Edgecombs drank, or whether they worshipped Jesus Christ, golden idols, or the Devil himself. It was a small rebellion, her first ever, a secret flame of sin that flared in Edith’s chest and warmed her head to toe.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Dateline-Texttdl"/></w:pPr>
@@ -1864,7 +1889,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Edith had heard the same thing, that Royal’s dreams of flying died in the car crash that crippled his father and killed his little sister, the homely one with the red hair, and since that night he’d kept to himself, working the farm and looking after his parents. Word was, it had been Royal behind the wheel.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Edith had heard the same thing, that Royal’s dreams of flying died in the car crash that crippled his father and killed his little sister, the homely one with the red hair, and since that </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>night he’d kept to himself, working the farm and looking after his parents. Word was, it had been Royal behind the wheel.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1905,7 +1933,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>He pulled her through the crowd, into the grange hall kitchen, past the oversized pots and pans that hung from the ceiling, the massive white cookstove, and the jumble of knives and meat grinders.</w:t></w:r></w:p>
+<w:t xml:space="preserve">He pulled her through the crowd, into the grange hall kitchen, past the oversized pots and </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>pans that hung from the ceiling, the massive white cookstove, and the jumble of knives and meat grinders.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1935,7 +1966,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>He winked at her, then turned on his heel and returned to the dance, just left her sitting on the counter like a fool.</w:t></w:r></w:p>
+<w:t xml:space="preserve">He winked at her, then turned on his heel and returned to the dance, just left her sitting on </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>the counter like a fool.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -1986,7 +2020,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Jubel Tainter extended his hand for it, palm up and looked at the cover. “Trash, filth and sin. That what they taught you at school, girl?” He cocked his elbow and slapped her face with the book, again and again, before he opened it and began tearing out the pages, wadding them up and dropping them on the floor.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Jubel Tainter extended his hand for it, palm up and looked at the cover. “Trash, filth and </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>sin. That what they taught you at school, girl?” He cocked his elbow and slapped her face with the book, again and again, before he opened it and began tearing out the pages, wadding them up and dropping them on the floor.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -2011,7 +2048,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Nodding occasionally to show she was listening, when she was really thinking about what she and Henry might get up to after they spread out their picnic blanket in the back of his truck that evening, Edith considered giving in to Henry’s begging.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Nodding occasionally to show she was listening, when she was really thinking about what she and Henry might get up to after they spread out their picnic blanket in the back of his </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>truck that evening, Edith considered giving in to Henry’s begging.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -2061,7 +2101,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Now the preacher was rolling, and it was only a matter of time before he’d find his way to his favorite subjects: demon liquor and its ruination of even the most God-fearing men and women, the filthy ways of fornicators, and the unholy cataclysm that awaited once the Papists succeeded in removing “our own King James Bible from the public schools paid for with YOUR tax money.” She stifled a yawn.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Now the preacher was rolling, and it was only a matter of time before he’d find his way to his favorite subjects: demon liquor and its ruination of even the most God-fearing men and </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>women, the filthy ways of fornicators, and the unholy cataclysm that awaited once the Papists succeeded in removing “our own King James Bible from the public schools paid for with YOUR tax money.” She stifled a yawn.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -2081,6 +2124,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Across the green, a fat little tow-headed boy with a garter snake chased a screaming girl. When he couldn’t catch her, he flung the creature at her, but his mother was on him in a minute, meting out justice that was as rough as it was swift. Edith turned away. She’d been on the receiving end of enough slaps, clouts and kicks to know what punishment looked, and felt, like.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -2116,6 +2160,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Royal didn’t bother to look. Two breaths later, when the silence was as heavy as the July heat, he said, “Ain’t that swell. You still staying down to your grandmother’s?”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -2166,7 +2211,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-StdNo-Indenttx1"/></w:pPr>
 <w:r>
-<w:t xml:space="preserve">Edith still held out hope the child would be stillborn. When the contractions started coming fast enough to call the doctor, Grammie D told Henry to run next door and use their telephone. He had been gone a long time, and Edith figured that rather than hurrying, he’d probably wandered over in his usual unheroic way, disappointing her, predictably and again. Lately everything about Henry Baines, even his tenderness—no, </w:t></w:r>
+<w:t xml:space="preserve">Edith still held out hope the child would be stillborn. When the contractions started coming fast enough to call the doctor, Grammie D told Henry to run next door and use their telephone. He </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t xml:space="preserve">had been gone a long time, and Edith figured that rather than hurrying, he’d probably wandered over in his usual unheroic way, disappointing her, predictably and again. Lately everything about Henry Baines, even his tenderness—no, </w:t></w:r>
 <w:r>
 <w:rPr>
 <w:rStyle w:val="spanitaliccharactersital"/></w:rPr>
@@ -2208,7 +2256,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>To Edith’s relief her grandmother’s chatter was cut short by the arrival of Doctor Penney. Henry tried to follow him into the bedroom, but before he could get through the doorway Grammie hustled him back, clucking about birthing rooms being no place for men. Edith heard her say something about women in labor not being in their right minds, but hers had never been clearer. She’d done everything she could think of—starving herself, bumping into things, squeezing into corsets, jumping up and down, even praying—to get rid of this baby, but it had held on and was coming anyway. Payment for “the wages of sin” Pastor Bell was always threatening had finally come due; she saw that now.</w:t></w:r></w:p>
+<w:t xml:space="preserve">To Edith’s relief her grandmother’s chatter was cut short by the arrival of Doctor Penney. </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>Henry tried to follow him into the bedroom, but before he could get through the doorway Grammie hustled him back, clucking about birthing rooms being no place for men. Edith heard her say something about women in labor not being in their right minds, but hers had never been clearer. She’d done everything she could think of—starving herself, bumping into things, squeezing into corsets, jumping up and down, even praying—to get rid of this baby, but it had held on and was coming anyway. Payment for “the wages of sin” Pastor Bell was always threatening had finally come due; she saw that now.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -2228,7 +2279,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>This time the contraction was so intense she screamed. The agony seemed to go on forever, wrenching every muscle, twisting every bone, and as it did, a memory floated up from deep in her mind, growling the same love-pain words she’d heard the night the child was conceived, as she lay on the soggy pine needle mat with the snaking tree roots digging into her back and her wrists pinned over her head. “I’ll do as I please with you, Edie Tainter.”</w:t></w:r></w:p>
+<w:t xml:space="preserve">This time the contraction was so intense she screamed. The agony seemed to go on </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>forever, wrenching every muscle, twisting every bone, and as it did, a memory floated up from deep in her mind, growling the same love-pain words she’d heard the night the child was conceived, as she lay on the soggy pine needle mat with the snaking tree roots digging into her back and her wrists pinned over her head. “I’ll do as I please with you, Edie Tainter.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -2259,7 +2313,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Behind closed eyes, Edith waited for the first cry, frightened and half expecting to see the child blue-faced and limp, with the cord wrapped around its neck like what happened to Silla Trout’s baby brother, the one that was born dead. She covered her face with her hands. When no sound came, she peeked between her splayed fingers and saw the doctor holding the tiny boy upside down. Though silent, the baby was alive, his neck unscathed, his face beet red. The doctor gave the child a good whack, and as soon as he brought up the clot of blood that had been clogging his windpipe, her baby took a big breath and let loose an angry wail.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Behind closed eyes, Edith waited for the first cry, frightened and half expecting to see the child blue-faced and limp, with the cord wrapped around its neck like what happened to Silla Trout’s baby brother, the one that was born dead. She covered her face with her hands. When no sound came, she peeked between her splayed fingers and saw the doctor holding the tiny boy </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>upside down. Though silent, the baby was alive, his neck unscathed, his face beet red. The doctor gave the child a good whack, and as soon as he brought up the clot of blood that had been clogging his windpipe, her baby took a big breath and let loose an angry wail.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -2307,6 +2364,7 @@
 <w:r>
 <w:rPr>
 <w:noProof/></w:rPr>
+<w:lastRenderedPageBreak/>
 <w:t>ART 5</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -2318,6 +2376,7 @@
 <w:pPr>
 <w:pStyle w:val="ChapTitlect"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>HOMEFRONT</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -2359,6 +2418,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Frank’s right shoulder twitched. Glass in hand, he turned to face his son.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -2430,6 +2490,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>The odor of cigarette smoke mixed with talcum powder drifted past George’s nose, and he closed his mouth to keep from swallowing it. He shook her hand off his cheek, but Ethel persisted.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -2476,7 +2537,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Loud enough for his father to hear, George said, “Don’t worry, I won’t forget.” His jaw had begun to ache, but he forced himself not to touch it. He edged away from his mother, shoved his fists into his pockets and walked out the back door.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Loud enough for his father to hear, George said, “Don’t worry, I won’t forget.” His jaw had begun to ache, but he forced himself not to touch it. He edged away from his mother, shoved </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>his fists into his pockets and walked out the back door.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="SpaceBreak"/></w:pPr></w:p>
@@ -2499,7 +2563,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Until he turned onto Pelham Alley, he hadn’t really thought about where he was going. Up ahead, on the unpaved lane that ran behind the courthouse, a paddy wagon kicked up a veil of yellow dust. Across the street, Jimmy O’Connell sat on his rickety front steps, absorbed in a Superman comic. He looked up when George flopped down beside him.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Until he turned onto Pelham Alley, he hadn’t really thought about where he was going. Up ahead, on the unpaved lane that ran behind the courthouse, a paddy wagon kicked up a veil of yellow dust. Across the street, Jimmy O’Connell sat on his rickety front steps, absorbed in a </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>Superman comic. He looked up when George flopped down beside him.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -2562,7 +2629,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>George was surprised to see the blue percolator sputtering on the stove. Next to it, on the floor, sat his father’s maple shoeshine box with his unpolished Oxfords on top. Every Sunday morning Frank spent half an hour cleaning, blacking and spit-shining those shoes before church. George’s parents seldom missed a service. It was the one event his mother still managed to get up and dressed for. She usually dozed through the sermon, but she liked the music.</w:t></w:r></w:p>
+<w:t xml:space="preserve">George was surprised to see the blue percolator sputtering on the stove. Next to it, on the floor, sat his father’s maple shoeshine box with his unpolished Oxfords on top. Every Sunday morning Frank spent half an hour cleaning, blacking and spit-shining those shoes before church. </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>George’s parents seldom missed a service. It was the one event his mother still managed to get up and dressed for. She usually dozed through the sermon, but she liked the music.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -2597,6 +2667,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>“Tell Mother I was here.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -2682,6 +2753,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>George shrugged his response.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -2745,6 +2817,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>“No.” Her voice was barely more than a whisper. “I won’t let you.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -2790,7 +2863,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Ethel released George’s hand and slid down in the bed. She rolled over, away from the lamplight and into the shadows. Her low moan rose and built to a stuttering wail he felt in his chest. She was weeping so hard her body shook. He looked over at the poor old hat and tried to think of some way to pull out the knife he’d just driven into his mother. There was only one, but he couldn’t bring himself to say he’d stay. So he sat on her bed and tried to recall the smell of the sea. After a while he fetched a glass of water, then slipped away when she turned out the light.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Ethel released George’s hand and slid down in the bed. She rolled over, away from the lamplight and into the shadows. Her low moan rose and built to a stuttering wail he felt in his chest. She was weeping so hard her body shook. He looked over at the poor old hat and tried to think of some way to pull out the knife he’d just driven into his mother. There was only one, but he couldn’t bring himself to say he’d stay. So he sat on her bed and tried to recall the smell of the </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>sea. After a while he fetched a glass of water, then slipped away when she turned out the light.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="SpaceBreak"/></w:pPr></w:p>
@@ -2848,7 +2924,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>George peeled the crust from his bread while she cried, tried to say he’d stay, couldn’t force the words. He’d lived in this house, eaten breakfast at this table, slept upstairs under the eaves since he was eight years old. Back then his mother read to him most nights, and his father almost never shouted. Back then, his mother’s dark times were less frequent and briefer, usually just a day or two. Back then it hadn’t occurred to George that his father somehow blamed him for his mother’s illness. Back then. He tried to imagine what life would be like without the agony of watching her collapse in on herself, without feeling the horrible, addictive pleasure of needling his father.</w:t></w:r></w:p>
+<w:t xml:space="preserve">George peeled the crust from his bread while she cried, tried to say he’d stay, couldn’t </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>force the words. He’d lived in this house, eaten breakfast at this table, slept upstairs under the eaves since he was eight years old. Back then his mother read to him most nights, and his father almost never shouted. Back then, his mother’s dark times were less frequent and briefer, usually just a day or two. Back then it hadn’t occurred to George that his father somehow blamed him for his mother’s illness. Back then. He tried to imagine what life would be like without the agony of watching her collapse in on herself, without feeling the horrible, addictive pleasure of needling his father.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -2871,6 +2950,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Jobs, Mother once told him, had been so scarce after the Crash that his father would take a room wherever he could find work and only came home to Augusta once a month. Their trip to see him must have been a holiday, because Frank, whose hair was still shiny black, had spent the whole afternoon with them.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -2896,7 +2976,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>It occurred to George that his father must have left his coveralls at the print shop, that he’d never seen him wearing his work clothes. He only knew about the coveralls because Frank brought them home to be washed on Fridays.</w:t></w:r></w:p>
+<w:t xml:space="preserve">It occurred to George that his father must have left his coveralls at the print shop, that </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>he’d never seen him wearing his work clothes. He only knew about the coveralls because Frank brought them home to be washed on Fridays.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -2936,7 +3019,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>A gust of hot air jostled him as the train rolled in and screeched to a stop. He hoisted the bag onto his shoulder. A peach bumped him, just below the ribs. That morning Jimmy’s mother had filled his bag with food for the trip. He pushed from his mind the memory of the O’Connell family gathered around him in their tiny front room a few hours before. He’d be damned if he’d cry in front of his father.</w:t></w:r></w:p>
+<w:t xml:space="preserve">A gust of hot air jostled him as the train rolled in and screeched to a stop. He hoisted the bag onto his shoulder. A peach bumped him, just below the ribs. That morning Jimmy’s mother had filled his bag with food for the trip. He pushed from his mind the memory of the O’Connell family gathered around him in their tiny front room a few hours before. He’d be damned if he’d </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>cry in front of his father.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -2986,7 +3072,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>George walked to his train car and climbed aboard. His fingertips searched for the velvet of the seat cover, but found leather instead. As the train pulled out of the station, the last thing George saw was his father’s back. Frank Lawson, leaning against the station wall, his hat still on his head with the brim crushed in on one side, looked lost inside his dusty suit. George thought he saw his father’s shoulders shake, but he would never be sure.</w:t></w:r></w:p>
+<w:t xml:space="preserve">George walked to his train car and climbed aboard. His fingertips searched for the velvet </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>of the seat cover, but found leather instead. As the train pulled out of the station, the last thing George saw was his father’s back. Frank Lawson, leaning against the station wall, his hat still on his head with the brim crushed in on one side, looked lost inside his dusty suit. George thought he saw his father’s shoulders shake, but he would never be sure.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="PageBreakpb"/>
@@ -2999,6 +3088,7 @@
 <w:r>
 <w:rPr>
 <w:noProof/></w:rPr>
+<w:lastRenderedPageBreak/>
 <w:t>ART 6</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -3010,6 +3100,7 @@
 <w:pPr>
 <w:pStyle w:val="ChapTitlect"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>STARVATION DIET, 1966</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -3031,7 +3122,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Mason first put the Remington in her hands six years ago, right before he shipped out the first time. Though she’d seen plenty of weapons back in France during the war, she’d never actually held a gun and initially refused to even pick it up. He insisted, though, and showed her how to load it and carry it broken over her forearm. Eventually she’d taken a shot, and to her great surprise found she liked the smell of hot metal and burning gunpowder, the weight of the stock snugged into her shoulder and the kick of the recoil. With the gun in her hands, she feels competent, powerful, less alone. She practices often and seldom misses.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Mason first put the Remington in her hands six years ago, right before he shipped out the </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>first time. Though she’d seen plenty of weapons back in France during the war, she’d never actually held a gun and initially refused to even pick it up. He insisted, though, and showed her how to load it and carry it broken over her forearm. Eventually she’d taken a shot, and to her great surprise found she liked the smell of hot metal and burning gunpowder, the weight of the stock snugged into her shoulder and the kick of the recoil. With the gun in her hands, she feels competent, powerful, less alone. She practices often and seldom misses.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="SpaceBreak"/></w:pPr></w:p>
@@ -3082,6 +3176,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>After a perfunctory you’re welcome, Edith removed her black cat-eyes, huffed on each lens, and polished them with the edge of the well-worn yellow tablecloth. Though red-rimmed, her eyes were an astonishing watery blue, nearly translucent. Liliane thought of the wedding photo in the living room. Edith had been such a pretty woman when she was young. Is this what fifty years of gray skies and snow does, she wondered, dry you up, freeze you, chip you to a shard?</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -3123,7 +3218,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>While she was speaking, an image came to mind of her handsome husband lying shirtless on an unmade bed with the hot, spice-heavy breeze in his hair. The first time she saw Mason Baines, she knew he was the one. Strong jawed and slim, looking like an American movie star in his merchant marine uniform, he strode through the door of the translation office in Antibes as if he were taking center stage. She’d been passing by the front desk on her way to an Italian transcription assignment, but stopped to help the receptionist, who was struggling to understand the peculiar accent of the handsome officer with the wide white smile and the sad brown eyes. English was the weakest of Liliane’s languages, and it took several sentences for her to figure out which one he was speaking. At first she thought he might be Scottish—they were always impossible—but he said no.</w:t></w:r></w:p>
+<w:t xml:space="preserve">While she was speaking, an image came to mind of her handsome husband lying shirtless on an unmade bed with the hot, spice-heavy breeze in his hair. The first time she saw Mason Baines, she knew he was the one. Strong jawed and slim, looking like an American movie star in </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>his merchant marine uniform, he strode through the door of the translation office in Antibes as if he were taking center stage. She’d been passing by the front desk on her way to an Italian transcription assignment, but stopped to help the receptionist, who was struggling to understand the peculiar accent of the handsome officer with the wide white smile and the sad brown eyes. English was the weakest of Liliane’s languages, and it took several sentences for her to figure out which one he was speaking. At first she thought he might be Scottish—they were always impossible—but he said no.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -3153,6 +3251,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>“Listen Lil, I’ve already got a piece of land. It overlooks a pretty little cove. We’ll dig clams and have a garden in summer. My buddy’s a builder. He can start on a house next month. It’ll be ready by the end of April. What do you say?”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -3188,7 +3287,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>The older woman took a deep drag on her cigarette and leaned back in her chair, folding her arms across the rough brown cardigan that insulated her bony torso. She closed her eyes. Her lips were pulled tight, and it looked like she was using her tongue to extract a scrap of food from her dentures. When she spoke, she formed her words carefully and slowly, as if she were explaining the importance of not running into the street to an idiot child.</w:t></w:r></w:p>
+<w:t xml:space="preserve">The older woman took a deep drag on her cigarette and leaned back in her chair, folding </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>her arms across the rough brown cardigan that insulated her bony torso. She closed her eyes. Her lips were pulled tight, and it looked like she was using her tongue to extract a scrap of food from her dentures. When she spoke, she formed her words carefully and slowly, as if she were explaining the importance of not running into the street to an idiot child.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -3234,6 +3336,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>“Ayuh, buffet style, but it’s a cocktail, so no kids. Just our family, plus some of Margery’s people, a few others, Caspar Titcomb. Have you met his friend? That new caretaker over at the Ridgeback place. What’s his name, George?”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -3280,7 +3383,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Wasn’t their middle daughter Earlene running around with that Moody boy? Imagining what went on while Margery and Eldridge were away was even more disturbing than the state her children would be in after four hours in the filthy chaos of their house trailer and a steady diet of Tang and Pop Tarts, but Liliane knew better than to say anything. Instead, she looked at her watch and excused herself on the pretext of needing to get to the market and relieve the babysitter.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Wasn’t their middle daughter Earlene running around with that Moody boy? Imagining what went on while Margery and Eldridge were away was even more disturbing than the state </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>her children would be in after four hours in the filthy chaos of their house trailer and a steady diet of Tang and Pop Tarts, but Liliane knew better than to say anything. Instead, she looked at her watch and excused herself on the pretext of needing to get to the market and relieve the babysitter.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -3303,7 +3409,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“It’s quite depressing, isn’t it?” came a voice from behind. It washed over her in a warm wave of soothing French, and she turned to find George Lawson pushing a similarly meager cart and shaking his shaggy head.</w:t></w:r></w:p>
+<w:t xml:space="preserve">“It’s quite depressing, isn’t it?” came a voice from behind. It washed over her in a warm wave of soothing French, and she turned to find George Lawson pushing a similarly meager cart </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>and shaking his shaggy head.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -3365,7 +3474,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Not even London, she thought as she picked up, then put down, a green pepper. Liliane made one of those vague French sounds of affirmation that’s not really a word and rolled her eyes in agreement. Despite the depressing subject, it was a joy to sink back into her first language and express her thoughts without struggle.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Not even London, she thought as she picked up, then put down, a green pepper. Liliane </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>made one of those vague French sounds of affirmation that’s not really a word and rolled her eyes in agreement. Despite the depressing subject, it was a joy to sink back into her first language and express her thoughts without struggle.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -3417,7 +3529,10 @@
 <w:rStyle w:val="spanitaliccharactersital"/></w:rPr>
 <w:t>Hawaiian Eye</w:t></w:r>
 <w:r>
-<w:t>. She lit a cigarette, took a deep drag and swirled the rocks around in her scotch. The tinkling soothed her. Whenever Mason was out to sea, this was her routine: dinner, bath and bed for the kids followed by TV and a drink for her. Lately she’d been pouring a second one more often than not. It got dark so early that the night seemed to go on forever, or for two drinks anyway.</w:t></w:r></w:p>
+<w:t xml:space="preserve">. She </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>lit a cigarette, took a deep drag and swirled the rocks around in her scotch. The tinkling soothed her. Whenever Mason was out to sea, this was her routine: dinner, bath and bed for the kids followed by TV and a drink for her. Lately she’d been pouring a second one more often than not. It got dark so early that the night seemed to go on forever, or for two drinks anyway.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -3442,7 +3557,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“Please, call me Liliane. My husband, Mason, come from Wellbridge. After we marry in Antibes, we come, no, we CAME here for the children to learn English. Long time ago, Mason buy some land from Caspar over that way, so that’s where we build our house,” she explained. Her English was usually better than this.</w:t></w:r></w:p>
+<w:t xml:space="preserve">“Please, call me Liliane. My husband, Mason, come from Wellbridge. After we marry in </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>Antibes, we come, no, we CAME here for the children to learn English. Long time ago, Mason buy some land from Caspar over that way, so that’s where we build our house,” she explained. Her English was usually better than this.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -3482,7 +3600,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t xml:space="preserve">Liliane could have sat all afternoon chatting in Cap’s yellow kitchen, but excused herself when she realized she was almost late for school pick up. She was still wondering how George Lawson ended up in Wellbridge when her fingers started to burn. With the filter close to igniting, her third cigarette was spent, so she rubbed it into the ashtray, got up, snapped off the TV and headed for the kitchen, crunching the ice from her drink on the way. No more </w:t></w:r>
+<w:t xml:space="preserve">Liliane could have sat all afternoon chatting in Cap’s yellow kitchen, but excused herself when she realized she was almost late for school pick up. She was still wondering how George Lawson ended up in Wellbridge when her fingers started to burn. With the filter close to igniting, </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t xml:space="preserve">her third cigarette was spent, so she rubbed it into the ashtray, got up, snapped off the TV and headed for the kitchen, crunching the ice from her drink on the way. No more </w:t></w:r>
 <w:r>
 <w:rPr>
 <w:rStyle w:val="spanitaliccharactersital"/></w:rPr>
@@ -3521,7 +3642,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Liliane unwrapped each package and inspected the contents, sniffing, fondling and prodding each item in quiet glee. All were very fine, far better than anything that came on Styrofoam trays from the Foodland. It really was an embarrassment of riches, but in the end she chose the perfectly marbled strip steak, stowed the pork loin for the next day and re-wrapped and froze the remaining packages.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Liliane unwrapped each package and inspected the contents, sniffing, fondling and </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>prodding each item in quiet glee. All were very fine, far better than anything that came on Styrofoam trays from the Foodland. It really was an embarrassment of riches, but in the end she chose the perfectly marbled strip steak, stowed the pork loin for the next day and re-wrapped and froze the remaining packages.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -3547,7 +3671,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Drawn by the smell of steak and garlic, Philip and Suzanne wandered into the kitchen and took their places at the table without being called. Liliane had never fed them the jars of miracle baby food from the grocery store; it all smelled like dog food. As a result, her children had developed unusually adult food preferences, and while their friends turned up their noses at the sautéed mushrooms and salad she served, her kids happily tucked in.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Drawn by the smell of steak and garlic, Philip and Suzanne wandered into the kitchen and took their places at the table without being called. Liliane had never fed them the jars of miracle </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>baby food from the grocery store; it all smelled like dog food. As a result, her children had developed unusually adult food preferences, and while their friends turned up their noses at the sautéed mushrooms and salad she served, her kids happily tucked in.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -3642,6 +3769,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>She slipped out of bed and into the bathroom. Other than some telltale redness in the eyes, there was no trace of last night’s excess. For almost thirty, she mused as she brushed her teeth, she looked pretty good. True, her hair was less blond that it had been under the tender ministrations of the Mediterranean sun, and she could see the beginnings of crow’s feet at the corners of her eyes, but her jaw was firm and she could still get away with nothing more than lipstick when she went out during the day. She ran a comb through her hair. With a little spraying and teasing she’d be able to get another day or two out of her weekly wash and set.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -3704,6 +3832,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>After a cup of coffee and a cigarette, the day felt more comfortable, and Liliane began to plan the dinner party. No one would think twice about having Caspar over, and if he brought George, what of it? Perfectly respectable. She told Suzanne she could wear her party dress and lace anklets and informed Philip he would be the host for the evening. He nodded gravely and ran upstairs to find his clip-on tie.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -3752,6 +3881,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>George’s face was as serious as Pip’s, and Liliane smiled at her son’s evident pleasure at being recognized as the man of the house. She indicated the bedroom on the other side of the kitchen, and George carried the cold things in and laid them across the foot of the bed.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -3818,7 +3948,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“My mother made it this way. Her oven was small and it never worked very well. See, you make the incisions and fill them with sliced garlic, then brown it in the olive oil with onions and add thyme and white wine. Then it cooks slowly, for about half an hour. But of course, you must never overcook it. That’s the mistake people make in this country.” Liliane was talking faster than usual, a nervous habit.</w:t></w:r></w:p>
+<w:t xml:space="preserve">“My mother made it this way. Her oven was small and it never worked very well. See, you make the incisions and fill them with sliced garlic, then brown it in the olive oil with onions </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>and add thyme and white wine. Then it cooks slowly, for about half an hour. But of course, you must never overcook it. That’s the mistake people make in this country.” Liliane was talking faster than usual, a nervous habit.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -3856,7 +3989,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Two snifters waited on the kitchen table where she and George sat down to avoid disturbing Caspar. He asked how Mason was related to Cap, apparently confused by the fact that the kids called him uncle. They spoke in low tones, Liliane in French and George slipping back into English when he couldn’t find the right word.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Two snifters waited on the kitchen table where she and George sat down to avoid disturbing Caspar. He asked how Mason was related to Cap, apparently confused by the fact that </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>the kids called him uncle. They spoke in low tones, Liliane in French and George slipping back into English when he couldn’t find the right word.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -3906,6 +4042,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>George sat back in his chair, and in the low light Liliane thought she caught a fleeting glimpse of that hard look again. The Navy may have rounded his edges, but there was flint beneath the exterior. He said, “No need to apologize. I was married. Years ago and not for long. My fault. I didn’t turn out to be much of a husband. Or father. My daughter’s thirteen now. Her mother remarried a long time ago. A teacher. They’re down in Connecticut.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -3976,6 +4113,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>“So, Saint-Rimay. It must have been difficult being in the occupied zone during the war. I found the town on my map, a Nazi command center, right?”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -4037,7 +4175,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>He took a deep breath and stroked his beard, running his index finger along a scar on his cheek. Liliane hadn’t noticed it before. He said, “Long story. My parents were, well I don’t know what they were, but let’s just say there wasn’t much keeping me at home. I wanted to see the world, thought it would be like in books. It was, but it wasn’t. Do you understand?”</w:t></w:r></w:p>
+<w:t xml:space="preserve">He took a deep breath and stroked his beard, running his index finger along a scar on his cheek. Liliane hadn’t noticed it before. He said, “Long story. My parents were, well I don’t know what they were, but let’s just say there wasn’t much keeping me at home. I wanted to see the </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>world, thought it would be like in books. It was, but it wasn’t. Do you understand?”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4080,7 +4221,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-StdNo-Indenttx1"/></w:pPr>
 <w:r>
-<w:t>Dreading her in-laws’ party seemed to make it come around all the faster, and as Liliane finished her face, she entertained idle thoughts of last minute emergencies, convenient fevers and dead car batteries. She could see the snow falling in purposeful diagonals outside the bathroom window, and she thought of Mason in some warm-weather port or the middle of the ocean, close enough to the Equator to be sunbathing on deck. She wondered why she hadn’t heard from him yet. He called almost every Saturday, usually about this time to catch the kids while they were still awake.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Dreading her in-laws’ party seemed to make it come around all the faster, and as Liliane finished her face, she entertained idle thoughts of last minute emergencies, convenient fevers and dead car batteries. She could see the snow falling in purposeful diagonals outside the bathroom window, and she thought of Mason in some warm-weather port or the middle of the ocean, close enough to the Equator to be sunbathing on deck. She wondered why she hadn’t heard from him yet. He called almost every Saturday, usually about this time to catch the kids while they were </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>still awake.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4120,7 +4264,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>In the seconds it had taken Mason to explain, Liliane’s posture had slumped from an expectant letter I to a deflated C. Her forehead was pressed against the refrigerator, her eyes closed. She was doing the math. Ninety more days alone under the grey sky with no husband in the house, and the children in her bed. Philip’s seventh birthday would come and go, the snow would give way to mud, and by Mason’s return, she would have spent another empty white winter alone. He had a choice and he made it.</w:t></w:r></w:p>
+<w:t xml:space="preserve">In the seconds it had taken Mason to explain, Liliane’s posture had slumped from an expectant letter I to a deflated C. Her forehead was pressed against the refrigerator, her eyes closed. She was doing the math. Ninety more days alone under the grey sky with no husband in </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>the house, and the children in her bed. Philip’s seventh birthday would come and go, the snow would give way to mud, and by Mason’s return, she would have spent another empty white winter alone. He had a choice and he made it.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4170,6 +4317,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>“</w:t></w:r>
 <w:r>
 <w:rPr>
@@ -4221,7 +4369,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>She loved Mason, but she had no illusions about him. He was a good husband and father when he was home, but he was gone half of the year, and what man wouldn’t give in to temptation after months at sea? Her husband was above all a physical being, a smooth talker who preferred to avoid deep or difficult subjects, a lover, not a fighter he liked to say. They’d never discussed it, but there were bound to be women. She’d spent enough time in port cities to know that. And not for the first time she wondered whether she was anything more to her husband than a shiny souvenir he’d brought home from abroad.</w:t></w:r></w:p>
+<w:t xml:space="preserve">She loved Mason, but she had no illusions about him. He was a good husband and father when he was home, but he was gone half of the year, and what man wouldn’t give in to </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>temptation after months at sea? Her husband was above all a physical being, a smooth talker who preferred to avoid deep or difficult subjects, a lover, not a fighter he liked to say. They’d never discussed it, but there were bound to be women. She’d spent enough time in port cities to know that. And not for the first time she wondered whether she was anything more to her husband than a shiny souvenir he’d brought home from abroad.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4241,6 +4392,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>“Lil, come say hello to Pop!” she called.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -4296,7 +4448,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>The kitchen was annexed onto the back of the rambling saltwater farmhouse where the Baines family had lived for over a hundred years. The only heat came from a small black woodstove that squatted incongruously next to an enormous white electric range. Besides the refrigerator, it was the sole modern convenience. Cold water had to be pumped into the slate sink, there were no cupboards on the mustard colored walls, and the light glared down from a lone bare bulb on the ceiling. The linoleum covered floor sat directly on top of hard-packed earth, which gave the room a dank, musty smell. Liliane hated it here; this was Edith’s realm.</w:t></w:r></w:p>
+<w:t xml:space="preserve">The kitchen was annexed onto the back of the rambling saltwater farmhouse where the Baines family had lived for over a hundred years. The only heat came from a small black woodstove that squatted incongruously next to an enormous white electric range. Besides the </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>refrigerator, it was the sole modern convenience. Cold water had to be pumped into the slate sink, there were no cupboards on the mustard colored walls, and the light glared down from a lone bare bulb on the ceiling. The linoleum covered floor sat directly on top of hard-packed earth, which gave the room a dank, musty smell. Liliane hated it here; this was Edith’s realm.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4339,7 +4494,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Liliane hefted the dish and followed her mother-in-law as she tottered down the long dark hall, the orange coal of her cigarette glowing in one hand and the watery remains of her cocktail in the other.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Liliane hefted the dish and followed her mother-in-law as she tottered down the long dark hall, the orange coal of her cigarette glowing in one hand and the watery remains of her cocktail </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>in the other.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4394,7 +4552,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Liliane leaned over the crock and inhaled the spicy aroma of duck, beans and pork. Her eyes closed and her mouth watered, and for one blissful moment she was back with her mother, tossing toasted bread crumbs with duck fat for the top of the dish and helping to slide Maman’s heavy crock into the oven. Two people could scarcely move in that little kitchen, but even with the old fashioned fixtures it had produced years of feasts under her mother’s direction. She pictured Maman in one of her flowered dresses and chef’s apron, rubbing the big salad bowl with garlic in preparation for the tomatoes and purple-tinged lettuce on the counter.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Liliane leaned over the crock and inhaled the spicy aroma of duck, beans and pork. Her </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>eyes closed and her mouth watered, and for one blissful moment she was back with her mother, tossing toasted bread crumbs with duck fat for the top of the dish and helping to slide Maman’s heavy crock into the oven. Two people could scarcely move in that little kitchen, but even with the old fashioned fixtures it had produced years of feasts under her mother’s direction. She pictured Maman in one of her flowered dresses and chef’s apron, rubbing the big salad bowl with garlic in preparation for the tomatoes and purple-tinged lettuce on the counter.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4424,7 +4585,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>By the time Caspar waved his corkscrew in the air to motion Liliane over to the bar, conversation had returned to normal, and Edith was halfway to the kitchen with Margery in tow. George took a glass of wine and excused himself to mingle, leaving Liliane to chat with Caspar.</w:t></w:r></w:p>
+<w:t xml:space="preserve">By the time Caspar waved his corkscrew in the air to motion Liliane over to the bar, conversation had returned to normal, and Edith was halfway to the kitchen with Margery in tow. </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>George took a glass of wine and excused himself to mingle, leaving Liliane to chat with Caspar.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4459,6 +4623,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>“I’m gonna get the recipe from that George fella—right after I get just a scrid more,” she said before striding toward the table. With Doris out of his hair, Denton shifted his seat closer to Liliane and leaned in close enough to peer down the front of her dress.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -4526,7 +4691,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t xml:space="preserve">“I couldn’t say, but the whole damned family’s that way,” came the response from Edith. “You know what it’s like when they come to visit, eating oysters </w:t></w:r>
+<w:t xml:space="preserve">“I couldn’t say, but the whole damned family’s that way,” came the response from Edith. </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t xml:space="preserve">“You know what it’s like when they come to visit, eating oysters </w:t></w:r>
 <w:r>
 <w:rPr>
 <w:rStyle w:val="spanitaliccharactersital"/></w:rPr>
@@ -4572,7 +4740,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“I just tried to squeeze by. I didn’t mean nothing by it, nothing at all,” Denton mumbled as he rubbed his shoulder and backed down the hall.</w:t></w:r></w:p>
+<w:t xml:space="preserve">“I just tried to squeeze by. I didn’t mean nothing by it, nothing at all,” Denton mumbled </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>as he rubbed his shoulder and backed down the hall.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4625,7 +4796,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Liliane brushed away a tear and buried her face in her hands as the image of her mother, dragged through the hissing, spitting crowd and into the square to have her head shaved in front of the entire town replayed itself again in her mind. She’d always believed Maman had done nothing wrong. It had only been the kindness of a German motor pool officer, the one with the sad smile, whose wife and young daughter were somewhere in Dresden hiding from the bombs, hopefully still alive, that kept them from going hungry. If Maman accepted food, it had been to keep her child, and her husband’s family, alive. If she’d taken comfort, who could blame her? The only real collaborator among the Bertrands was Uncle Jean, who’d happily worked on German staff cars and trucks in exchange for the occasional beer or loose cigarette.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Liliane brushed away a tear and buried her face in her hands as the image of her mother, </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>dragged through the hissing, spitting crowd and into the square to have her head shaved in front of the entire town replayed itself again in her mind. She’d always believed Maman had done nothing wrong. It had only been the kindness of a German motor pool officer, the one with the sad smile, whose wife and young daughter were somewhere in Dresden hiding from the bombs, hopefully still alive, that kept them from going hungry. If Maman accepted food, it had been to keep her child, and her husband’s family, alive. If she’d taken comfort, who could blame her? The only real collaborator among the Bertrands was Uncle Jean, who’d happily worked on German staff cars and trucks in exchange for the occasional beer or loose cigarette.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4648,7 +4822,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-StdNo-Indenttx1"/></w:pPr>
 <w:r>
-<w:t>As Liliane lifts the box of ammunition from the drawer, something stirs in the yard. At first she thinks it might be a bear, but then she sees it’s a man, bent low, wading through the snow, too tall to be Caspar. George Lawson stops three strides from the back steps looking directly at the kitchen window and cradling a bottle of wine. Can he see her in the dark? She doesn’t know whether she wants him to or not.</w:t></w:r></w:p>
+<w:t xml:space="preserve">As Liliane lifts the box of ammunition from the drawer, something stirs in the yard. At first she thinks it might be a bear, but then she sees it’s a man, bent low, wading through the snow, too tall to be Caspar. George Lawson stops three strides from the back steps looking directly at the kitchen window and cradling a bottle of wine. Can he see her in the dark? She doesn’t know </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>whether she wants him to or not.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4666,6 +4843,7 @@
 <w:r>
 <w:rPr>
 <w:noProof/></w:rPr>
+<w:lastRenderedPageBreak/>
 <w:t>ART 7</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -4677,6 +4855,7 @@
 <w:pPr>
 <w:pStyle w:val="ChapTitlect"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Two Step (Hide Your Eyes or Lie), 1989</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -4721,6 +4900,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Marlene hated it when Cora was cross; it flustered her. She reminded herself to think before she spoke as she watched the tail of the cat clock over the stove swing from side to side. With each tick, its buggy eyes shifted in a knowing leer.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -4752,7 +4932,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“Well, I can’t believe they played that horrid song at a wedding,” Cora interrupted, then went on to attribute the unfortunate preference for filthy music to the groom and his family. The bride was blood.</w:t></w:r></w:p>
+<w:t xml:space="preserve">“Well, I can’t believe they played that horrid song at a wedding,” Cora interrupted, then went on to attribute the unfortunate preference for filthy music to the groom and his family. The </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>bride was blood.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4815,6 +4998,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>Cora had dragged her husband home shortly after the conga started, sick no doubt of witnessing behavior that would not only sully the Baines family name, but also undermine her standing as a deaconess of the First Parish Congregational Church in the town their ancestors helped found. Marlene had always wondered at Cora’s inordinate pride in their family’s roots, since the truth was most of their relatives were still as dirt-poor as the first Baines had been upon arriving on the coast of Maine two centuries before.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -4850,7 +5034,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“I don’t know, you’d have to ask Earlene. Seems to be her specialty these days. That’s why we’re having the Memorial Day cookout at lunchtime instead of later. My hypoglycemia’s acting up, and I can’t take that Moody tribe running amok in my house all night long. Hold on a second.” Cora smacked the phone down. Marlene heard cupboard doors slamming on the other end of the line.</w:t></w:r></w:p>
+<w:t xml:space="preserve">“I don’t know, you’d have to ask Earlene. Seems to be her specialty these days. That’s </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>why we’re having the Memorial Day cookout at lunchtime instead of later. My hypoglycemia’s acting up, and I can’t take that Moody tribe running amok in my house all night long. Hold on a second.” Cora smacked the phone down. Marlene heard cupboard doors slamming on the other end of the line.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4874,7 +5061,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Between her brood of jug-eared toad killers and that little niece of Millhouse’s they’d taken in, Earlene had her hands full, too. No, Cora had been the best choice to see to Mother’s care since she didn’t have any children, except that one poor baby girl that died. Just stopped breathing for no good reason when she was barely two months old. Margery Rose they’d named her, for Mother. Marlene’s throat constricted at the memory of the tiny casket being lowered through the snow into the frigid black ground all those years ago.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Between her brood of jug-eared toad killers and that little niece of Millhouse’s they’d taken in, Earlene had her hands full, too. No, Cora had been the best choice to see to Mother’s </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>care since she didn’t have any children, except that one poor baby girl that died. Just stopped breathing for no good reason when she was barely two months old. Margery Rose they’d named her, for Mother. Marlene’s throat constricted at the memory of the tiny casket being lowered through the snow into the frigid black ground all those years ago.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4921,7 +5111,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“What time do you want me at the house?” Marlene asked, even though she could see the notation on her kitchen calendar. Three minutes left on the oven timer. A breeze blew in the open window and ruffled the kitchen curtains. Outside, the forsythia she and Norm had planted twelve years before waved its warm yellow arms. The first sign of spring. The lilacs had begun to bud but wouldn’t bloom for a couple of weeks yet. Then would come the lupines and the berries, the soft shells and the corn, and before you knew it, the foliage would flame and summer would die. No more long days, no smell of cut grass and rugosa, no tickety-tack of the lawn sprinklers, no more morning heat.</w:t></w:r></w:p>
+<w:t xml:space="preserve">“What time do you want me at the house?” Marlene asked, even though she could see the </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>notation on her kitchen calendar. Three minutes left on the oven timer. A breeze blew in the open window and ruffled the kitchen curtains. Outside, the forsythia she and Norm had planted twelve years before waved its warm yellow arms. The first sign of spring. The lilacs had begun to bud but wouldn’t bloom for a couple of weeks yet. Then would come the lupines and the berries, the soft shells and the corn, and before you knew it, the foliage would flame and summer would die. No more long days, no smell of cut grass and rugosa, no tickety-tack of the lawn sprinklers, no more morning heat.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -4961,6 +5154,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>“I imagine it probably is.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -4991,7 +5185,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“Well you’d best get to it. You always were a last-minute-Lucy, Marlene. Let me scoot. That’s the call waiting, probably Wayne on the other line.”</w:t></w:r></w:p>
+<w:t xml:space="preserve">“Well you’d best get to it. You always were a last-minute-Lucy, Marlene. Let me scoot. </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>That’s the call waiting, probably Wayne on the other line.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -5011,7 +5208,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>“Last-minute-Lucy, my ass,” she muttered as she stuffed the oven mitt back in the drawer and gave it a slam. Then she turned to face the silent phone and said in a louder voice, “And for your information, Coralene, Wayne hates your goddamned pickles. And so do I.”</w:t></w:r></w:p>
+<w:t xml:space="preserve">“Last-minute-Lucy, my ass,” she muttered as she stuffed the oven mitt back in the drawer and gave it a slam. Then she turned to face the silent phone and said in a louder voice, “And for </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>your information, Coralene, Wayne hates your goddamned pickles. And so do I.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -5040,6 +5240,7 @@
 <w:r>
 <w:rPr>
 <w:noProof/></w:rPr>
+<w:lastRenderedPageBreak/>
 <w:t>ART 8</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -5051,6 +5252,7 @@
 <w:pPr>
 <w:pStyle w:val="ChapTitlect"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>PLANTING TIGER, 1992</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -5097,6 +5299,7 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
+<w:lastRenderedPageBreak/>
 <w:t>“Your grandmother’s a pretty tough bird, but this is an awful hard thing.” Victoria supposed it was.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
@@ -5122,7 +5325,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>There was nothing Victoria wanted less than to approach her father’s corpse, but Frenchie had given her a little push out of her seat, and Millhouse nodded, so up she trudged. The casket was wide open surrounded by a shrine to Tiger’s life: a lurid velvet painting of the crucifixion she recognized from Frenchie’s living room, several grinning childhood photos of her father (including one of him holding a bb gun in one hand and a dead rat by the tail in the other at what appeared to be the town dump), and a massive floral arrangement in the form of a pack of Camel unfiltered. Below lay a smirking Tiger Moody propped at exactly the same angle as when she’d last seen him alive.</w:t></w:r></w:p>
+<w:t xml:space="preserve">There was nothing Victoria wanted less than to approach her father’s corpse, but Frenchie had given her a little push out of her seat, and Millhouse nodded, so up she trudged. The casket was wide open surrounded by a shrine to Tiger’s life: a lurid velvet painting of the crucifixion she recognized from Frenchie’s living room, several grinning childhood photos of her father (including one of him holding a bb gun in one hand and a dead rat by the tail in the other at what </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>appeared to be the town dump), and a massive floral arrangement in the form of a pack of Camel unfiltered. Below lay a smirking Tiger Moody propped at exactly the same angle as when she’d last seen him alive.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -5148,7 +5354,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Forcing the disgust from her mind, Victoria called upon the Almighty as well as several saints to request leniency in the matter of Tiger Moody’s salvation, undeserving though he certainly was. She also put in a personal request for the strength to get through the next twenty-four hours, blessed herself and headed back down the aisle. She stopped to offer Frenchie an uncomfortable kiss and receive a hug from Uncle Millhouse, who told her where she might find her Aunt Earlene.</w:t></w:r></w:p>
+<w:t xml:space="preserve">Forcing the disgust from her mind, Victoria called upon the Almighty as well as several saints to request leniency in the matter of Tiger Moody’s salvation, undeserving though he </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>certainly was. She also put in a personal request for the strength to get through the next twenty-four hours, blessed herself and headed back down the aisle. She stopped to offer Frenchie an uncomfortable kiss and receive a hug from Uncle Millhouse, who told her where she might find her Aunt Earlene.</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
@@ -5168,7 +5377,10 @@
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
 <w:r>
-<w:t>Earlene said, “Mill told me you were right out straight with wedding plans and work, but I made up your bed fresh just in case. It’s awful about Tiger, of course, but we’re always glad to have you home.”</w:t></w:r></w:p>
+<w:t xml:space="preserve">Earlene said, “Mill told me you were right out straight with wedding plans and work, but </w:t></w:r>
+<w:r>
+<w:lastRenderedPageBreak/>
+<w:t>I made up your bed fresh just in case. It’s awful about Tiger, of course, but we’re always glad to have you home.”</w:t></w:r></w:p>
 <w:p>
 <w:pPr>
 <w:pStyle w:val="Text-Standardtx"/></w:pPr>
