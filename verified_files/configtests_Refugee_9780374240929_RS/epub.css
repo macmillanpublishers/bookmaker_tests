@@ -1103,6 +1103,13 @@ li[class^="ChecklistSubentry"]:before {
   text-indent: 0;
   }
 
+li[class^=Bullet-Level-1-List-Paragraph],
+li[class^=Num-Level-1-List-Paragraph],
+li[class^=Unnum-Level-1-List-ParagraphUl1p],
+li[class^=Alpha-Level-1-List-ParagraphAl1p] {
+    list-style-type: none;
+  }
+
 /*
 *[class^="RecipeProcedure"],
 *[class^="RecipeProceduresNoIndent"],

@@ -732,15 +732,15 @@ section[data-type=titlepage] *[class*=ImprintImp] {
 section[data-type=titlepage] *[class*=Logo-PlacementLogo] {
   content: " ";
   background-image: url("https://raw.githubusercontent.com/macmillanpublishers/bookmaker_assets/master/pdfmaker/images/torDOTcom/logo.jpg");
-  background-position: center bottom;
-  background-size: 0.58in auto;
+  background-position: center center;
+  background-size: auto 0.5in;
   background-repeat: no-repeat;
   display: block;
   float: bottom;
   width: 100%;
-  height: 0.5in;
+  height: 0.55in;
   text-align: center;
-  margin-bottom: 0.2in;
+  margin-bottom: 0.15in;
 }
 
 section[data-type=titlepage] *[class*=CitiesCit],
@@ -1233,9 +1233,16 @@ p[class*=Extract] {
 }
 
 div.computer {
-  white-space: normal;
   margin: 16pt;
   page-break-inside: auto;
+}
+
+div.computer * {
+  font-family: "SourceCodePro", monospace, "Noto";
+  white-space: normal;
+  line-height: 16pt;
+  text-align: justify;
+  text-align-last: left;
 }
 
 div.computer p:first-child,
@@ -1246,12 +1253,7 @@ p.Design-NoteDn + div.runfoot + div.runheadright + div.runheadleft + p {
 
 div.computer p.Body-TextTx,
 div.computer pre.Body-TextTx {
-  font-family: "SourceCodePro", monospace, "Noto";
   font-size: 8.5pt;
-  white-space: normal;
-  line-height: 16pt;
-  text-align: justify;
-  text-align-last: left;
 }
 
 section[data-type=appendix].abouttheauthor p[class*=Body-Text]:first-of-type {
@@ -1573,12 +1575,18 @@ blockquote.looseextract > *[class*=Main-HeadMHead] + p {
 }
 
 div.verse {
-  font-family: "ArnoPro", serif, "Noto";
   margin: 16pt 52pt 16pt 36pt;
-  white-space: pre-wrap;
   padding: 0;
   page-break-inside: auto;
   line-height: 16pt;
+}
+
+div.verse * {
+  font-family: "ArnoPro", serif, "Noto";
+}
+
+div.verse pre {
+  white-space: pre-wrap;
 }
 
 div.verse p[class*=TitleTtl],
@@ -1588,10 +1596,10 @@ div.verse pre[class*=TitleTtl] {
   text-indent: 0;
 }
 
-div.verse p[class*=Verse1Vrs1],
-div.verse p[class*=Verse1Vrs1]:first-of-type,
-div.verse pre[class*=Verse1Vrs1],
-div.verse pre[class*=Verse1Vrs1]:first-of-type {
+div.verse p[class*=Verse],
+div.verse p[class*=Verse]:first-of-type,
+div.verse pre[class*=Verse],
+div.verse pre[class*=Verse]:first-of-type {
   font-family: "ArnoPro", serif, "Noto";
   font-size: 10.5pt;
   font-style: italic;
@@ -1602,20 +1610,20 @@ div.verse pre[class*=Verse1Vrs1]:first-of-type {
   text-align: left;
   line-height: 16pt;
 }
-div.verse p[class*=Verse1Vrs1] em,
-div.verse p[class*=Verse1Vrs1]:first-of-type em,
-div.verse pre[class*=Verse1Vrs1] em,
-div.verse pre[class*=Verse1Vrs1]:first-of-type em {
+div.verse p[class*=Verse] em,
+div.verse p[class*=Verse]:first-of-type em,
+div.verse pre[class*=Verse] em,
+div.verse pre[class*=Verse]:first-of-type em {
   font-style: normal;
 }
-div.verse p[class*=Verse1Vrs1] span.itali,
-div.verse p[class*=Verse1Vrs1]:first-of-type span.itali,
-div.verse pre[class*=Verse1Vrs1] span.itali,
-div.verse pre[class*=Verse1Vrs1]:first-of-type span.itali {
+div.verse p[class*=Verse] span.itali,
+div.verse p[class*=Verse]:first-of-type span.itali,
+div.verse pre[class*=Verse] span.itali,
+div.verse pre[class*=Verse]:first-of-type span.itali {
   font-style: normal;
 }
 
-/*pre.verse div.runfoot + div.runheadright + div.runheadleft + p[class*="Verse1Vrs1"],
+/*pre.verse div.runfoot + div.runheadright + div.runheadleft + p[class*="Verse"],
 pre.verse div.runfoot + div.runheadright + div.runheadleft + p.SeparatorSep {
   margin-top: $gridheight * -1;
 }*/
@@ -1807,6 +1815,14 @@ h1 + ul, h1 + ol {
 
 li[class^=Alpha-Level-] {
   list-style-type: lower-alpha;
+}
+
+ul li[class^=Unnum-Level-] {
+  list-style-type: none;
+}
+
+li[class*=List-Paragraph] {
+  list-style-type: none;
 }
 
 blockquote[data-type=recipe] ol,
