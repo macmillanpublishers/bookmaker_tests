@@ -1,6 +1,6 @@
 {
   "tmparchive_direct.rb": {
-    "begun": "2020-12-07 11:18:31 -0500",
+    "begun": "2021-01-25 16:16:51 -0500",
     "read_api_metadata_json": true,
     "infile": "S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/EducationInRuin_9781250195951_RS.docx",
     "tmpdir": "S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS",
@@ -13,10 +13,10 @@
     ],
     "moved_input_config_file": "n-a",
     "write_RSserver_info_to_json": true,
-    "completed": "2020-12-07 11:18:31 -0500"
+    "completed": "2021-01-25 16:16:51 -0500"
   },
   "htmlmaker_preprocessing.rb": {
-    "begun": "2020-12-07 11:18:31 -0500",
+    "begun": "2021-01-25 16:16:52 -0500",
     "read_config_json": true,
     "convert_doc_to_docx": true,
     "check_docx_doctemplate_version": true,
@@ -27,10 +27,10 @@
     "read_api-metadata_json": true,
     "from_rsuite": false,
     "write_config_jsonfile": true,
-    "completed": "2020-12-07 11:18:48 -0500"
+    "completed": "2021-01-25 16:17:14 -0500"
   },
   "htmlmaker.rb": {
-    "begun": "2020-12-07 11:18:49 -0500",
+    "begun": "2021-01-25 16:17:15 -0500",
     "read_config_json": true,
     "convertdocx_to_html": true,
     "copy_and_rename_html_to_outputtmphtml": true,
@@ -50,20 +50,20 @@
     "add_doctemplate-version_meta_tag": true,
     "evaluate_pis": true,
     "html_status": "pass: html file was created successfully",
-    "completed": "2020-12-07 11:19:08 -0500"
+    "completed": "2021-01-25 16:17:36 -0500"
   },
   "htmlmaker_postprocessing.rb": {
-    "begun": "2020-12-07 11:19:09 -0500",
+    "begun": "2021-01-25 16:17:37 -0500",
     "read_config_json": true,
     "read_api_metadata_json": true,
     "post-processing_js": true,
     "read_output_html": true,
     "fix_note_callouts": true,
     "overwrite_html": true,
-    "completed": "2020-12-07 11:19:11 -0500"
+    "completed": "2021-01-25 16:17:41 -0500"
   },
   "bookmaker_titlepage.rb": {
-    "begun": "2020-12-07 11:19:15 -0500",
+    "begun": "2021-01-25 16:17:42 -0500",
     "read_config_json": true,
     "testing_value_test": true,
     "running_on_testing_server": "true",
@@ -98,10 +98,10 @@
     "write_titlepage_logfile": true,
     "rm_cover_pdf": true,
     "titlepage_test": "pass: I found a titlepage image",
-    "completed": "2020-12-07 11:19:26 -0500"
+    "completed": "2021-01-25 16:17:53 -0500"
   },
   "metadata_preprocessing.rb": {
-    "begun": "2020-12-07 11:19:28 -0500",
+    "begun": "2021-01-25 16:17:54 -0500",
     "read_config_json": true,
     "find_book_ISBNs": true,
     "final_dir": "S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done",
@@ -141,10 +141,10 @@
     "set_TOC_value_From_html": true,
     "write_config_jsonfile": true,
     "run_node_title_js": true,
-    "completed": "2020-12-07 11:19:31 -0500"
+    "completed": "2021-01-25 16:17:56 -0500"
   },
   "filearchive.rb": {
-    "begun": "2020-12-07 11:19:36 -0500",
+    "begun": "2021-01-25 16:17:57 -0500",
     "make_final_dir": "n-a",
     "make_final_images_dir": "n-a",
     "make_final_cover_dir": true,
@@ -153,19 +153,19 @@
     "copy_html_to_final_layout_dir": true,
     "copy_tmp_config_final_layout_dir": true,
     "print_ISBN": "EducationInRuin_9781250195951_RS",
-    "completed": "2020-12-07 11:19:36 -0500"
+    "completed": "2021-01-25 16:17:57 -0500"
   },
   "filearchive_postprocessing.rb": {
-    "begun": "2020-12-07 11:19:36 -0500",
+    "begun": "2021-01-25 16:17:58 -0500",
     "read_config_json": true,
     "archive_podtitlepage": "no file present",
     "archive_epubtitlepage": "titlepage img is already in archival dir",
     "delete_version_errfile": "n-a",
     "write_errfile_as_needed": "n-a",
-    "completed": "2020-12-07 11:19:36 -0500"
+    "completed": "2021-01-25 16:17:58 -0500"
   },
   "imagechecker.rb": {
-    "begun": "2020-12-07 11:19:36 -0500",
+    "begun": "2021-01-25 16:18:00 -0500",
     "check_submitted_images": true,
     "check_final_images": true,
     "delete_image_errfile": "n-a",
@@ -192,10 +192,10 @@
     "missing_images": [
 
     ],
-    "completed": "2020-12-07 11:19:36 -0500"
+    "completed": "2021-01-25 16:18:00 -0500"
   },
   "imagechecker_postprocessing.rb": {
-    "begun": "2020-12-07 11:19:37 -0500",
+    "begun": "2021-01-25 16:18:01 -0500",
     "read_outputtmp-html": true,
     "get_files_in_tmpImgDir": true,
     "get_files_in_finalImgDir": true,
@@ -214,10 +214,10 @@
     "write_img_err_file": "n-a",
     "replace_img-refs_with_jpg-format_refs": true,
     "overwrite_output_html": true,
-    "completed": "2020-12-07 11:19:37 -0500"
+    "completed": "2021-01-25 16:18:01 -0500"
   },
   "bookmaker_covermaker.rb": {
-    "begun": "2020-12-07 11:19:38 -0500",
+    "begun": "2021-01-25 16:18:02 -0500",
     "read_config_json": true,
     "testing_value_test": true,
     "running_on_testing_server": "true",
@@ -245,23 +245,23 @@
     "covermaker_tests": true,
     "test_title_status": "pass: title is composed of one or more letters or numbers",
     "test_jpg_status": "pass: The cover jpg was successfully created",
-    "completed": "2020-12-07 11:19:45 -0500"
+    "completed": "2021-01-25 16:18:11 -0500"
   },
   "coverchecker.rb": {
-    "begun": "2020-12-07 11:19:46 -0500",
+    "begun": "2021-01-25 16:18:11 -0500",
     "rm_cover_error_file": "n-a",
     "read_jsonlog": true,
     "cover_file_check": true,
     "cover_check_results": "Found a new cover submitted",
-    "completed": "2020-12-07 11:19:51 -0500"
+    "completed": "2021-01-25 16:18:17 -0500"
   },
   "stylesheets_preprocessing.rb": {
-    "begun": "2020-12-07 11:19:56 -0500",
+    "begun": "2021-01-25 16:18:20 -0500",
     "read_config_json": true,
-    "completed": "2020-12-07 11:19:56 -0500"
+    "completed": "2021-01-25 16:18:20 -0500"
   },
   "stylesheets.rb": {
-    "begun": "2020-12-07 11:19:57 -0500",
+    "begun": "2021-01-25 16:18:26 -0500",
     "get_chapterheads": true,
     "chapterhead_count": 59,
     "delete_existing_tmp_pdf_css": true,
@@ -269,7 +269,7 @@
     "evalImports_pdf_css-metadata": "found a CSS import file",
     "evalImports_pdf_css-submitted": "n-a",
     "css_import_paths": [
-      "S:/resources/bookmaker_scripts/bookmaker_assets/rsuite_assets/pdfmaker/css/core_tor.css"
+      "S:/resources/bookmaker_scripts/bookmaker_assets/rsuite_assets/pdfmaker/css/default_core.css"
     ],
     "copy_pdf_css-metadata": true,
     "one_off_css_for_pdf": "----- No one off css found.",
@@ -279,10 +279,10 @@
     "evalImports_epub_css-submitted": "n-a",
     "copy_epub_css-metadata": true,
     "one_off_css_for_epub": "----- No one off css found.",
-    "completed": "2020-12-07 11:19:58 -0500"
+    "completed": "2021-01-25 16:18:26 -0500"
   },
   "stylesheets_postprocessing.rb": {
-    "begun": "2020-12-07 11:19:58 -0500",
+    "begun": "2021-01-25 16:18:31 -0500",
     "read_config_json": true,
     "get_chapters_from_html": true,
     "get_trim_pis": true,
@@ -292,10 +292,10 @@
     "append_pdf_css": true,
     "eval_one-off-css_for_epub": "n-a",
     "copy_override_js_file_to_Done": "n-a",
-    "completed": "2020-12-07 11:19:58 -0500"
+    "completed": "2021-01-25 16:18:31 -0500"
   },
   "pdfmaker_preprocessing.rb": {
-    "begun": "2020-12-07 11:19:59 -0500",
+    "begun": "2021-01-25 16:18:33 -0500",
     "pdftmp_dir": "S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/images/pdftmp",
     "read_config_json": true,
     "mkdir_pdftmp_dir": true,
@@ -312,10 +312,10 @@
     "fix_emdashes_in_html": true,
     "overwrite_pdfhtml_3": true,
     "image_count": 0,
-    "completed": "2020-12-07 11:20:00 -0500"
+    "completed": "2021-01-25 16:18:36 -0500"
   },
   "pdfmaker.rb": {
-    "begun": "2020-12-07 11:20:02 -0500",
+    "begun": "2021-01-25 16:18:37 -0500",
     "testing_value_test": true,
     "running_on_testing_server": "true",
     "pdf_tmp_folder_created": "n-a",
@@ -328,20 +328,20 @@
     "move_pdf_to_done_dir": true,
     "read_css_file_sans_specialchar_escapes": true,
     "overwrite_css_rm-ing_escapechars": true,
-    "completed": "2020-12-07 11:20:24 -0500"
+    "completed": "2021-01-25 16:19:02 -0500"
   },
   "torDOTcom_pitstop_input.rb": {
-    "begun": "2020-12-07 11:20:24 -0500",
+    "begun": "2021-01-25 16:19:03 -0500",
     "read_config_json": true,
     "check_if_on_staging": true,
     "staging_value": "_staging",
     "set_pitstop_dir": true,
     "pitstop_filename": "P:/SMP_POD_staging/input/bookmaker_tests-EducationInRuin_9781250195951_RS.pdf",
     "move_file_to_pitstop_dir": true,
-    "completed": "2020-12-07 11:20:25 -0500"
+    "completed": "2021-01-25 16:19:05 -0500"
   },
   "epubmaker_preprocessing.rb": {
-    "begun": "2020-12-07 11:20:26 -0500",
+    "begun": "2021-01-25 16:19:06 -0500",
     "read_config_json": true,
     "make_epub_img_dir": true,
     "get_copyright_page": true,
@@ -376,10 +376,10 @@
     "set_newsletter_auth_links_single": true,
     "update_eisbn_&_imprint_placeholders": true,
     "add_html_line_breaks": true,
-    "completed": "2020-12-07 11:20:51 -0500"
+    "completed": "2021-01-25 16:19:43 -0500"
   },
   "epubmaker.rb": {
-    "begun": "2020-12-07 11:20:51 -0500",
+    "begun": "2021-01-25 16:19:44 -0500",
     "read_config_json": true,
     "delete_old_OEBPS": "n-a",
     "delete_old_METAINF": "n-a",
@@ -412,10 +412,10 @@
     "rm_tmp_epub_file": true,
     "ebook_ISBN": "EducationInRuin_9781250195951_RS",
     "test_epub_status": "pass: the EPUB was created successfully",
-    "completed": "2020-12-07 11:21:41 -0500"
+    "completed": "2021-01-25 16:20:53 -0500"
   },
   "epubmaker_postprocessing.rb": {
-    "begun": "2020-12-07 11:21:43 -0500",
+    "begun": "2021-01-25 16:21:04 -0500",
     "delete_epubcheck_errfile": "n-a",
     "read_config_json": true,
     "read_styleconfig_json": true,
@@ -457,10 +457,10 @@
     "epubcheck_output": "Validating using EPUB version 3.0.1 rules.\nINFO(CSS-007): S:/bookmaker_tmp/bookmaker_tests/EducationInRuin_9781250195951_RS/done/EducationInRuin_9781250195951_RS_EPUB.epub/OEBPS/epub.css(30,3): Font-face reference OEBPS/NotoSansSymbols-Regular.ttf refers to non-standard font type font/truetype.\nNo errors or warnings detected.\nepubcheck completed\n",
     "write_errfile_as_needed": "n-a",
     "send_alert_mail": "n-a",
-    "completed": "2020-12-07 11:23:42 -0500"
+    "completed": "2021-01-25 16:23:49 -0500"
   },
   "torDOTcom_pitstop_output.rb": {
-    "begun": "2020-12-07 11:23:42 -0500",
+    "begun": "2021-01-25 16:23:49 -0500",
     "read_config_json": true,
     "check_if_on_staging": true,
     "staging_value": "_staging",
@@ -469,12 +469,12 @@
     "copy_processed_file_back_to_done_dir": "copied processed file (<= 30 seconds wait )",
     "rm_file_from_pitstop_folder": true,
     "test_for_pitstop_err_file": "----- pitstop finished successfully",
-    "completed": "2020-12-07 11:24:13 -0500"
+    "completed": "2021-01-25 16:24:19 -0500"
   },
   "cleanup_preprocessing.rb": {
-    "begun": "2020-12-07 11:24:13 -0500",
+    "begun": "2021-01-25 16:24:20 -0500",
     "read_config_json": true,
     "mv_rsuite_docx_to_done": "n-a",
-    "completed": "2020-12-07 11:24:13 -0500"
+    "completed": "2021-01-25 16:24:20 -0500"
   }
 }

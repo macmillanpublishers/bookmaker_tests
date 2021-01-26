@@ -767,10 +767,10 @@ section[data-type=copyright-page] p:first-child {
 
 section[data-type=copyright-page] p {
   font-family: "ArnoPro-SmText", serif, "Noto";
-  font-size: 10pt;
+  font-size: 9pt;
   text-align: center;
   text-indent: 0;
-  line-height: 14pt;
+  line-height: 12.6pt;
 }
 
 /* This style no longer exists in RSuite styles. Leaving in, just in case. */
@@ -1227,12 +1227,12 @@ div[data-type=part] > p[class*=SubtitleSttl] {
 /* end note */
 *[class*=Computer-TextComp] {
   font-family: "SourceCodePro", monospace, "Noto";
-  font-size: 8.5pt;
+  font-size: 8.52pt;
 }
 
 *[class*=Text-MessageTmg] {
   font-family: "SourceCodePro", sans-serif, "Noto";
-  font-size: 9.5pt;
+  font-size: 9.52pt;
 }
 
 p[class*=Extract] {
@@ -1260,7 +1260,7 @@ div.computer > p[class*=A-HeadAhead],
 div.computer > pre[class*=A-HeadAhead] {
   page-break-after: avoid;
   page-break-inside: avoid;
-  font-size: 10.2pt;
+  font-size: 10.224pt;
   font-weight: bold;
   font-style: normal;
   text-align: center;
@@ -1283,7 +1283,7 @@ p.Design-NoteDn + div.runfoot + div.runheadright + div.runheadleft + p {
 div.computer p,
 div.computer li,
 div.computer pre {
-  font-size: 8.5pt;
+  font-size: 8.52pt;
 }
 
 section[data-type=appendix].abouttheauthor p[class*=Body-Text]:first-of-type {
@@ -1415,7 +1415,7 @@ section[data-type=preface] p[class^=Epigraph-Non-Verse],
 section[data-type=preface].epigraph p[class^=Body-TextTx] {
   font-family: "ArnoPro-SmText", serif, "Noto";
   font-style: normal;
-  font-size: 10pt;
+  font-size: 10.5pt;
   text-align: left;
   margin-left: 52pt;
   margin-right: 36pt;
@@ -1435,7 +1435,7 @@ section[data-type=preface] p[class^=Epigraph-Source],
 *[class^=SourceSrc] {
   font-family: "ArnoPro-SmText", serif, "Noto";
   font-weight: 600;
-  font-size: 10pt;
+  font-size: 10.5pt;
   font-style: normal;
   text-align: right;
   margin-left: 36pt;
@@ -1483,7 +1483,7 @@ section[data-type=preface] > blockquote[data-type=epigraph] p,
 section[data-type=foreword] > blockquote[data-type=epigraph] p,
 section[data-type=introduction] > blockquote[data-type=epigraph] p {
   font-family: "ArnoPro-SmText", "Noto";
-  font-size: 10pt;
+  font-size: 10.5pt;
   line-height: 16pt;
   /* text-align: left;  <-- messing with FM epigraph source alignment*/
 }
@@ -2372,12 +2372,12 @@ span[class^=smallcaps] {
 
 *[class*=cs-computerccom] {
   font-family: "SourceCodePro", monospace, "Noto";
-  font-size: 8.5pt;
+  font-size: 8.52pt;
 }
 
 *[class*=cs-text-messagectm] {
   font-family: "SourceCodePro", sans-serif, "Noto";
-  font-size: 9.5pt;
+  font-size: 9.52pt;
 }
 
 *[class*=cs-design-notecdn],
@@ -2466,6 +2466,11 @@ td p ~ p {
     vertical-align: bottom;
   }
 }
+section[data-type=preface],
+section[data-type=foreword] {
+  page: front;
+}
+
 figure.fullpage {
   margin-top: 0.55in;
   margin-inside: -1in;
@@ -2474,6 +2479,31 @@ figure.fullpage {
 
 img[src*=fullpage] {
   margin-top: -1.65in;
+}
+
+section[data-type=copyright-page] p {
+  line-height: 13pt;
+}
+
+section[data-type=dedication] p:first-of-type,
+section[data-type=dedication] h1[class*=Nonprinting] + p[class*=Body-Text],
+section[data-type=dedication] h1[class*=ChapTitleNonprintingctnp] + * {
+  margin-top: 64pt;
+}
+
+p[class*=Dateline] {
+  font-weight: normal;
+  font-style: normal;
+  font-variant: small-caps;
+  font-variant: prince-opentype(smcp, onum);
+  text-align: center;
+  text-align-last: center;
+}
+p[class*=Dateline] em {
+  font-style: italic;
+}
+p[class*=Dateline] span.itali {
+  font-style: italic;
 }
 
 /*# sourceMappingURL=pdf.css.map */
