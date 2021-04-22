@@ -1639,6 +1639,26 @@ blockquote.looseextract > *[class*=Main-HeadMHead] + p {
   font-style: italic;
 }
 
+/* need clarification */
+p[class*=ExtractSource] {
+  text-align: right;
+  font-weight: 600;
+  widows: 2;
+  orphans: 2;
+}
+
+p[class*=Extract-Noteextn] {
+  text-indent: none;
+  text-align: center;
+  hyphens: none;
+}
+
+p[class*=ExtractSource] em,
+p[class*=ExtractSource] span.itali {
+  break-inside: avoid;
+}
+
+/* ---------------- VERSE */
 div.verse {
   margin: 15pt 52pt 15pt 36pt;
   padding: 0;
@@ -1654,17 +1674,27 @@ div.verse pre {
   white-space: pre-wrap;
 }
 
-div.verse p[class*=TitleTtl],
-div.verse pre[class*=TitleTtl] {
+div.verse pre[class*=Verse-Head],
+div.verse p[class*=Verse-Head] {
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  font-size: 11.2pt;
+  margin-top: 15pt;
+  margin-bottom: 15pt;
+  text-align: center;
   font-family: "ArnoPro", serif, "Noto";
   margin-left: -12pt;
   text-indent: 0;
 }
 
-div.verse p[class*=Verse],
-div.verse p[class*=Verse]:first-of-type,
-div.verse pre[class*=Verse],
-div.verse pre[class*=Verse]:first-of-type {
+div.verse p[class*=Verse1],
+div.verse p[class*=Verse1]:first-of-type,
+div.verse pre[class*=Verse1],
+div.verse pre[class*=Verse1]:first-of-type,
+div.verse p[class*=Verse2],
+div.verse p[class*=Verse2]:first-of-type,
+div.verse pre[class*=Verse2],
+div.verse pre[class*=Verse2]:first-of-type {
   font-family: "ArnoPro", serif, "Noto";
   font-size: 10pt;
   font-style: italic;
@@ -1675,16 +1705,24 @@ div.verse pre[class*=Verse]:first-of-type {
   text-align: left;
   line-height: 15pt;
 }
-div.verse p[class*=Verse] em,
-div.verse p[class*=Verse]:first-of-type em,
-div.verse pre[class*=Verse] em,
-div.verse pre[class*=Verse]:first-of-type em {
+div.verse p[class*=Verse1] em,
+div.verse p[class*=Verse1]:first-of-type em,
+div.verse pre[class*=Verse1] em,
+div.verse pre[class*=Verse1]:first-of-type em,
+div.verse p[class*=Verse2] em,
+div.verse p[class*=Verse2]:first-of-type em,
+div.verse pre[class*=Verse2] em,
+div.verse pre[class*=Verse2]:first-of-type em {
   font-style: normal;
 }
-div.verse p[class*=Verse] span.itali,
-div.verse p[class*=Verse]:first-of-type span.itali,
-div.verse pre[class*=Verse] span.itali,
-div.verse pre[class*=Verse]:first-of-type span.itali {
+div.verse p[class*=Verse1] span.itali,
+div.verse p[class*=Verse1]:first-of-type span.itali,
+div.verse pre[class*=Verse1] span.itali,
+div.verse pre[class*=Verse1]:first-of-type span.itali,
+div.verse p[class*=Verse2] span.itali,
+div.verse p[class*=Verse2]:first-of-type span.itali,
+div.verse pre[class*=Verse2] span.itali,
+div.verse pre[class*=Verse2]:first-of-type span.itali {
   font-style: normal;
 }
 
@@ -1716,10 +1754,42 @@ div.verse pre[class*=-indent3Vrs] {
   text-indent: 0;
 }
 
+div.verse pre[class*=-indent4Vrs]:first-of-type,
+div.verse pre[class*=-indent4Vrs] {
+  margin-left: 36pt;
+  text-indent: 0;
+}
+
+div.verse pre[class*=-indent5Vrs]:first-of-type,
+div.verse pre[class*=-indent5Vrs] {
+  margin-left: 48pt;
+  text-indent: 0;
+}
+
+div.verse pre[class*=Verse-Source],
+div.verse p[class*=Verse-Source] {
+  font-family: "ArnoPro-SmText", serif, "Noto";
+  font-weight: 600;
+  font-size: 10pt;
+  font-style: normal;
+  text-align: right;
+  margin-left: 67.2pt;
+  margin-right: 0;
+}
+div.verse pre[class*=Verse-Source] em, div.verse pre[class*=Verse-Source] span.itali,
+div.verse p[class*=Verse-Source] em,
+div.verse p[class*=Verse-Source] span.itali {
+  break-inside: avoid;
+}
+
 *[class*=SourceSrc] + pre,
 *[class*=SourceSrc] + p,
+div.verse pre[class*=Verse-Source] + pre,
+div.verse pre[class*=Verse-Source] + p,
 *[class*=SourceSrc] + div.runfoot + div.runheadright + div.runheadleft + pre,
-*[class*=SourceSrc] + div.runfoot + div.runheadright + div.runheadleft + p {
+*[class*=SourceSrc] + div.runfoot + div.runheadright + div.runheadleft + p,
+div.verse pre[class*=Verse-Source] + div.runfoot + div.runheadright + div.runheadleft + pre,
+div.verse pre[class*=Verse-Source] + div.runfoot + div.runheadright + div.runheadleft + p {
   margin-top: 15pt;
 }
 
@@ -1727,21 +1797,8 @@ div.verse pre[class*=-indent3Vrs] {
 pre.verse div.runfoot + div.runheadright + div.runheadleft + p.SeparatorSep {
   margin-top: $gridheight * -1;
 }*/
-/* need clarification */
-p[class*=ExtractSource] {
-  text-align: right;
-  font-weight: 600;
-  widows: 2;
-  orphans: 2;
-}
-
-p[class*=Extract-Noteextn] {
-  text-indent: none;
-  text-align: center;
-  hyphens: none;
-}
-
 /* end note */
+/* ---------------- LETTER */
 span.spanaltfont1span1 {
   font-family: FeltpenCom-Medium;
   font-size: 12.75pt;
@@ -1796,11 +1853,6 @@ blockquote[data-type=letter] p[class*=ClosingClos] {
 blockquote[data-type=letter] p[class*=SignatureSig] {
   text-indent: 0;
   margin-bottom: 15pt;
-}
-
-p[class*=ExtractSource] em,
-p[class*=ExtractSource] span.itali {
-  break-inside: avoid;
 }
 
 p[class*=Dateline] {
@@ -2027,13 +2079,15 @@ img {
   prince-image-magic: ignore-icc-profile;
 }
 
-section[data-type=appendix].abouttheauthor h1 + figure, .abouttheauthor h1 + figure {
+section[data-type=appendix].abouttheauthor h1 + figure,
+.abouttheauthor h1 + figure {
   margin-top: -30pt;
   margin-bottom: 27pt;
   max-height: 2in;
 }
 
-section[data-type=appendix].abouttheauthor h1 + figure img, .abouttheauthor figure img {
+section[data-type=appendix].abouttheauthor h1 + figure img,
+.abouttheauthor figure img {
   max-height: 2in;
 }
 
@@ -2244,17 +2298,24 @@ section[data-type=preface].epigraph > header + div {
 .Speaker2Sp2,
 .Stage-DirectionsStdir,
 .Dialogue1Dia1,
-.Dialogue2Dia2 {
+.Dialogue2Dia2,
+.QuestionQues,
+.AnswerAns {
   margin-left: 15pt;
   margin-right: 15pt;
   text-indent: 0;
 }
 
 .Speaker1Sp1,
-.Speaker2Sp2 {
+.Speaker2Sp2,
+.QuestionQues {
   font-weight: 600;
-  text-transform: uppercase;
   margin-top: 15pt;
+}
+
+.Speaker1Sp1,
+.Speaker2Sp2 {
+  text-transform: uppercase;
 }
 
 .Stage-DirectionsStdir {
@@ -2268,10 +2329,12 @@ section[data-type=preface].epigraph > header + div {
 .Speaker2Sp2 + .Dialogue2Dia2,
 .Speaker2Sp2 + .Dialogue1Dia1,
 .Speaker1Sp1 + .Dialogue2Dia2,
+.QuestionQues + .AnswerAns,
 .Speaker1Sp1 + div.runfoot + div.runheadright + div.runheadleft + .Dialogue1Dia1,
 .Speaker2Sp2 + div.runfoot + div.runheadright + div.runheadleft + .Dialogue2Dia2,
 .Speaker2Sp2 + div.runfoot + div.runheadright + div.runheadleft + .Dialogue1Dia1,
-.Speaker1Sp1 + div.runfoot + div.runheadright + div.runheadleft + .Dialogue2Dia2 {
+.Speaker1Sp1 + div.runfoot + div.runheadright + div.runheadleft + .Dialogue2Dia2,
+.QuestionQues + div.runfoot + div.runheadright + div.runheadleft + .AnswerAns {
   margin-top: 0;
 }
 
@@ -2282,8 +2345,10 @@ section[data-type=preface].epigraph > header + div {
 
 .Dialogue1Dia1 + *,
 .Dialogue2Dia2 + *,
+.AnswerAns + *,
 .Dialogue1Dia1 + div.runfoot + div.runheadright + div.runheadleft + *,
-.Dialogue2Dia2 + div.runfoot + div.runheadright + div.runheadleft + * {
+.Dialogue2Dia2 + div.runfoot + div.runheadright + div.runheadleft + *,
+.AnswerAns + div.runfoot + div.runheadright + div.runheadleft + * {
   margin-top: 15pt;
 }
 
@@ -2291,10 +2356,12 @@ section[data-type=preface].epigraph > header + div {
 .Dialogue2Dia2 + .Speaker2Sp2,
 .Dialogue1Dia1 + .Speaker2Sp2,
 .Dialogue2Dia2 + .Speaker1Sp1,
+.AnswerAns + .QuestionQues,
 .Dialogue1Dia1 + div.runfoot + div.runheadright + div.runheadleft + .Speaker1Sp1,
 .Dialogue2Dia2 + div.runfoot + div.runheadright + div.runheadleft + .Speaker2Sp2,
 .Dialogue1Dia1 + div.runfoot + div.runheadright + div.runheadleft + .Speaker2Sp2,
-.Dialogue2Dia2 + div.runfoot + div.runheadright + div.runheadleft + .Speaker1Sp1 {
+.Dialogue2Dia2 + div.runfoot + div.runheadright + div.runheadleft + .Speaker1Sp1,
+.AnswerAns + div.runfoot + div.runheadright + div.runheadleft + .QuestionQues {
   margin-top: 7.5pt;
 }
 
