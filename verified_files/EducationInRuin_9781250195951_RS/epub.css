@@ -372,7 +372,8 @@ aside p.Main-HeadMHead,
 aside .A-HeadAhead,
 div.verse .TitleTtl,
 blockquote p.TitleTtl,
-blockquote p.Main-HeadMHead {
+blockquote p.Main-HeadMHead,
+div.verse .Verse-HeadVhead {
   text-indent: 0;
   font-style: italic;
   margin: 1em 0 0 0;
@@ -383,7 +384,8 @@ aside p.Main-HeadMHead,
 aside .A-HeadAhead,
 div.verse .TitleTtl,
 blockquote p.TitleTtl,
-blockquote p.Main-HeadMHead {
+blockquote p.Main-HeadMHead,
+div.verse .Verse-HeadVhead {
   font-size: 1em;
   background: #ccc;
   }
@@ -542,7 +544,8 @@ p.Epigraph-Non-VerseEpi {
   }
 
 p.Epigraph-SourceEpisrc,
-.SourceSrc {
+.SourceSrc,
+div.verse pre.Verse-SourceVsrc {
   text-align: right;
   text-indent: 0;
   font-style: normal;
@@ -550,6 +553,10 @@ p.Epigraph-SourceEpisrc,
   text-transform: uppercase;
   letter-spacing: .1em;
   margin-bottom: 1em;
+  }
+
+div.verse pre.Verse-SourceVsrc {
+  margin-top: 1em;
   }
 
 /*
@@ -707,6 +714,21 @@ span.cs-computerccom {
 .Body-Text2-ContinuedTx2c + .Body-Text2Tx2,
 .Body-Text2-ContinuedTx2c + .Body-Text2-ContinuedTx2c {
   margin-top: 0;
+  }
+
+.QuestionQues,
+.AnswerAns {
+  text-indent: 0;
+  margin-left: 1em;
+  }
+
+.QuestionQues {
+  margin-top: 1em;
+  font-weight: bold;
+  }
+
+.AnswerAns {
+  margin-bottom: 1em;
   }
 
 /*
@@ -954,6 +976,27 @@ div.verse .Dedicationded {
   margin: 1em 0;
   }
 
+  /* verse indents */
+  div.verse pre[class*=-indent1Vrs] {
+    text-indent: 0;
+    margin-left: 1.5em;
+  }
+  div.verse pre[class*=-indent2Vrs] {
+    text-indent: 0;
+    margin-left: 3em;
+  }
+  div.verse pre[class*=-indent3Vrs] {
+    margin-left: 4.5em;
+    text-indent: 0;
+  }
+  div.verse pre[class*=-indent4Vrs] {
+    margin-left: 6em;
+    text-indent: 0;
+  }
+  div.verse pre[class*=-indent5Vrs] {
+    margin-left: 7.5em;
+    text-indent: 0;
+  }
 /*
 --------------------------------------------------
 LISTS
@@ -1229,7 +1272,8 @@ div.verse .SubtitleSttl,
 blockquote .SubtitleSttl,
 aside .SubtitleSttl,
 table .SubtitleSttl,
-figure .SubtitleSttl {
+figure .SubtitleSttl,
+div.verse .Verse-HeadVhead {
   text-align: center;
   padding: .5em 0;
   }
@@ -1238,7 +1282,8 @@ aside .Main-HeadMHead,
 aside .A-HeadAhead,
 div.verse .TitleTtl,
 blockquote .TitleTtl,
-blockquote .Main-HeadMHead {
+blockquote .Main-HeadMHead,
+div.verse .Verse-HeadVhead {
   margin-top: 1em;
   margin-bottom: 1em;
   }
