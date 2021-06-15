@@ -1598,15 +1598,19 @@ div[data-type=note] > p[class*=B-HeadBhead] {
 blockquote[class*=EXTRACT-] > *[class*=TitleTtl],
 blockquote[class*=EXTRACT-] > *[class*=Main-HeadMHead],
 blockquote.looseextract > *[class*=TitleTtl],
-blockquote.looseextract > *[class*=Main-HeadMHead] {
+blockquote.looseextract > *[class*=Main-HeadMHead],
+.Extract-HeadExthead {
   page-break-after: avoid;
   page-break-inside: avoid;
+  hyphens: none;
+  overflow-wrap: break-word;
 }
 
 blockquote[class*=EXTRACT-] > *[class*=TitleTtl],
 blockquote[class*=EXTRACT-] > *[class*=Main-HeadMHead],
 blockquote.looseextract > *[class*=TitleTtl],
 blockquote.looseextract > *[class*=Main-HeadMHead],
+.Extract-HeadExthead,
 *[class*=HeadlineHdline] {
   font-size: 11.2pt;
   line-height: 15pt;
@@ -1620,7 +1624,8 @@ blockquote.looseextract > *[class*=Main-HeadMHead],
 blockquote[class*=EXTRACT-] > *[class*=TitleTtl] + p,
 blockquote[class*=EXTRACT-] > *[class*=Main-HeadMHead] + p,
 blockquote.looseextract > *[class*=TitleTtl] + p,
-blockquote.looseextract > *[class*=Main-HeadMHead] + p {
+blockquote.looseextract > *[class*=Main-HeadMHead] + p,
+.Extract-HeadExthead + p {
   text-indent: 0;
 }
 
@@ -1764,6 +1769,11 @@ div.verse pre[class*=-indent5Vrs]:first-of-type,
 div.verse pre[class*=-indent5Vrs] {
   margin-left: 48pt;
   text-indent: 0;
+}
+
+div.verse pre.Verse1-DroplineV1drop,
+div.verse pre.Verse2-DroplineV2drop {
+  text-indent: 48pt;
 }
 
 div.verse pre[class*=Verse-Source],
@@ -2256,6 +2266,17 @@ span[data-type=footnote] > span:first-of-type {
   font-family: "ArnoPro", "Noto";
   font-weight: 600;
   display: inline-block;
+  font-size: 6pt;
+  top: -0.6em;
+  vertical-align: top;
+  position: relative;
+}
+
+span.endnotereference {
+  font-size: 6pt;
+  top: -0.6em;
+  vertical-align: top;
+  position: relative;
 }
 
 /* chapter starts */

@@ -1,6 +1,6 @@
 {
   "tmparchive_direct.rb": {
-    "begun": "2021-05-03 17:22:17 -0400",
+    "begun": "2021-06-15 14:11:07 -0400",
     "read_api_metadata_json": true,
     "infile": "S:/bookmaker_tmp/bookmaker_tests/tocomp_Sanderson_leadedition/tocomp_Sanderson_leadedition.docx",
     "tmpdir": "S:/bookmaker_tmp/bookmaker_tests/tocomp_Sanderson_leadedition",
@@ -13,10 +13,10 @@
     ],
     "moved_input_config_file": "n-a",
     "write_RSserver_info_to_json": true,
-    "completed": "2021-05-03 17:22:17 -0400"
+    "completed": "2021-06-15 14:11:07 -0400"
   },
   "htmlmaker_preprocessing.rb": {
-    "begun": "2021-05-03 17:22:18 -0400",
+    "begun": "2021-06-15 14:11:07 -0400",
     "read_config_json": true,
     "convert_doc_to_docx": true,
     "check_docx_doctemplate_version": true,
@@ -27,10 +27,10 @@
     "read_api-metadata_json": true,
     "from_rsuite": false,
     "write_config_jsonfile": true,
-    "completed": "2021-05-03 17:23:24 -0400"
+    "completed": "2021-06-15 14:12:20 -0400"
   },
   "htmlmaker.rb": {
-    "begun": "2021-05-03 17:23:24 -0400",
+    "begun": "2021-06-15 14:12:20 -0400",
     "read_config_json": true,
     "convertdocx_to_html": true,
     "copy_and_rename_html_to_outputtmphtml": true,
@@ -50,20 +50,20 @@
     "add_doctemplate-version_meta_tag": true,
     "evaluate_pis": true,
     "html_status": "pass: html file was created successfully",
-    "completed": "2021-05-03 17:23:45 -0400"
+    "completed": "2021-06-15 14:12:40 -0400"
   },
   "htmlmaker_postprocessing.rb": {
-    "begun": "2021-05-03 17:23:46 -0400",
+    "begun": "2021-06-15 14:12:42 -0400",
     "read_config_json": true,
     "read_api_metadata_json": true,
     "post-processing_js": true,
     "read_output_html": true,
     "fix_note_callouts": true,
     "overwrite_html": true,
-    "completed": "2021-05-03 17:23:52 -0400"
+    "completed": "2021-06-15 14:12:51 -0400"
   },
   "bookmaker_titlepage.rb": {
-    "begun": "2021-05-03 17:23:54 -0400",
+    "begun": "2021-06-15 14:12:54 -0400",
     "read_config_json": true,
     "testing_value_test": true,
     "running_on_testing_server": "true",
@@ -98,10 +98,10 @@
     "write_titlepage_logfile": true,
     "rm_cover_pdf": true,
     "titlepage_test": "pass: I found a titlepage image",
-    "completed": "2021-05-03 17:24:24 -0400"
+    "completed": "2021-06-15 14:13:23 -0400"
   },
   "metadata_preprocessing.rb": {
-    "begun": "2021-05-03 17:24:26 -0400",
+    "begun": "2021-06-15 14:13:27 -0400",
     "read_config_json": true,
     "find_book_ISBNs": true,
     "final_dir": "S:/bookmaker_tmp/bookmaker_tests/tocomp_Sanderson_leadedition/done",
@@ -140,10 +140,10 @@
     "set_TOC_value_From_html": true,
     "write_config_jsonfile": true,
     "run_node_title_js": true,
-    "completed": "2021-05-03 17:24:43 -0400"
+    "completed": "2021-06-15 14:13:48 -0400"
   },
   "filearchive.rb": {
-    "begun": "2021-05-03 17:24:44 -0400",
+    "begun": "2021-06-15 14:14:00 -0400",
     "make_final_dir": "n-a",
     "make_final_images_dir": "n-a",
     "make_final_cover_dir": true,
@@ -152,19 +152,19 @@
     "copy_html_to_final_layout_dir": true,
     "copy_tmp_config_final_layout_dir": true,
     "print_ISBN": "9780765326386",
-    "completed": "2021-05-03 17:24:44 -0400"
+    "completed": "2021-06-15 14:14:00 -0400"
   },
   "filearchive_postprocessing.rb": {
-    "begun": "2021-05-03 17:24:45 -0400",
+    "begun": "2021-06-15 14:14:02 -0400",
     "read_config_json": true,
     "archive_podtitlepage": "no file present",
     "archive_epubtitlepage": "titlepage img is already in archival dir",
     "delete_version_errfile": "n-a",
     "write_errfile_as_needed": "n-a",
-    "completed": "2021-05-03 17:24:45 -0400"
+    "completed": "2021-06-15 14:14:02 -0400"
   },
   "imagechecker.rb": {
-    "begun": "2021-05-03 17:24:47 -0400",
+    "begun": "2021-06-15 14:14:05 -0400",
     "check_submitted_images": true,
     "check_final_images": true,
     "delete_image_errfile": "n-a",
@@ -191,10 +191,10 @@
     "missing_images": [
 
     ],
-    "completed": "2021-05-03 17:24:47 -0400"
+    "completed": "2021-06-15 14:14:05 -0400"
   },
   "imagechecker_postprocessing.rb": {
-    "begun": "2021-05-03 17:24:49 -0400",
+    "begun": "2021-06-15 14:14:05 -0400",
     "read_outputtmp-html": true,
     "get_files_in_tmpImgDir": true,
     "get_files_in_finalImgDir": true,
@@ -213,10 +213,10 @@
     "write_img_err_file": "n-a",
     "replace_img-refs_with_jpg-format_refs": true,
     "overwrite_output_html": true,
-    "completed": "2021-05-03 17:24:49 -0400"
+    "completed": "2021-06-15 14:14:06 -0400"
   },
   "bookmaker_covermaker.rb": {
-    "begun": "2021-05-03 17:24:51 -0400",
+    "begun": "2021-06-15 14:14:07 -0400",
     "read_config_json": true,
     "testing_value_test": true,
     "running_on_testing_server": "true",
@@ -244,23 +244,23 @@
     "covermaker_tests": true,
     "test_title_status": "pass: title is composed of one or more letters or numbers",
     "test_jpg_status": "pass: The cover jpg was successfully created",
-    "completed": "2021-05-03 17:25:04 -0400"
+    "completed": "2021-06-15 14:14:18 -0400"
   },
   "coverchecker.rb": {
-    "begun": "2021-05-03 17:25:06 -0400",
+    "begun": "2021-06-15 14:14:23 -0400",
     "rm_cover_error_file": "n-a",
     "read_jsonlog": true,
     "cover_file_check": true,
     "cover_check_results": "Found a new cover submitted",
-    "completed": "2021-05-03 17:25:11 -0400"
+    "completed": "2021-06-15 14:14:28 -0400"
   },
   "stylesheets_preprocessing.rb": {
-    "begun": "2021-05-03 17:25:13 -0400",
+    "begun": "2021-06-15 14:14:31 -0400",
     "read_config_json": true,
-    "completed": "2021-05-03 17:25:13 -0400"
+    "completed": "2021-06-15 14:14:31 -0400"
   },
   "stylesheets.rb": {
-    "begun": "2021-05-03 17:25:14 -0400",
+    "begun": "2021-06-15 14:14:33 -0400",
     "get_chapterheads": true,
     "chapterhead_count": 23,
     "delete_existing_tmp_pdf_css": true,
@@ -278,10 +278,10 @@
     "evalImports_epub_css-submitted": "n-a",
     "copy_epub_css-metadata": true,
     "one_off_css_for_epub": "----- No one off css found.",
-    "completed": "2021-05-03 17:25:14 -0400"
+    "completed": "2021-06-15 14:14:33 -0400"
   },
   "stylesheets_postprocessing.rb": {
-    "begun": "2021-05-03 17:25:20 -0400",
+    "begun": "2021-06-15 14:14:35 -0400",
     "read_config_json": true,
     "get_chapters_from_html": true,
     "get_trim_pis": true,
@@ -291,10 +291,10 @@
     "append_pdf_css": true,
     "eval_one-off-css_for_epub": "n-a",
     "copy_override_js_file_to_Done": "n-a",
-    "completed": "2021-05-03 17:25:20 -0400"
+    "completed": "2021-06-15 14:14:35 -0400"
   },
   "pdfmaker_preprocessing.rb": {
-    "begun": "2021-05-03 17:25:22 -0400",
+    "begun": "2021-06-15 14:14:36 -0400",
     "pdftmp_dir": "S:/bookmaker_tmp/bookmaker_tests/tocomp_Sanderson_leadedition/images/pdftmp",
     "read_config_json": true,
     "mkdir_pdftmp_dir": true,
@@ -311,10 +311,10 @@
     "fix_emdashes_in_html": true,
     "overwrite_pdfhtml_3": true,
     "image_count": 0,
-    "completed": "2021-05-03 17:25:25 -0400"
+    "completed": "2021-06-15 14:14:38 -0400"
   },
   "pdfmaker.rb": {
-    "begun": "2021-05-03 17:25:29 -0400",
+    "begun": "2021-06-15 14:14:41 -0400",
     "testing_value_test": true,
     "running_on_testing_server": "true",
     "pdf_tmp_folder_created": "n-a",
@@ -327,20 +327,20 @@
     "move_pdf_to_done_dir": true,
     "read_css_file_sans_specialchar_escapes": true,
     "overwrite_css_rm-ing_escapechars": true,
-    "completed": "2021-05-03 17:26:19 -0400"
+    "completed": "2021-06-15 14:15:38 -0400"
   },
   "torDOTcom_pitstop_input.rb": {
-    "begun": "2021-05-03 17:26:20 -0400",
+    "begun": "2021-06-15 14:15:41 -0400",
     "read_config_json": true,
     "check_if_on_staging": true,
     "staging_value": "_staging",
     "set_pitstop_dir": true,
     "pitstop_filename": "P:/SMP_POD_staging/input/bookmaker_tests-9780765326386.pdf",
     "move_file_to_pitstop_dir": true,
-    "completed": "2021-05-03 17:26:23 -0400"
+    "completed": "2021-06-15 14:15:43 -0400"
   },
   "epubmaker_preprocessing.rb": {
-    "begun": "2021-05-03 17:26:28 -0400",
+    "begun": "2021-06-15 14:15:45 -0400",
     "read_config_json": true,
     "make_epub_img_dir": true,
     "get_copyright_page": true,
@@ -375,10 +375,10 @@
     "set_newsletter_auth_links_single": true,
     "update_eisbn_&_imprint_placeholders": true,
     "add_html_line_breaks": true,
-    "completed": "2021-05-03 17:27:05 -0400"
+    "completed": "2021-06-15 14:16:22 -0400"
   },
   "epubmaker.rb": {
-    "begun": "2021-05-03 17:27:07 -0400",
+    "begun": "2021-06-15 14:16:25 -0400",
     "read_config_json": true,
     "delete_old_OEBPS": "n-a",
     "delete_old_METAINF": "n-a",
@@ -411,10 +411,10 @@
     "rm_tmp_epub_file": true,
     "ebook_ISBN": "9781429952040",
     "test_epub_status": "pass: the EPUB was created successfully",
-    "completed": "2021-05-03 17:27:39 -0400"
+    "completed": "2021-06-15 14:17:41 -0400"
   },
   "epubmaker_postprocessing.rb": {
-    "begun": "2021-05-03 17:27:41 -0400",
+    "begun": "2021-06-15 14:17:46 -0400",
     "delete_epubcheck_errfile": "n-a",
     "read_config_json": true,
     "read_styleconfig_json": true,
@@ -456,10 +456,10 @@
     "epubcheck_output": "Validating using EPUB version 3.0.1 rules.\nINFO(CSS-007): S:/bookmaker_tmp/bookmaker_tests/tocomp_Sanderson_leadedition/done/9781429952040_EPUB.epub/OEBPS/epub.css(30,3): Font-face reference OEBPS/NotoSansSymbols-Regular.ttf refers to non-standard font type font/truetype.\nNo errors or warnings detected.\nepubcheck completed\n",
     "write_errfile_as_needed": "n-a",
     "send_alert_mail": "n-a",
-    "completed": "2021-05-03 17:29:21 -0400"
+    "completed": "2021-06-15 14:19:03 -0400"
   },
   "torDOTcom_pitstop_output.rb": {
-    "begun": "2021-05-03 17:29:21 -0400",
+    "begun": "2021-06-15 14:19:03 -0400",
     "read_config_json": true,
     "check_if_on_staging": true,
     "staging_value": "_staging",
@@ -468,12 +468,12 @@
     "copy_processed_file_back_to_done_dir": "copied processed file (<= 30 seconds wait )",
     "rm_file_from_pitstop_folder": true,
     "test_for_pitstop_err_file": "----- pitstop finished successfully",
-    "completed": "2021-05-03 17:29:51 -0400"
+    "completed": "2021-06-15 14:19:33 -0400"
   },
   "cleanup_preprocessing.rb": {
-    "begun": "2021-05-03 17:29:51 -0400",
+    "begun": "2021-06-15 14:19:34 -0400",
     "read_config_json": true,
     "mv_rsuite_docx_to_done": "n-a",
-    "completed": "2021-05-03 17:29:51 -0400"
+    "completed": "2021-06-15 14:19:34 -0400"
   }
 }
