@@ -147,6 +147,7 @@ div.appendix.abouttheauthor p.Body-TextTx:first-of-type,
 aside p:first-child,
 p.TitleTtl + p.Body-TextTx,
 p.Main-HeadMHead + p,
+p.Extract-HeadExthead + p,
 pre.verse p.Verse1Vrs1:first-of-type,
 blockquote p:first-child,
 blockquote[data-type=letter] p.SalutationSal + p.Body-TextTx,
@@ -373,6 +374,7 @@ aside .A-HeadAhead,
 div.verse .TitleTtl,
 blockquote p.TitleTtl,
 blockquote p.Main-HeadMHead,
+p.Extract-HeadExthead,
 div.verse .Verse-HeadVhead {
   text-indent: 0;
   font-style: italic;
@@ -385,6 +387,7 @@ aside .A-HeadAhead,
 div.verse .TitleTtl,
 blockquote p.TitleTtl,
 blockquote p.Main-HeadMHead,
+p.Extract-HeadExthead,
 div.verse .Verse-HeadVhead {
   font-size: 1em;
   background: #ccc;
@@ -817,6 +820,7 @@ blockquote.looseextract > p:first-of-type,
 blockquote.looseextract > ol p,
 blockquote.looseextract > ul p,
 blockquote.looseextract > .TitleTtl,
+blockquote.looseextract > .Extract-HeadExthead,
 blockquote.looseextract > .Main-HeadMHead,
 blockquote.looseextract > .HeadnoteHdnt,
 blockquote.looseextract > .Verse1Vrs1 {
@@ -996,6 +1000,11 @@ div.verse .Dedicationded {
   div.verse pre[class*=-indent5Vrs] {
     margin-left: 7.5em;
     text-indent: 0;
+  }
+
+  div.verse pre.Verse1-DroplineV1drop,
+  div.verse pre.Verse2-DroplineV2drop {
+    text-indent: 7.5em;
   }
 /*
 --------------------------------------------------
@@ -1273,6 +1282,7 @@ blockquote .SubtitleSttl,
 aside .SubtitleSttl,
 table .SubtitleSttl,
 figure .SubtitleSttl,
+p.Extract-HeadExthead,
 div.verse .Verse-HeadVhead {
   text-align: center;
   padding: .5em 0;
@@ -1282,6 +1292,7 @@ aside .Main-HeadMHead,
 aside .A-HeadAhead,
 div.verse .TitleTtl,
 blockquote .TitleTtl,
+p.Extract-HeadExthead,
 blockquote .Main-HeadMHead,
 div.verse .Verse-HeadVhead {
   margin-top: 1em;
@@ -1482,6 +1493,11 @@ p[data-type="footnote"] {
   font-size: .75em;
   text-indent: 0;
   margin: 1em 0;
+  }
+
+span.endnotereference {
+  vertical-align: super;
+  font-size: smaller;
   }
 
 /*
