@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
     for filename in os.listdir(test_manuscript_dir):
         testfile = os.path.join(test_manuscript_dir, filename)
-        if not os.path.isdir(testfile):
+        if os.path.splitext(filename)[1] == '.docx' and not os.path.isdir(testfile):
             # kickoffTestforFile(testfile)
             testfiles.append(testfile)
 
