@@ -1,0 +1,6 @@
+# files to be encrypted via git-crypt
+test_manuscripts/** filter=git-crypt diff=git-crypt
+verified_files/** filter=git-crypt diff=git-crypt
+
+# prevent .gitattributes from ever accidentally being encrypted
+.gitattributes !filter !diff
